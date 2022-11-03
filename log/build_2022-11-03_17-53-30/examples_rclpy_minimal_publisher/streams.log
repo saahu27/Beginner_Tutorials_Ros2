@@ -1,0 +1,27 @@
+[5.368s] Invoking command in '/home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher --editable --build-directory /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher
+[6.161s] running develop
+[6.161s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.162s]   warnings.warn(
+[6.165s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.165s]   warnings.warn(
+[6.277s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[6.277s]   warnings.warn(
+[6.277s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[6.278s]   warnings.warn(
+[6.469s] running egg_info
+[6.469s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[6.471s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[6.471s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[6.471s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[6.471s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[6.475s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[6.476s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[6.485s] running build_ext
+[6.486s] Creating /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[6.488s] Installing publisher_local_function script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[6.488s] Installing publisher_member_function script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[6.489s] Installing publisher_old_school script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[6.489s] 
+[6.489s] Installed /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_publisher
+[6.489s] running install_data
+[6.618s] Invoked command in '/home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher --editable --build-directory /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_publisher

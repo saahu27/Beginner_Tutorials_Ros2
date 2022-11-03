@@ -1,0 +1,28 @@
+[4.452s] Invoking command in '/home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client --editable --build-directory /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client
+[5.846s] running develop
+[5.846s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.846s]   warnings.warn(
+[5.846s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.846s]   warnings.warn(
+[5.846s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.847s]   warnings.warn(
+[5.847s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.847s]   warnings.warn(
+[5.878s] running egg_info
+[5.878s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[5.879s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[5.879s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[5.879s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[5.879s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[5.884s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[5.885s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[5.901s] running build_ext
+[5.901s] Creating /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[5.902s] Installing client script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[5.903s] Installing client_asyncio script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[5.903s] Installing client_cancel script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[5.903s] Installing client_not_composable script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[5.903s] 
+[5.903s] Installed /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_action_client
+[5.903s] running install_data
+[6.100s] Invoked command in '/home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client --editable --build-directory /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_action_client

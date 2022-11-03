@@ -1,0 +1,50 @@
+[11.474s] Invoking command in '/home/sahruday/Documents/Github/Ros2/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build install --prefix /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client --record /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[41.601s] running egg_info
+[41.611s] creating ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info
+[41.611s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[41.611s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[41.611s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[41.611s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[41.611s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[41.611s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[41.611s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[41.611s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[41.612s] running build
+[41.612s] running build_py
+[41.612s] creating /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build
+[41.612s] creating /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib
+[41.612s] creating /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[41.612s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[41.612s] copying examples_rclpy_minimal_client/client.py -> /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[41.612s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[41.612s] copying examples_rclpy_minimal_client/client_async.py -> /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[41.612s] copying examples_rclpy_minimal_client/__init__.py -> /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[41.613s] running install
+[41.613s] running install_lib
+[41.613s] creating /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[41.613s] copying /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[41.613s] copying /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[41.613s] copying /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[41.613s] copying /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[41.613s] copying /home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[41.613s] byte-compiling /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-310.pyc
+[41.613s] byte-compiling /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-310.pyc
+[41.613s] byte-compiling /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-310.pyc
+[41.614s] byte-compiling /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-310.pyc
+[41.614s] byte-compiling /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-310.pyc
+[41.614s] running install_data
+[41.614s] creating /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/share/ament_index
+[41.614s] creating /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[41.614s] creating /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[41.614s] copying resource/examples_rclpy_minimal_client -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[41.614s] copying package.xml -> /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[41.614s] running install_egg_info
+[41.614s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.0-py3.10.egg-info
+[41.614s] running install_scripts
+[41.614s] Installing client script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[41.614s] Installing client_async script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[41.614s] Installing client_async_callback script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[41.615s] Installing client_async_member_function script to /home/sahruday/Documents/Github/Ros2/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[41.615s] writing list of installed files to '/home/sahruday/Documents/Github/Ros2/build/examples_rclpy_minimal_client/install.log'
+[41.621s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[41.621s]   warnings.warn(

@@ -1,8 +1,8 @@
-# Install script for directory: /home/sahruday/ros2_ws/build/turtlesim/turtlesim__py
+# Install script for directory: /home/sahruday/Documents/Github/Ros2/build/turtlesim/turtlesim__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sahruday/ros2_ws/install/turtlesim")
+  set(CMAKE_INSTALL_PREFIX "/home/sahruday/Documents/Github/Ros2/install/turtlesim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

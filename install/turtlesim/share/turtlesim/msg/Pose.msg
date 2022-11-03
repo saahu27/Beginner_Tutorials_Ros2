@@ -1,6 +1,1 @@
-float32 x
-float32 y
-float32 theta
-
-float32 linear_velocity
-float32 angular_velocity
+/home/sahruday/Documents/Github/Ros2/src/ros_tutorials/turtlesim/msg/Pose.msg

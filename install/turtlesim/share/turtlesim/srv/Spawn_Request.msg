@@ -1,4 +1,1 @@
-float32 x
-float32 y
-float32 theta
-string name # Optional.  A unique name will be created and returned if this is empty
+/home/sahruday/Documents/Github/Ros2/build/turtlesim/rosidl_cmake/srv/Spawn_Request.msg
