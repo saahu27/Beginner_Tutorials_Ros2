@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sahruday/ros2_ws/src/examples/rclcpp/actions/minimal_action_server
+CMAKE_SOURCE_DIR = /home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/actions/minimal_action_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sahruday/ros2_ws/build/examples_rclcpp_minimal_action_server
+CMAKE_BINARY_DIR = /home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_action_server
 
 # Utility rule file for examples_rclcpp_minimal_action_server_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/compiler_
 include CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/progress.make
 
 CMakeFiles/examples_rclcpp_minimal_action_server_uninstall:
-	/usr/bin/cmake -P /home/sahruday/ros2_ws/build/examples_rclcpp_minimal_action_server/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_action_server/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 examples_rclcpp_minimal_action_server_uninstall: CMakeFiles/examples_rclcpp_minimal_action_server_uninstall
 examples_rclcpp_minimal_action_server_uninstall: CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/clean:
 .PHONY : CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/clean
 
 CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/depend:
-	cd /home/sahruday/ros2_ws/build/examples_rclcpp_minimal_action_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sahruday/ros2_ws/src/examples/rclcpp/actions/minimal_action_server /home/sahruday/ros2_ws/src/examples/rclcpp/actions/minimal_action_server /home/sahruday/ros2_ws/build/examples_rclcpp_minimal_action_server /home/sahruday/ros2_ws/build/examples_rclcpp_minimal_action_server /home/sahruday/ros2_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_action_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/actions/minimal_action_server /home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/actions/minimal_action_server /home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_action_server /home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_action_server /home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_action_server/CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/examples_rclcpp_minimal_action_server_uninstall.dir/depend
 

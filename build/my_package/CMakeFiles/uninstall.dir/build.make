@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sahruday/ros2_ws/src/my_package
+CMAKE_SOURCE_DIR = /home/sahruday/Documents/Github/Ros2/src/my_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sahruday/ros2_ws/build/my_package
+CMAKE_BINARY_DIR = /home/sahruday/Documents/Github/Ros2/build/my_package
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/sahruday/ros2_ws/build/my_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sahruday/ros2_ws/src/my_package /home/sahruday/ros2_ws/src/my_package /home/sahruday/ros2_ws/build/my_package /home/sahruday/ros2_ws/build/my_package /home/sahruday/ros2_ws/build/my_package/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sahruday/Documents/Github/Ros2/build/my_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sahruday/Documents/Github/Ros2/src/my_package /home/sahruday/Documents/Github/Ros2/src/my_package /home/sahruday/Documents/Github/Ros2/build/my_package /home/sahruday/Documents/Github/Ros2/build/my_package /home/sahruday/Documents/Github/Ros2/build/my_package/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/sahruday/ros2_ws/install/examples_rclcpp_wait_set/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/sahruday/Documents/Github/Ros2/install/examples_rclcpp_wait_set/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/sahruday/ros2_ws/install/examples_rclcpp_wait_set/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/sahruday/Documents/Github/Ros2/install/examples_rclcpp_wait_set/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/sahruday/ros2_ws/install/examples_rclcpp_wait_set/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/sahruday/Documents/Github/Ros2/install/examples_rclcpp_wait_set/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/sahruday/ros2_ws/install/examples_rclcpp_wait_set/${destination}")
+      set(destination "/home/sahruday/Documents/Github/Ros2/install/examples_rclcpp_wait_set/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,58 +311,58 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "wait_set_talker" "DESTINATION" "lib/examples_rclcpp_wait_set")
-include("/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "wait_set_listener" "DESTINATION" "lib/examples_rclcpp_wait_set")
-include("/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "talker" "listener" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "wait_set" "static_wait_set" "thread_safe_wait_set" "wait_set_topics_and_timer" "wait_set_random_order" "executor_random_order" "wait_set_topics_with_different_rates" "wait_set_composed" "DESTINATION" "lib/examples_rclcpp_wait_set")
-include("/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/home/sahruday/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
 
 # install(FILES "/home/sahruday/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/examples_rclcpp_wait_set/environment")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/examples_rclcpp_wait_set")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/examples_rclcpp_wait_set")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/examples_rclcpp_wait_set")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/examples_rclcpp_wait_set")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/examples_rclcpp_wait_set")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/examples_rclcpp_wait_set")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/examples_rclcpp_wait_set")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/examples_rclcpp_wait_set")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/examples_rclcpp_wait_set")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/examples_rclcpp_wait_set")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/examples_rclcpp_wait_set")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/examples_rclcpp_wait_set")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/examples_rclcpp_wait_set")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/packages/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/packages/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/packages/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/packages/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
 
-# install(FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig.cmake" "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig-version.cmake" "DESTINATION" "share/examples_rclcpp_wait_set/cmake")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig.cmake" "/home/sahruday/ros2_ws/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig-version.cmake" "DESTINATION" "share/examples_rclcpp_wait_set/cmake")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig.cmake" "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig-version.cmake" "DESTINATION" "share/examples_rclcpp_wait_set/cmake")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig.cmake" "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_wait_set/ament_cmake_core/examples_rclcpp_wait_setConfig-version.cmake" "DESTINATION" "share/examples_rclcpp_wait_set/cmake")
 
-# install(FILES "/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set/package.xml" "DESTINATION" "share/examples_rclcpp_wait_set")
-ament_cmake_symlink_install_files("/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set" FILES "/home/sahruday/ros2_ws/src/examples/rclcpp/wait_set/package.xml" "DESTINATION" "share/examples_rclcpp_wait_set")
+# install(FILES "/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set/package.xml" "DESTINATION" "share/examples_rclcpp_wait_set")
+ament_cmake_symlink_install_files("/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set" FILES "/home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/wait_set/package.xml" "DESTINATION" "share/examples_rclcpp_wait_set")

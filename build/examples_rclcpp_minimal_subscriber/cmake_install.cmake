@@ -1,8 +1,8 @@
-# Install script for directory: /home/sahruday/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber
+# Install script for directory: /home/sahruday/Documents/Github/Ros2/src/examples/rclcpp/topics/minimal_subscriber
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sahruday/ros2_ws/install/examples_rclcpp_minimal_subscriber")
+  set(CMAKE_INSTALL_PREFIX "/home/sahruday/Documents/Github/Ros2/install/examples_rclcpp_minimal_subscriber")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sahruday/ros2_ws/build/examples_rclcpp_minimal_subscriber/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_subscriber/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sahruday/ros2_ws/build/examples_rclcpp_minimal_subscriber/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sahruday/Documents/Github/Ros2/build/examples_rclcpp_minimal_subscriber/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sahruday/ros2_ws/src/my_package/include
+CXX_INCLUDES = -I/home/sahruday/Documents/Github/Ros2/src/my_package/include
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic
 
