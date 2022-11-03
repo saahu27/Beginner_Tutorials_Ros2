@@ -1,0 +1,37 @@
+[3.784s] Invoking command in '/home/sahruday/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/ros2_ws/install/examples_rclpy_executors --editable --build-directory /home/sahruday/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data --install-dir /home/sahruday/ros2_ws/install/examples_rclpy_executors
+[5.522s] running develop
+[5.522s] running egg_info
+[5.522s] creating examples_rclpy_executors.egg-info
+[5.522s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[5.522s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[5.522s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[5.522s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[5.522s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[5.522s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[5.522s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[5.522s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[5.523s] running build_ext
+[5.523s] Creating /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[5.523s] Installing callback_group script to /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.523s] Installing composed script to /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.523s] Installing custom_callback_group script to /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.523s] Installing custom_executor script to /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.523s] Installing listener script to /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.523s] Installing talker script to /home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[5.523s] 
+[5.523s] Installed /home/sahruday/ros2_ws/build/examples_rclpy_executors
+[5.523s] running install_data
+[5.523s] creating /home/sahruday/ros2_ws/install/examples_rclpy_executors/share/ament_index
+[5.523s] creating /home/sahruday/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[5.523s] creating /home/sahruday/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[5.523s] copying resource/examples_rclpy_executors -> /home/sahruday/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[5.523s] copying package.xml -> /home/sahruday/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[5.524s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.524s]   warnings.warn(
+[5.524s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.524s]   warnings.warn(
+[5.525s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.525s]   warnings.warn(
+[5.525s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.525s]   warnings.warn(
+[5.618s] Invoked command in '/home/sahruday/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/sahruday/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/ros2_ws/install/examples_rclpy_executors --editable --build-directory /home/sahruday/ros2_ws/build/examples_rclpy_executors/build --no-deps install_data --install-dir /home/sahruday/ros2_ws/install/examples_rclpy_executors

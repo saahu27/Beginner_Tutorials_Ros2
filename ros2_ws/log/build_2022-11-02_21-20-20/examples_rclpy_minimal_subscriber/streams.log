@@ -1,0 +1,34 @@
+[14.886s] Invoking command in '/home/sahruday/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/sahruday/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber
+[25.353s] running develop
+[25.353s] running egg_info
+[25.353s] creating examples_rclpy_minimal_subscriber.egg-info
+[25.353s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[25.353s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[25.353s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[25.353s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[25.353s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[25.353s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[25.353s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[25.353s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[25.353s] running build_ext
+[25.354s] Creating /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[25.354s] Installing subscriber_lambda script to /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[25.354s] Installing subscriber_member_function script to /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[25.354s] Installing subscriber_old_school script to /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[25.354s] 
+[25.354s] Installed /home/sahruday/ros2_ws/build/examples_rclpy_minimal_subscriber
+[25.354s] running install_data
+[25.354s] creating /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[25.354s] creating /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[25.354s] creating /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[25.354s] copying resource/examples_rclpy_minimal_subscriber -> /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[25.354s] copying package.xml -> /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[25.354s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[25.354s]   warnings.warn(
+[25.354s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[25.354s]   warnings.warn(
+[25.354s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[25.354s]   warnings.warn(
+[25.355s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[25.355s]   warnings.warn(
+[25.657s] Invoked command in '/home/sahruday/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/sahruday/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/sahruday/ros2_ws/install/examples_rclpy_minimal_subscriber
