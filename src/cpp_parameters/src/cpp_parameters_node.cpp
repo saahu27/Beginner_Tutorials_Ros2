@@ -26,11 +26,15 @@ public:
   MinimalParam()
   : Node("minimal_param_node")
   {
+    // Descriptors allow you to specify a text description of the parameter and its constraints, like making it read-only, specifying a range, etc. 
     auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
     param_desc.description = "This parameter is mine!";
-
+    // The first line of this constructor creates a parameter with
+    // the name my_parameter and a default value of world
+    // The parameter type is inferred from the default value, so in this case it would be set to a string type.
     this->declare_parameter("my_parameter", "world", param_desc);
 
+    //  the timer_ is initialized with a period of 1000ms, which causes the timer_callback function to be executed once a second.
     timer_ = this->create_wall_timer(
       1000ms, std::bind(&MinimalParam::timer_callback, this));
   }

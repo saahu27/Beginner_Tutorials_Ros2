@@ -20,25 +20,28 @@
 
 using std::placeholders::_1;
 
-class MinimalSubscriber : public rclcpp::Node
-{
-public:
-  MinimalSubscriber() : Node("minimal_subscriber")
-  {
+/* node is named minimal_subscriber, and the constructor uses the node’s create_subscription class to execute the callback.
+ * There is no timer because the subscriber simply responds whenever data is published to the topic topic.(Depeneds on the function it does right?)
+ * 
+ * 
+ * The topic_callback function receives the string message data published over the topic, 
+ *  and simply writes it to the console using the RCLCPP_INFO macro.
+ */
+class MinimalSubscriber : public rclcpp::Node {
+ public:
+  MinimalSubscriber() : Node("minimal_subscriber") {
     subscription_ = this->create_subscription<tutorial_interfaces::msg::Num>(
       "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
   }
 
-private:
-  void topic_callback(const tutorial_interfaces::msg::Num & msg) const
-  {
+ private:
+  void topic_callback(const tutorial_interfaces::msg::Num & msg) const {
     RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.num << "'");
   }
   rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;
 };
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<MinimalSubscriber>());
   rclcpp::shutdown();

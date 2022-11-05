@@ -17,11 +17,6 @@ find_package(tutorial_interfaces REQUIRED)
 add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp tutorial_interfaces)
 
-install(TARGETS
-  talker
-  DESTINATION lib/${PROJECT_NAME})
-
-
 add_executable(listener src/subscriber_member_function.cpp)
 ament_target_dependencies(listener rclcpp tutorial_interfaces)
 

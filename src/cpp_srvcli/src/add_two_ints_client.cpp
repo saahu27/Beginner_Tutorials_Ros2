@@ -8,7 +8,7 @@
  */
 
 #include "rclcpp/rclcpp.hpp"
-#include "tutorial_interfaces/srv/add_three_ints.hpp"                                       // CHANGE
+#include "tutorial_interfaces/srv/add_three_ints.hpp"
 
 #include <chrono>
 #include <cstdlib>
@@ -16,24 +16,27 @@
 
 using namespace std::chrono_literals;
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
   rclcpp::init(argc, argv);
 
-  if (argc != 4) { // CHANGE
-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");      // CHANGE
+  if (argc != 4) {
+      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");
       return 1;
   }
 
-  std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_client");  // CHANGE
-  rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::SharedPtr client =                // CHANGE
-    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE
+  // create the node and then create the client for that node
+  std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_client");
+  rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::SharedPtr client =
+    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");
 
-  auto request = std::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>();       // CHANGE
+  // request is created. Its structure is defined by the .srv file
+  auto request = std::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>();
   request->a = atoll(argv[1]);
   request->b = atoll(argv[2]);
-  request->c = atoll(argv[3]);                                                              // CHANGE
+  request->c = atoll(argv[3]);
 
+  // The while loop gives the client 1 second to search for service nodes in the network.
+  // If it can’t find any, it will continue waiting.
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
       RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
@@ -45,11 +48,10 @@ int main(int argc, char **argv)
   auto result = client->async_send_request(request);
   // Wait for the result.
   if (rclcpp::spin_until_future_complete(node, result) ==
-    rclcpp::FutureReturnCode::SUCCESS)
-  {
+    rclcpp::FutureReturnCode::SUCCESS) {
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->sum);
   } else {
-    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");    // CHANGE
+    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");    // Error Log
   }
 
   rclcpp::shutdown();
