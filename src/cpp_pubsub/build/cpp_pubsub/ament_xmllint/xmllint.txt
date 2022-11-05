@@ -1,0 +1,40 @@
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_xmllint/bin/ament_xmllint --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml
+
+File 'package.xml' is invalid:
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml fails to validate
+
+File 'install/cpp_pubsub/share/cpp_pubsub/package.xml' is invalid:
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml fails to validate
+
+2 files are invalid
+File 'build/cpp_pubsub/Testing/20221105-0036/Test.xml' is valid
+
+File 'build/cpp_pubsub/Testing/20221105-0038/Test.xml' is valid
+
+File 'build/cpp_pubsub/Testing/20221105-0044/Test.xml' is valid
+
+File 'build/cpp_pubsub/Testing/20221105-0045/Test.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml' is valid
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml'

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pubsub.xmllint"
+  tests="14"
+  errors="0"
+  failures="2"
+  time="0.384"
+>
+  <testcase
+    name="package.xml"
+    classname="cpp_pubsub.xmllint"
+  >
+      <failure message="Diff with 239 lines"><![CDATA[/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/Testing/20221105-0036/Test.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/Testing/20221105-0038/Test.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/Testing/20221105-0044/Test.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/Testing/20221105-0045/Test.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml"
+    classname="cpp_pubsub.xmllint"/>
+  <testcase
+    name="install/cpp_pubsub/share/cpp_pubsub/package.xml"
+    classname="cpp_pubsub.xmllint"
+  >
+      <failure message="Diff with 311 lines"><![CDATA[/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* package.xml
+* build/cpp_pubsub/Testing/20221105-0036/Test.xml
+* build/cpp_pubsub/Testing/20221105-0038/Test.xml
+* build/cpp_pubsub/Testing/20221105-0044/Test.xml
+* build/cpp_pubsub/Testing/20221105-0045/Test.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+* build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml
+* install/cpp_pubsub/share/cpp_pubsub/package.xml</system-out>
+</testsuite>

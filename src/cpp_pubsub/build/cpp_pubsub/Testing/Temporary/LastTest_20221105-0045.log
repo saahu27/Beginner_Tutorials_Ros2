@@ -1,0 +1,504 @@
+Start testing: Nov 04 20:45 EDT
+----------------------------------------------------------
+1/8 Testing: copyright
+1/8 Test: copyright
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_copyright/copyright.txt" "--command" "/home/sahruday/ros2_humble/install/ament_copyright/bin/ament_copyright" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"copyright" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_copyright/bin/ament_copyright --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeSystem.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/Makefile.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/listener.dir/cmake_clean.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/talker.dir/cmake_clean.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/cpp_pubsub/CPackConfig.cmake: could not find copyright notice
+build/cpp_pubsub/CPackSourceConfig.cmake: could not find copyright notice
+build/cpp_pubsub/CTestCustom.cmake: could not find copyright notice
+build/cpp_pubsub/CTestTestfile.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_core/package.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake: could not find copyright notice
+build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice
+build/cpp_pubsub/cmake_install.cmake: could not find copyright notice
+install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake: could not find copyright notice
+install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake: could not find copyright notice
+33 errors, checked 35 files
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml'
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Failed.
+"copyright" end time: Nov 04 20:45 EDT
+"copyright" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: cppcheck
+2/8 Test: cppcheck
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_cppcheck/cppcheck.txt" "--command" "/home/sahruday/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"cppcheck" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Nov 04 20:45 EDT
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: cpplint
+3/8 Test: cpplint
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_cpplint/cpplint.txt" "--command" "/home/sahruday/ros2_humble/install/ament_cpplint/bin/ament_cpplint" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"cpplint" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_cpplint/bin/ament_cpplint --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+Category 'legal/copyright' errors found: 2
+Total errors found: 2
+Using '--root=/home/sahruday/Documents/Github/Ros2/src' argument
+
+Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+
+Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+Using '--root=/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/src' argument
+
+Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/src/publisher_member_function.cpp
+
+Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/src/subscriber_member_function.cpp
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml'
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"cpplint" end time: Nov 04 20:45 EDT
+"cpplint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: flake8
+4/8 Test: flake8
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_flake8/flake8.txt" "--command" "/home/sahruday/ros2_humble/install/ament_flake8/bin/ament_flake8" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"flake8" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_flake8/bin/ament_flake8 --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml
+FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"'
+                                                                                                   ^
+FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi'
+                                                                                                   ^
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi'
+                                                                                                   ^
+3     E501 line too long (109 > 99 characters)
+
+./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)
+
+./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)
+
+./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)
+
+
+2 files checked
+3 errors
+
+'E'-type errors: 3
+
+Checked files:
+
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml'
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Failed.
+"flake8" end time: Nov 04 20:45 EDT
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: lint_cmake
+5/8 Test: lint_cmake
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_lint_cmake/lint_cmake.txt" "--command" "/home/sahruday/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"lint_cmake" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+build/cpp_pubsub/CPackConfig.cmake:23: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CPackSourceConfig.cmake:23: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/cpp_pubsub/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/cpp_pubsub/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/cpp_pubsub/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:19: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:20: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:21: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:22: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake:1: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake:1: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/cpp_pubsub/cmake_install.cmake:46: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/cmake_install.cmake:56: Weird indentation; use 2 spaces [whitespace/indent]
+build/cpp_pubsub/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:634: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:640: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:666: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60: Lines should be <= 140 characters long [linelength]
+
+
+98 errors
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Failed.
+"lint_cmake" end time: Nov 04 20:45 EDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: pep257
+6/8 Test: pep257
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_pep257/pep257.txt" "--command" "/home/sahruday/ros2_humble/install/ament_pep257/bin/ament_pep257" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"pep257" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_pep257/bin/ament_pep257 --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml'
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Nov 04 20:45 EDT
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: uncrustify
+7/8 Test: uncrustify
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_uncrustify/uncrustify.txt" "--command" "/home/sahruday/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"uncrustify" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+Code style divergence in file 'build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c':
+
+--- build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
++++ build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.uncrustify
+@@ -364,3 +364,3 @@
+-#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) ||   \
+-                           defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
+-                           defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
++#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
++  defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+@@ -368 +368 @@
+-#define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100) * 100))
++#define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -665 +665 @@
+-#define DEC(n)                                                                                    \
++#define DEC(n) \
+@@ -667,2 +667,2 @@
+-    ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)),        \
+-    ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
++  ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
+@@ -671,4 +671,4 @@
+-#define HEX(n)                                                                      \
+-  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)),  \
+-    ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
+-    ('0' + ((n) >> 4 & 0xF)), ('0' + ((n)&0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), ('0' + ((n) & 0xF))
+@@ -722 +722,2 @@
+-  '\0'};
++  '\0'
++};
+@@ -728,4 +729,4 @@
+-                                      'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
+-                                      'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
+-                                      't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
+-                                      ']', '\0'};
++  'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
++  'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
++  't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
++  ']', '\0'};
+@@ -778 +779,2 @@
+-  '\0'};
++  '\0'
++};
+
+Code style divergence in file 'build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp':
+
+--- build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
++++ build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify
+@@ -362,3 +362,3 @@
+-#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) ||   \
+-                           defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
+-                           defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
++#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
++  defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+@@ -366 +366 @@
+-#define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100) * 100))
++#define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -650 +650 @@
+-#define DEC(n)                                                                                    \
++#define DEC(n) \
+@@ -652,2 +652,2 @@
+-    ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)),        \
+-    ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
++  ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
+@@ -656,4 +656,4 @@
+-#define HEX(n)                                                                      \
+-  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)),  \
+-    ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
+-    ('0' + ((n) >> 4 & 0xF)), ('0' + ((n)&0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), ('0' + ((n) & 0xF))
+@@ -713,4 +713,4 @@
+-                                      'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
+-                                      'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
+-                                      't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
+-                                      ']', '\0'};
++  'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
++  'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
++  't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
++  ']', '\0'};
+
+Code style divergence in file 'src/subscriber_member_function.cpp':
+
+--- src/subscriber_member_function.cpp
++++ src/subscriber_member_function.cpp.uncrustify
+@@ -26 +26,2 @@
+-  MinimalSubscriber() : Node("minimal_subscriber")
++  MinimalSubscriber()
++  : Node("minimal_subscriber")
+
+3 files with code style divergence
+No code style divergence in file 'src/publisher_member_function.cpp'
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Failed.
+"uncrustify" end time: Nov 04 20:45 EDT
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: xmllint
+8/8 Test: xmllint
+Command: "/usr/bin/python3.10" "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_xmllint/xmllint.txt" "--command" "/home/sahruday/ros2_humble/install/ament_xmllint/bin/ament_xmllint" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml"
+Directory: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub
+"xmllint" start time: Nov 04 20:45 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_xmllint/bin/ament_xmllint --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml
+File 'package.xml' is invalid:
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml fails to validate
+
+File 'install/cpp_pubsub/share/cpp_pubsub/package.xml' is invalid:
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml fails to validate
+
+2 files are invalid
+File 'build/cpp_pubsub/Testing/20221105-0036/Test.xml' is valid
+
+File 'build/cpp_pubsub/Testing/20221105-0038/Test.xml' is valid
+
+File 'build/cpp_pubsub/Testing/20221105-0044/Test.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml' is valid
+
+File 'build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml' is valid
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml'
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Failed.
+"xmllint" end time: Nov 04 20:45 EDT
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 20:45 EDT
+
+copyright =   0.51 sec*proc
+
+cppcheck =   0.34 sec*proc
+
+cpplint =   0.48 sec*proc
+
+flake8 =   0.76 sec*proc
+
+lint_cmake =   0.35 sec*proc
+
+linter =   4.07 sec*proc
+
+pep257 =   0.42 sec*proc
+
+uncrustify =   0.41 sec*proc
+
+xmllint =   0.79 sec*proc
+

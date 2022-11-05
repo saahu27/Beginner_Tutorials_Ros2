@@ -1,1 +1,0 @@
-/home/sahruday/Documents/Github/Ros2/src/examples/rclpy/topics/pointcloud_publisher/setup.py

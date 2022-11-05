@@ -1,0 +1,126 @@
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+
+build/cpp_pubsub/CPackConfig.cmake:23: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CPackSourceConfig.cmake:23: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/cpp_pubsub/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/cpp_pubsub/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/cpp_pubsub/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:19: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:20: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:21: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CTestTestfile.cmake:22: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake:1: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake:1: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/cpp_pubsub/cmake_install.cmake:46: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/cmake_install.cmake:56: Weird indentation; use 2 spaces [whitespace/indent]
+build/cpp_pubsub/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:634: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:640: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/Makefile.cmake:666: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]
+build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cpp_pubsub/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356: Lines should be <= 140 characters long [linelength]
+build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359: Lines should be <= 140 characters long [linelength]
+
+build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60: Lines should be <= 140 characters long [linelength]
+
+
+98 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml'

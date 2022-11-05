@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pubsub.lint_cmake"
+  tests="109"
+  errors="0"
+  failures="98"
+  time="0.045"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="linelength (build/cpp_pubsub/CPackConfig.cmake:23)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CPackSourceConfig.cmake:23)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/CTestCustom.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/cpp_pubsub/CTestTestfile.cmake:1)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/cpp_pubsub/CTestTestfile.cmake:4)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/cpp_pubsub/CTestTestfile.cmake:5)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:7)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:8)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:9)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:11)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:12)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:13)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:14)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:15)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:16)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:17)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:18)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:19)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:20)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:21)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CTestTestfile.cmake:22)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake:1)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake:1)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cpp_pubsub/cmake_install.cmake:13)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/cmake_install.cmake:46)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cpp_pubsub/cmake_install.cmake:56)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cpp_pubsub/cmake_install.cmake:58)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/Makefile.cmake:8)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/Makefile.cmake:634)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/Makefile.cmake:640)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/Makefile.cmake:666)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Extra spaces between 'foreach' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:6)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:14)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake:6)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:6)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:15)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/CMakeFiles/listener.dir/cmake_clean.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:6)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:15)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/CMakeFiles/talker.dir/cmake_clean.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:6)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:14)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake:3)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/ament_cmake_core/package.cmake:7)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/ament_cmake_core/package.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cpp_pubsub/ament_cmake_core/package.cmake:11)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:1)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:2)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:4)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:5)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:6)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:8)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:9)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:10)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:11)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:12)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:13)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:14)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="linelength (build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60)"
+    classname="cpp_pubsub.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <testcase
+    name="install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake"
+    classname="cpp_pubsub.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* build/cpp_pubsub/CPackConfig.cmake
+* build/cpp_pubsub/CPackSourceConfig.cmake
+* build/cpp_pubsub/CTestCustom.cmake
+* build/cpp_pubsub/CTestTestfile.cmake
+* build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake
+* build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake
+* build/cpp_pubsub/cmake_install.cmake
+* build/cpp_pubsub/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/cpp_pubsub/CMakeFiles/Makefile.cmake
+* build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/cpp_pubsub/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake
+* build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake
+* build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake
+* build/cpp_pubsub/CMakeFiles/listener.dir/cmake_clean.cmake
+* build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake
+* build/cpp_pubsub/CMakeFiles/talker.dir/cmake_clean.cmake
+* build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake
+* build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake
+* build/cpp_pubsub/ament_cmake_core/package.cmake
+* build/cpp_pubsub/ament_cmake_package_templates/templates.cmake
+* build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake
+* build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake
+* build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+* install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake</system-out>
+</testsuite>

@@ -1,1 +1,0 @@
-/home/sahruday/Documents/Github/Ros2/build/turtlesim/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__type_support.h

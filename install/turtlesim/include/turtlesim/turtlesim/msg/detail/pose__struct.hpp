@@ -1,1 +1,0 @@
-/home/sahruday/Documents/Github/Ros2/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__struct.hpp

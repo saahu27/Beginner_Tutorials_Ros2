@@ -1,0 +1,1008 @@
+[0.075s] Invoking command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.091s] UpdateCTestConfiguration  from :/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CTestConfiguration.ini
+[0.092s] Parse Config file:/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CTestConfiguration.ini
+[0.092s]    Site: sahruday-Legion-S7-15ACH6
+[0.092s]    Build name: (empty)
+[0.092s]  Add coverage exclude regular expressions.
+[0.092s] Create new tag: 20221105-0036 - Experimental
+[0.092s] UpdateCTestConfiguration  from :/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CTestConfiguration.ini
+[0.092s] Parse Config file:/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CTestConfiguration.ini
+[0.092s] Test project /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub
+[0.092s] Constructing a list of tests
+[0.092s] Done constructing a list of tests
+[0.092s] Updating test list for fixtures
+[0.092s] Added 0 tests to meet fixture requirements
+[0.092s] Checking test dependency graph...
+[0.092s] Checking test dependency graph end
+[0.092s] test 1
+[0.093s]     Start 1: copyright
+[0.093s] 
+[0.093s] 1: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_copyright/copyright.txt" "--command" "/home/sahruday/ros2_humble/install/ament_copyright/bin/ament_copyright" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml"
+[0.093s] 1: Test timeout computed to be: 200
+[0.239s] 1: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[0.239s] 1:  - /home/sahruday/ros2_humble/install/ament_copyright/bin/ament_copyright --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeSystem.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/Makefile.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/listener.dir/cmake_clean.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/talker.dir/cmake_clean.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CPackConfig.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CPackSourceConfig.cmake: could not find copyright notice
+[0.596s] 1: build/cpp_pubsub/CTestCustom.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/CTestTestfile.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_core/package.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice
+[0.597s] 1: build/cpp_pubsub/cmake_install.cmake: could not find copyright notice
+[0.597s] 1: install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+[0.597s] 1: install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+[0.597s] 1: install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake: could not find copyright notice
+[0.597s] 1: install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake: could not find copyright notice
+[0.597s] 1: 33 errors, checked 35 files
+[0.605s] 1: -- run_test.py: return code 1
+[0.605s] 1: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml'
+[0.614s] 1/8 Test #1: copyright ........................***Failed    0.52 sec
+[0.614s] test 2
+[0.614s]     Start 2: cppcheck
+[0.614s] 
+[0.614s] 2: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_cppcheck/cppcheck.txt" "--command" "/home/sahruday/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml"
+[0.614s] 2: Test timeout computed to be: 300
+[0.754s] 2: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[0.754s] 2:  - /home/sahruday/ros2_humble/install/ament_cppcheck/bin/ament_cppcheck --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml
+[0.960s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.968s] 2: -- run_test.py: return code 0
+[0.968s] 2: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml'
+[0.974s] 2/8 Test #2: cppcheck .........................   Passed    0.36 sec
+[0.974s] test 3
+[0.974s]     Start 3: cpplint
+[0.974s] 
+[0.974s] 3: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_cpplint/cpplint.txt" "--command" "/home/sahruday/ros2_humble/install/ament_cpplint/bin/ament_cpplint" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml"
+[0.974s] 3: Test timeout computed to be: 120
+[1.101s] 3: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[1.101s] 3:  - /home/sahruday/ros2_humble/install/ament_cpplint/bin/ament_cpplint --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml
+[1.284s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+[1.332s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:352:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[1.335s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:368:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[1.357s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:685:  Missing space after ,  [whitespace/comma] [3]
+[1.358s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:696:  Missing space after ,  [whitespace/comma] [3]
+[1.358s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:703:  Missing space after ,  [whitespace/comma] [3]
+[1.359s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:704:  Missing space after ,  [whitespace/comma] [3]
+[1.359s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:705:  Missing space after ,  [whitespace/comma] [3]
+[1.359s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:707:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[1.360s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:714:  Missing space after ,  [whitespace/comma] [3]
+[1.361s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:725:  Missing space after ,  [whitespace/comma] [3]
+[1.369s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+[1.406s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:350:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[1.409s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:366:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[1.433s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:670:  Missing space after ,  [whitespace/comma] [3]
+[1.434s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:681:  Missing space after ,  [whitespace/comma] [3]
+[1.434s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:688:  Missing space after ,  [whitespace/comma] [3]
+[1.435s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:689:  Missing space after ,  [whitespace/comma] [3]
+[1.435s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:690:  Missing space after ,  [whitespace/comma] [3]
+[1.435s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:692:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[1.436s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:699:  Missing space after ,  [whitespace/comma] [3]
+[1.436s] 3: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:710:  Missing space after ,  [whitespace/comma] [3]
+[1.458s] 3: Category 'legal/copyright' errors found: 2
+[1.458s] 3: Category 'whitespace/comma' errors found: 14
+[1.458s] 3: Category 'whitespace/line_length' errors found: 6
+[1.458s] 3: Total errors found: 22
+[1.458s] 3: Using '--root=/home/sahruday/Documents/Github/Ros2/src' argument
+[1.458s] 3: 
+[1.458s] 3: Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+[1.458s] 3: 
+[1.458s] 3: Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[1.458s] 3: 
+[1.458s] 3: Using '--root=/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/src' argument
+[1.458s] 3: 
+[1.458s] 3: Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/src/publisher_member_function.cpp
+[1.458s] 3: 
+[1.458s] 3: Done processing /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/src/subscriber_member_function.cpp
+[1.459s] 3: 
+[1.469s] 3: -- run_test.py: return code 1
+[1.469s] 3: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml'
+[1.477s] 3/8 Test #3: cpplint ..........................***Failed    0.50 sec
+[1.477s] test 4
+[1.477s]     Start 4: flake8
+[1.477s] 
+[1.477s] 4: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_flake8/flake8.txt" "--command" "/home/sahruday/ros2_humble/install/ament_flake8/bin/ament_flake8" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml"
+[1.477s] 4: Test timeout computed to be: 60
+[1.604s] 4: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[1.604s] 4:  - /home/sahruday/ros2_humble/install/ament_flake8/bin/ament_flake8 --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml
+[2.236s] 4: FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"'
+[2.237s] 4:                                                                                                    ^
+[2.237s] 4: FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi'
+[2.237s] 4:                                                                                                    ^
+[2.237s] 4: FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi'
+[2.237s] 4:                                                                                                    ^
+[2.237s] 4: 3     E501 line too long (109 > 99 characters)
+[2.237s] 4: 
+[2.237s] 4: ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)
+[2.237s] 4: 
+[2.237s] 4: ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)
+[2.237s] 4: 
+[2.237s] 4: ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)
+[2.237s] 4: 
+[2.237s] 4: 
+[2.237s] 4: 2 files checked
+[2.237s] 4: 3 errors
+[2.237s] 4: 
+[2.237s] 4: 'E'-type errors: 3
+[2.237s] 4: 
+[2.237s] 4: Checked files:
+[2.238s] 4: 
+[2.238s] 4: * ./install/_local_setup_util_ps1.py
+[2.238s] 4: * ./install/_local_setup_util_sh.py
+[2.267s] 4: -- run_test.py: return code 1
+[2.267s] 4: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml'
+[2.274s] 4/8 Test #4: flake8 ...........................***Failed    0.80 sec
+[2.274s] test 5
+[2.274s]     Start 5: lint_cmake
+[2.274s] 
+[2.274s] 5: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_lint_cmake/lint_cmake.txt" "--command" "/home/sahruday/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml"
+[2.274s] 5: Test timeout computed to be: 60
+[2.401s] 5: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[2.401s] 5:  - /home/sahruday/ros2_humble/install/ament_lint_cmake/bin/ament_lint_cmake --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml
+[2.613s] 5: build/cpp_pubsub/CPackConfig.cmake:23: Lines should be <= 140 characters long [linelength]
+[2.613s] 5: 
+[2.613s] 5: build/cpp_pubsub/CPackSourceConfig.cmake:23: Lines should be <= 140 characters long [linelength]
+[2.613s] 5: 
+[2.613s] 5: build/cpp_pubsub/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+[2.613s] 5: build/cpp_pubsub/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+[2.613s] 5: build/cpp_pubsub/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+[2.613s] 5: build/cpp_pubsub/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]
+[2.613s] 5: build/cpp_pubsub/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:19: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:20: Lines should be <= 140 characters long [linelength]
+[2.614s] 5: build/cpp_pubsub/CTestTestfile.cmake:21: Lines should be <= 140 characters long [linelength]
+[2.615s] 5: build/cpp_pubsub/CTestTestfile.cmake:22: Lines should be <= 140 characters long [linelength]
+[2.615s] 5: 
+[2.615s] 5: build/cpp_pubsub/ament_cmake_symlink_install_targets_0_.cmake:1: Lines should be <= 140 characters long [linelength]
+[2.615s] 5: 
+[2.615s] 5: build/cpp_pubsub/ament_cmake_symlink_install_targets_1_.cmake:1: Lines should be <= 140 characters long [linelength]
+[2.615s] 5: 
+[2.615s] 5: build/cpp_pubsub/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+[2.615s] 5: build/cpp_pubsub/cmake_install.cmake:46: Lines should be <= 140 characters long [linelength]
+[2.615s] 5: build/cpp_pubsub/cmake_install.cmake:56: Weird indentation; use 2 spaces [whitespace/indent]
+[2.615s] 5: build/cpp_pubsub/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]
+[2.615s] 5: 
+[2.615s] 5: build/cpp_pubsub/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.615s] 5: build/cpp_pubsub/CMakeFiles/Makefile.cmake:634: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.615s] 5: build/cpp_pubsub/CMakeFiles/Makefile.cmake:640: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/Makefile.cmake:666: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.616s] 5: 
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]
+[2.616s] 5: 
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]
+[2.616s] 5: build/cpp_pubsub/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]
+[2.617s] 5: 
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: 
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: 
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: 
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: 
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.617s] 5: build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.618s] 5: build/cpp_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.618s] 5: 
+[2.618s] 5: build/cpp_pubsub/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.618s] 5: 
+[2.618s] 5: build/cpp_pubsub/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+[2.618s] 5: 
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]
+[2.618s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: 
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:334: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:337: Lines should be <= 140 characters long [linelength]
+[2.619s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:340: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:343: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:346: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:349: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:352: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: build/cpp_pubsub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: 
+[2.620s] 5: build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake:60: Lines should be <= 140 characters long [linelength]
+[2.620s] 5: 
+[2.620s] 5: 
+[2.620s] 5: 98 errors
+[2.627s] 5: -- run_test.py: return code 1
+[2.627s] 5: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml'
+[2.635s] 5/8 Test #5: lint_cmake .......................***Failed    0.36 sec
+[2.635s] test 6
+[2.635s]     Start 6: pep257
+[2.635s] 
+[2.635s] 6: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_pep257/pep257.txt" "--command" "/home/sahruday/ros2_humble/install/ament_pep257/bin/ament_pep257" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml"
+[2.636s] 6: Test timeout computed to be: 60
+[2.765s] 6: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[2.765s] 6:  - /home/sahruday/ros2_humble/install/ament_pep257/bin/ament_pep257 --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml
+[3.042s] 6: checking ./install/_local_setup_util_ps1.py
+[3.042s] 6: checking ./install/_local_setup_util_sh.py
+[3.042s] 6: No problems found
+[3.058s] 6: -- run_test.py: return code 0
+[3.058s] 6: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml'
+[3.065s] 6/8 Test #6: pep257 ...........................   Passed    0.43 sec
+[3.065s] test 7
+[3.065s]     Start 7: uncrustify
+[3.065s] 
+[3.065s] 7: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_uncrustify/uncrustify.txt" "--command" "/home/sahruday/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml"
+[3.065s] 7: Test timeout computed to be: 60
+[3.194s] 7: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[3.194s] 7:  - /home/sahruday/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+[3.470s] 7: Code style divergence in file 'build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c':
+[3.470s] 7: 
+[3.470s] 7: --- build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+[3.471s] 7: +++ build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.uncrustify
+[3.471s] 7: @@ -32 +32 @@
+[3.471s] 7: -  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[3.471s] 7: +/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[3.472s] 7: @@ -35,2 +35,2 @@
+[3.472s] 7: -#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+[3.472s] 7: -#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
+[3.472s] 7: +#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
+[3.472s] 7: +#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+[3.472s] 7: @@ -40 +40 @@
+[3.472s] 7: -#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
+[3.472s] 7: +#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+[3.472s] 7: @@ -45 +45 @@
+[3.472s] 7: -   /* The third version component from --version is an update index,
+[3.472s] 7: +/* The third version component from --version is an update index,
+[3.472s] 7: @@ -50 +50 @@
+[3.472s] 7: -   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[3.472s] 7: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[3.472s] 7: @@ -54 +54 @@
+[3.472s] 7: -   /* _MSC_VER = VVRR */
+[3.472s] 7: +/* _MSC_VER = VVRR */
+[3.472s] 7: @@ -83,3 +83,3 @@
+[3.472s] 7: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)
+[3.472s] 7: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)
+[3.472s] 7: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)
+[3.473s] 7: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)
+[3.473s] 7: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)
+[3.473s] 7: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)
+[3.473s] 7: @@ -87,3 +87,3 @@
+[3.473s] 7: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)
+[3.473s] 7: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)
+[3.473s] 7: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)
+[3.473s] 7: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)
+[3.473s] 7: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)
+[3.473s] 7: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)
+[3.473s] 7: @@ -92 +92 @@
+[3.473s] 7: -  /* _MSC_VER = VVRR */
+[3.473s] 7: +/* _MSC_VER = VVRR */
+[3.473s] 7: @@ -118,3 +118,3 @@
+[3.473s] 7: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+[3.473s] 7: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+[3.473s] 7: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
+[3.473s] 7: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
+[3.473s] 7: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
+[3.473s] 7: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+[3.473s] 7: @@ -124,2 +124,2 @@
+[3.474s] 7: -  /* __BORLANDC__ = 0xVRR */
+[3.474s] 7: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
+[3.474s] 7: +/* __BORLANDC__ = 0xVRR */
+[3.474s] 7: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+[3.474s] 7: @@ -130 +130 @@
+[3.474s] 7: -   /* __WATCOMC__ = VVRR */
+[3.474s] 7: +/* __WATCOMC__ = VVRR */
+[3.474s] 7: @@ -139 +139 @@
+[3.474s] 7: -   /* __WATCOMC__ = VVRP + 1100 */
+[3.474s] 7: +/* __WATCOMC__ = VVRP + 1100 */
+[3.474s] 7: @@ -149,4 +149,4 @@
+[3.474s] 7: -   /* __SUNPRO_C = 0xVRRP */
+[3.474s] 7: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>12)
+[3.474s] 7: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xFF)
+[3.474s] 7: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
+[3.474s] 7: +/* __SUNPRO_C = 0xVRRP */
+[3.474s] 7: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 12)
+[3.474s] 7: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xFF)
+[3.474s] 7: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+[3.474s] 7: @@ -154,4 +154,4 @@
+[3.474s] 7: -   /* __SUNPRO_CC = 0xVRP */
+[3.474s] 7: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>8)
+[3.474s] 7: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xF)
+[3.474s] 7: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
+[3.475s] 7: +/* __SUNPRO_CC = 0xVRP */
+[3.475s] 7: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 8)
+[3.475s] 7: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xF)
+[3.475s] 7: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+[3.475s] 7: @@ -162,4 +162,4 @@
+[3.475s] 7: -  /* __HP_cc = VVRRPP */
+[3.475s] 7: -# define COMPILER_VERSION_MAJOR DEC(__HP_cc/10000)
+[3.475s] 7: -# define COMPILER_VERSION_MINOR DEC(__HP_cc/100 % 100)
+[3.475s] 7: -# define COMPILER_VERSION_PATCH DEC(__HP_cc     % 100)
+[3.475s] 7: +/* __HP_cc = VVRRPP */
+[3.475s] 7: +# define COMPILER_VERSION_MAJOR DEC(__HP_cc / 10000)
+[3.475s] 7: +# define COMPILER_VERSION_MINOR DEC(__HP_cc / 100 % 100)
+[3.475s] 7: +# define COMPILER_VERSION_PATCH DEC(__HP_cc % 100)
+[3.475s] 7: @@ -169,4 +169,4 @@
+[3.475s] 7: -  /* __DECC_VER = VVRRTPPPP */
+[3.475s] 7: -# define COMPILER_VERSION_MAJOR DEC(__DECC_VER/10000000)
+[3.475s] 7: -# define COMPILER_VERSION_MINOR DEC(__DECC_VER/100000  % 100)
+[3.475s] 7: -# define COMPILER_VERSION_PATCH DEC(__DECC_VER         % 10000)
+[3.475s] 7: +/* __DECC_VER = VVRRTPPPP */
+[3.475s] 7: +# define COMPILER_VERSION_MAJOR DEC(__DECC_VER / 10000000)
+[3.475s] 7: +# define COMPILER_VERSION_MINOR DEC(__DECC_VER / 100000 % 100)
+[3.475s] 7: +# define COMPILER_VERSION_PATCH DEC(__DECC_VER % 10000)
+[3.475s] 7: @@ -176,4 +176,4 @@
+[3.476s] 7: -  /* __IBMC__ = VRP */
+[3.476s] 7: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+[3.476s] 7: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+[3.476s] 7: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
+[3.476s] 7: +/* __IBMC__ = VRP */
+[3.476s] 7: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
+[3.476s] 7: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
+[3.476s] 7: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+[3.476s] 7: @@ -191,4 +191,4 @@
+[3.476s] 7: -  /* __IBMC__ = VRP */
+[3.476s] 7: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+[3.476s] 7: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+[3.476s] 7: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
+[3.476s] 7: +/* __IBMC__ = VRP */
+[3.476s] 7: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
+[3.476s] 7: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
+[3.476s] 7: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+[3.476s] 7: @@ -198,4 +198,4 @@
+[3.476s] 7: -  /* __IBMC__ = VRP */
+[3.476s] 7: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+[3.476s] 7: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+[3.476s] 7: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
+[3.476s] 7: +/* __IBMC__ = VRP */
+[3.477s] 7: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
+[3.477s] 7: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
+[3.477s] 7: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+[3.477s] 7: @@ -226,4 +226,4 @@
+[3.477s] 7: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[3.477s] 7: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+[3.477s] 7: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+[3.477s] 7: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
+[3.477s] 7: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[3.477s] 7: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
+[3.477s] 7: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
+[3.477s] 7: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+[3.477s] 7: @@ -261 +261 @@
+[3.477s] 7: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
+[3.477s] 7: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+[3.477s] 7: @@ -276,4 +276,4 @@
+[3.477s] 7: -  /* __ARMCC_VERSION = VRRPPPP */
+[3.477s] 7: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+[3.477s] 7: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+[3.477s] 7: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
+[3.477s] 7: +/* __ARMCC_VERSION = VRRPPPP */
+[3.478s] 7: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
+[3.478s] 7: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
+[3.478s] 7: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[3.478s] 7: @@ -281,4 +281,4 @@
+[3.478s] 7: -  /* __ARMCC_VERSION = VRPPPP */
+[3.478s] 7: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+[3.478s] 7: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+[3.478s] 7: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
+[3.478s] 7: +/* __ARMCC_VERSION = VRPPPP */
+[3.478s] 7: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
+[3.478s] 7: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
+[3.478s] 7: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[3.478s] 7: @@ -297 +297 @@
+[3.478s] 7: -   /* _MSC_VER = VVRR */
+[3.478s] 7: +/* _MSC_VER = VVRR */
+[3.478s] 7: @@ -305,3 +305,3 @@
+[3.478s] 7: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+[3.478s] 7: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+[3.478s] 7: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
+[3.478s] 7: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
+[3.478s] 7: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
+[3.478s] 7: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+[3.478s] 7: @@ -319 +319 @@
+[3.478s] 7: -   /* _MSC_VER = VVRR */
+[3.479s] 7: +/* _MSC_VER = VVRR */
+[3.479s] 7: @@ -336 +336 @@
+[3.479s] 7: -  /* _MSC_VER = VVRR */
+[3.479s] 7: +/* _MSC_VER = VVRR */
+[3.479s] 7: @@ -341 +341 @@
+[3.479s] 7: -    /* _MSC_FULL_VER = VVRRPPPPP */
+[3.479s] 7: +/* _MSC_FULL_VER = VVRRPPPPP */
+[3.479s] 7: @@ -344 +344 @@
+[3.479s] 7: -    /* _MSC_FULL_VER = VVRRPPPP */
+[3.479s] 7: +/* _MSC_FULL_VER = VVRRPPPP */
+[3.479s] 7: @@ -352 +352,2 @@
+[3.479s] 7: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
+[3.479s] 7: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
+[3.479s] 7: +  defined(__ADSP21000__)
+[3.479s] 7: @@ -355,4 +356,4 @@
+[3.479s] 7: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[3.479s] 7: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+[3.479s] 7: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+[3.479s] 7: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
+[3.479s] 7: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[3.479s] 7: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
+[3.479s] 7: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
+[3.479s] 7: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+[3.479s] 7: @@ -368 +369,3 @@
+[3.480s] 7: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+[3.480s] 7: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
+[3.480s] 7: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
+[3.480s] 7: +  defined(__ICC8051__) || defined(__ICCSTM8__))
+[3.480s] 7: @@ -370 +373 @@
+[3.480s] 7: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
+[3.480s] 7: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+[3.480s] 7: @@ -382,4 +385,4 @@
+[3.480s] 7: -  /* SDCC = VRP */
+[3.480s] 7: -#  define COMPILER_VERSION_MAJOR DEC(SDCC/100)
+[3.480s] 7: -#  define COMPILER_VERSION_MINOR DEC(SDCC/10 % 10)
+[3.480s] 7: -#  define COMPILER_VERSION_PATCH DEC(SDCC    % 10)
+[3.480s] 7: +/* SDCC = VRP */
+[3.480s] 7: +#  define COMPILER_VERSION_MAJOR DEC(SDCC / 100)
+[3.480s] 7: +#  define COMPILER_VERSION_MINOR DEC(SDCC / 10 % 10)
+[3.480s] 7: +#  define COMPILER_VERSION_PATCH DEC(SDCC % 10)
+[3.480s] 7: @@ -403 +406 @@
+[3.480s] 7: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[3.480s] 7: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[3.480s] 7: @@ -405 +408 @@
+[3.480s] 7: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[3.480s] 7: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[3.481s] 7: @@ -409 +412 @@
+[3.481s] 7: -char const* qnxnto = "INFO" ":" "qnxnto[]";
+[3.481s] 7: +char const * qnxnto = "INFO" ":" "qnxnto[]";
+[3.481s] 7: @@ -413 +416 @@
+[3.481s] 7: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[3.481s] 7: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[3.481s] 7: @@ -656,9 +659,9 @@
+[3.481s] 7: -#define DEC(n)                   \
+[3.481s] 7: -  ('0' + (((n) / 10000000)%10)), \
+[3.481s] 7: -  ('0' + (((n) / 1000000)%10)),  \
+[3.481s] 7: -  ('0' + (((n) / 100000)%10)),   \
+[3.481s] 7: -  ('0' + (((n) / 10000)%10)),    \
+[3.481s] 7: -  ('0' + (((n) / 1000)%10)),     \
+[3.481s] 7: -  ('0' + (((n) / 100)%10)),      \
+[3.481s] 7: -  ('0' + (((n) / 10)%10)),       \
+[3.481s] 7: -  ('0' +  ((n) % 10))
+[3.481s] 7: +#define DEC(n) \
+[3.481s] 7: +  ('0' + (((n) / 10000000) % 10)), \
+[3.481s] 7: +  ('0' + (((n) / 1000000) % 10)), \
+[3.481s] 7: +  ('0' + (((n) / 100000) % 10)), \
+[3.481s] 7: +  ('0' + (((n) / 10000) % 10)), \
+[3.481s] 7: +  ('0' + (((n) / 1000) % 10)), \
+[3.481s] 7: +  ('0' + (((n) / 100) % 10)), \
+[3.481s] 7: +  ('0' + (((n) / 10) % 10)), \
+[3.482s] 7: +  ('0' + ((n) % 10))
+[3.482s] 7: @@ -667,9 +670,9 @@
+[3.482s] 7: -#define HEX(n)             \
+[3.482s] 7: -  ('0' + ((n)>>28 & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)>>24 & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)>>20 & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)>>16 & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)>>12 & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)>>8  & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)>>4  & 0xF)), \
+[3.482s] 7: -  ('0' + ((n)     & 0xF))
+[3.482s] 7: +#define HEX(n) \
+[3.482s] 7: +  ('0' + ((n) >> 28 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) >> 24 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) >> 20 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) >> 16 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) >> 12 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) >> 8 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) >> 4 & 0xF)), \
+[3.482s] 7: +  ('0' + ((n) & 0xF))
+[3.482s] 7: @@ -679 +682 @@
+[3.482s] 7: -char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[3.482s] 7: +char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[3.483s] 7: @@ -685 +688 @@
+[3.483s] 7: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+[3.483s] 7: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[3.483s] 7: @@ -690 +693 @@
+[3.483s] 7: -   '.', COMPILER_VERSION_PATCH,
+[3.483s] 7: +  '.', COMPILER_VERSION_PATCH,
+[3.483s] 7: @@ -692 +695 @@
+[3.483s] 7: -    '.', COMPILER_VERSION_TWEAK,
+[3.483s] 7: +  '.', COMPILER_VERSION_TWEAK,
+[3.483s] 7: @@ -696 +699,2 @@
+[3.483s] 7: -  ']','\0'};
+[3.483s] 7: +  ']', '\0'
+[3.483s] 7: +};
+[3.483s] 7: @@ -703,3 +707,4 @@
+[3.483s] 7: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+[3.483s] 7: -  'i','n','t','e','r','n','a','l','[',
+[3.483s] 7: -  COMPILER_VERSION_INTERNAL,']','\0'};
+[3.483s] 7: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
+[3.483s] 7: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
+[3.483s] 7: +  COMPILER_VERSION_INTERNAL, ']', '\0'
+[3.483s] 7: +};
+[3.483s] 7: @@ -707 +712,2 @@
+[3.483s] 7: -char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[3.483s] 7: +char const * info_version_internal =
+[3.484s] 7: +  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[3.484s] 7: @@ -714 +720 @@
+[3.484s] 7: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
+[3.484s] 7: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[3.484s] 7: @@ -719 +725 @@
+[3.484s] 7: -   '.', SIMULATE_VERSION_PATCH,
+[3.484s] 7: +  '.', SIMULATE_VERSION_PATCH,
+[3.484s] 7: @@ -721 +727 @@
+[3.484s] 7: -    '.', SIMULATE_VERSION_TWEAK,
+[3.484s] 7: +  '.', SIMULATE_VERSION_TWEAK,
+[3.484s] 7: @@ -725 +731,2 @@
+[3.484s] 7: -  ']','\0'};
+[3.484s] 7: +  ']', '\0'
+[3.484s] 7: +};
+[3.484s] 7: @@ -732,3 +739,2 @@
+[3.484s] 7: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[3.484s] 7: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[3.484s] 7: -
+[3.484s] 7: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[3.484s] 7: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[3.485s] 7: @@ -754 +760 @@
+[3.485s] 7: -const char* info_language_standard_default =
+[3.485s] 7: +const char * info_language_standard_default =
+[3.485s] 7: @@ -757 +763 @@
+[3.485s] 7: -const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+[3.485s] 7: +const char * info_language_extensions_default = "INFO" ":" "extensions_default["
+[3.485s] 7: @@ -759,2 +765,2 @@
+[3.485s] 7: -#if (defined(__clang__) || defined(__GNUC__) ||                               \
+[3.485s] 7: -     defined(__TI_COMPILER_VERSION__)) &&                                     \
+[3.485s] 7: +#if (defined(__clang__) || defined(__GNUC__) || \
+[3.485s] 7: +  defined(__TI_COMPILER_VERSION__)) && \
+[3.485s] 7: @@ -766 +772 @@
+[3.485s] 7: -"]";
+[3.485s] 7: +  "]";
+[3.485s] 7: @@ -774 +780 @@
+[3.485s] 7: -int main(argc, argv) int argc; char *argv[];
+[3.485s] 7: +int main(argc, argv) int argc; char * argv[];
+[3.485s] 7: @@ -776 +782 @@
+[3.485s] 7: -int main(int argc, char* argv[])
+[3.485s] 7: +int main(int argc, char * argv[])
+[3.485s] 7: 
+[3.485s] 7: Code style divergence in file 'build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp':
+[3.485s] 7: 
+[3.486s] 7: --- build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[3.486s] 7: +++ build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify
+[3.486s] 7: @@ -20 +20 @@
+[3.486s] 7: -  /* __COMO_VERSION__ = VRR */
+[3.486s] 7: +/* __COMO_VERSION__ = VRR */
+[3.486s] 7: @@ -32 +32 @@
+[3.486s] 7: -  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[3.486s] 7: +/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[3.486s] 7: @@ -35,2 +35,2 @@
+[3.486s] 7: -#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+[3.486s] 7: -#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
+[3.486s] 7: +#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
+[3.486s] 7: +#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+[3.486s] 7: @@ -40 +40 @@
+[3.486s] 7: -#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
+[3.486s] 7: +#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+[3.486s] 7: @@ -45 +45 @@
+[3.486s] 7: -   /* The third version component from --version is an update index,
+[3.486s] 7: +/* The third version component from --version is an update index,
+[3.486s] 7: @@ -50 +50 @@
+[3.486s] 7: -   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[3.486s] 7: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[3.486s] 7: @@ -54 +54 @@
+[3.487s] 7: -   /* _MSC_VER = VVRR */
+[3.487s] 7: +/* _MSC_VER = VVRR */
+[3.487s] 7: @@ -83,3 +83,3 @@
+[3.487s] 7: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)
+[3.487s] 7: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)
+[3.487s] 7: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)
+[3.487s] 7: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)
+[3.487s] 7: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)
+[3.487s] 7: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)
+[3.487s] 7: @@ -87,3 +87,3 @@
+[3.487s] 7: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)
+[3.487s] 7: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)
+[3.487s] 7: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)
+[3.487s] 7: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)
+[3.487s] 7: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)
+[3.487s] 7: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)
+[3.487s] 7: @@ -92 +92 @@
+[3.487s] 7: -  /* _MSC_VER = VVRR */
+[3.487s] 7: +/* _MSC_VER = VVRR */
+[3.487s] 7: @@ -118,3 +118,3 @@
+[3.487s] 7: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+[3.487s] 7: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+[3.487s] 7: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
+[3.488s] 7: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
+[3.488s] 7: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
+[3.488s] 7: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+[3.488s] 7: @@ -124,2 +124,2 @@
+[3.488s] 7: -  /* __BORLANDC__ = 0xVRR */
+[3.488s] 7: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
+[3.488s] 7: +/* __BORLANDC__ = 0xVRR */
+[3.488s] 7: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+[3.488s] 7: @@ -130 +130 @@
+[3.488s] 7: -   /* __WATCOMC__ = VVRR */
+[3.488s] 7: +/* __WATCOMC__ = VVRR */
+[3.488s] 7: @@ -139 +139 @@
+[3.488s] 7: -   /* __WATCOMC__ = VVRP + 1100 */
+[3.488s] 7: +/* __WATCOMC__ = VVRP + 1100 */
+[3.488s] 7: @@ -149,4 +149,4 @@
+[3.488s] 7: -   /* __SUNPRO_CC = 0xVRRP */
+[3.488s] 7: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>12)
+[3.488s] 7: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xFF)
+[3.488s] 7: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
+[3.488s] 7: +/* __SUNPRO_CC = 0xVRRP */
+[3.488s] 7: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 12)
+[3.488s] 7: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xFF)
+[3.488s] 7: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+[3.489s] 7: @@ -154,4 +154,4 @@
+[3.489s] 7: -   /* __SUNPRO_CC = 0xVRP */
+[3.489s] 7: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>8)
+[3.489s] 7: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xF)
+[3.489s] 7: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
+[3.489s] 7: +/* __SUNPRO_CC = 0xVRP */
+[3.489s] 7: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 8)
+[3.489s] 7: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xF)
+[3.489s] 7: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+[3.489s] 7: @@ -162,4 +162,4 @@
+[3.489s] 7: -  /* __HP_aCC = VVRRPP */
+[3.489s] 7: -# define COMPILER_VERSION_MAJOR DEC(__HP_aCC/10000)
+[3.489s] 7: -# define COMPILER_VERSION_MINOR DEC(__HP_aCC/100 % 100)
+[3.489s] 7: -# define COMPILER_VERSION_PATCH DEC(__HP_aCC     % 100)
+[3.489s] 7: +/* __HP_aCC = VVRRPP */
+[3.489s] 7: +# define COMPILER_VERSION_MAJOR DEC(__HP_aCC / 10000)
+[3.489s] 7: +# define COMPILER_VERSION_MINOR DEC(__HP_aCC / 100 % 100)
+[3.489s] 7: +# define COMPILER_VERSION_PATCH DEC(__HP_aCC % 100)
+[3.489s] 7: @@ -169,4 +169,4 @@
+[3.489s] 7: -  /* __DECCXX_VER = VVRRTPPPP */
+[3.489s] 7: -# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)
+[3.489s] 7: -# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)
+[3.489s] 7: -# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)
+[3.490s] 7: +/* __DECCXX_VER = VVRRTPPPP */
+[3.490s] 7: +# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER / 10000000)
+[3.490s] 7: +# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER / 100000 % 100)
+[3.490s] 7: +# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER % 10000)
+[3.490s] 7: @@ -176,4 +176,4 @@
+[3.490s] 7: -  /* __IBMCPP__ = VRP */
+[3.490s] 7: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+[3.490s] 7: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+[3.490s] 7: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+[3.490s] 7: +/* __IBMCPP__ = VRP */
+[3.490s] 7: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
+[3.490s] 7: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
+[3.490s] 7: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+[3.490s] 7: @@ -191,4 +191,4 @@
+[3.490s] 7: -  /* __IBMCPP__ = VRP */
+[3.490s] 7: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+[3.490s] 7: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+[3.490s] 7: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+[3.490s] 7: +/* __IBMCPP__ = VRP */
+[3.490s] 7: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
+[3.490s] 7: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
+[3.490s] 7: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+[3.491s] 7: @@ -198,4 +198,4 @@
+[3.491s] 7: -  /* __IBMCPP__ = VRP */
+[3.491s] 7: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+[3.491s] 7: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+[3.491s] 7: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+[3.491s] 7: +/* __IBMCPP__ = VRP */
+[3.491s] 7: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
+[3.491s] 7: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
+[3.491s] 7: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+[3.491s] 7: @@ -226,4 +226,4 @@
+[3.491s] 7: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[3.491s] 7: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+[3.491s] 7: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+[3.491s] 7: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
+[3.491s] 7: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[3.491s] 7: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
+[3.491s] 7: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
+[3.491s] 7: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+[3.491s] 7: @@ -261 +261 @@
+[3.491s] 7: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
+[3.491s] 7: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+[3.491s] 7: @@ -270,4 +270,4 @@
+[3.491s] 7: -  /* __ARMCC_VERSION = VRRPPPP */
+[3.491s] 7: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+[3.492s] 7: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+[3.492s] 7: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
+[3.492s] 7: +/* __ARMCC_VERSION = VRRPPPP */
+[3.492s] 7: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
+[3.492s] 7: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
+[3.492s] 7: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[3.492s] 7: @@ -275,4 +275,4 @@
+[3.492s] 7: -  /* __ARMCC_VERSION = VRPPPP */
+[3.492s] 7: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+[3.492s] 7: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+[3.492s] 7: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
+[3.492s] 7: +/* __ARMCC_VERSION = VRPPPP */
+[3.492s] 7: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
+[3.492s] 7: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
+[3.492s] 7: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[3.492s] 7: @@ -291 +291 @@
+[3.492s] 7: -   /* _MSC_VER = VVRR */
+[3.492s] 7: +/* _MSC_VER = VVRR */
+[3.492s] 7: @@ -299,3 +299,3 @@
+[3.492s] 7: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+[3.492s] 7: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+[3.492s] 7: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
+[3.492s] 7: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
+[3.493s] 7: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
+[3.493s] 7: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+[3.493s] 7: @@ -313 +313 @@
+[3.493s] 7: -   /* _MSC_VER = VVRR */
+[3.493s] 7: +/* _MSC_VER = VVRR */
+[3.493s] 7: @@ -334 +334 @@
+[3.493s] 7: -  /* _MSC_VER = VVRR */
+[3.493s] 7: +/* _MSC_VER = VVRR */
+[3.493s] 7: @@ -339 +339 @@
+[3.493s] 7: -    /* _MSC_FULL_VER = VVRRPPPPP */
+[3.493s] 7: +/* _MSC_FULL_VER = VVRRPPPPP */
+[3.493s] 7: @@ -342 +342 @@
+[3.493s] 7: -    /* _MSC_FULL_VER = VVRRPPPP */
+[3.493s] 7: +/* _MSC_FULL_VER = VVRRPPPP */
+[3.493s] 7: @@ -350 +350,2 @@
+[3.493s] 7: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
+[3.493s] 7: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
+[3.493s] 7: +  defined(__ADSP21000__)
+[3.493s] 7: @@ -353,4 +354,4 @@
+[3.493s] 7: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[3.493s] 7: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+[3.493s] 7: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+[3.493s] 7: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
+[3.494s] 7: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[3.494s] 7: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
+[3.494s] 7: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
+[3.494s] 7: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+[3.494s] 7: @@ -366 +367,3 @@
+[3.494s] 7: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+[3.494s] 7: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
+[3.494s] 7: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
+[3.494s] 7: +  defined(__ICC8051__) || defined(__ICCSTM8__))
+[3.494s] 7: @@ -368 +371 @@
+[3.494s] 7: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
+[3.494s] 7: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+[3.494s] 7: @@ -388 +391 @@
+[3.494s] 7: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[3.494s] 7: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[3.494s] 7: @@ -390 +393 @@
+[3.494s] 7: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[3.494s] 7: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[3.494s] 7: @@ -394 +397 @@
+[3.494s] 7: -char const* qnxnto = "INFO" ":" "qnxnto[]";
+[3.494s] 7: +char const * qnxnto = "INFO" ":" "qnxnto[]";
+[3.494s] 7: @@ -398 +401 @@
+[3.494s] 7: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[3.494s] 7: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[3.495s] 7: @@ -641,9 +644,9 @@
+[3.495s] 7: -#define DEC(n)                   \
+[3.495s] 7: -  ('0' + (((n) / 10000000)%10)), \
+[3.495s] 7: -  ('0' + (((n) / 1000000)%10)),  \
+[3.495s] 7: -  ('0' + (((n) / 100000)%10)),   \
+[3.495s] 7: -  ('0' + (((n) / 10000)%10)),    \
+[3.495s] 7: -  ('0' + (((n) / 1000)%10)),     \
+[3.495s] 7: -  ('0' + (((n) / 100)%10)),      \
+[3.495s] 7: -  ('0' + (((n) / 10)%10)),       \
+[3.495s] 7: -  ('0' +  ((n) % 10))
+[3.495s] 7: +#define DEC(n) \
+[3.495s] 7: +  ('0' + (((n) / 10000000) % 10)), \
+[3.495s] 7: +  ('0' + (((n) / 1000000) % 10)), \
+[3.495s] 7: +  ('0' + (((n) / 100000) % 10)), \
+[3.495s] 7: +  ('0' + (((n) / 10000) % 10)), \
+[3.495s] 7: +  ('0' + (((n) / 1000) % 10)), \
+[3.495s] 7: +  ('0' + (((n) / 100) % 10)), \
+[3.495s] 7: +  ('0' + (((n) / 10) % 10)), \
+[3.495s] 7: +  ('0' + ((n) % 10))
+[3.495s] 7: @@ -652,9 +655,9 @@
+[3.495s] 7: -#define HEX(n)             \
+[3.495s] 7: -  ('0' + ((n)>>28 & 0xF)), \
+[3.495s] 7: -  ('0' + ((n)>>24 & 0xF)), \
+[3.495s] 7: -  ('0' + ((n)>>20 & 0xF)), \
+[3.496s] 7: -  ('0' + ((n)>>16 & 0xF)), \
+[3.496s] 7: -  ('0' + ((n)>>12 & 0xF)), \
+[3.496s] 7: -  ('0' + ((n)>>8  & 0xF)), \
+[3.496s] 7: -  ('0' + ((n)>>4  & 0xF)), \
+[3.496s] 7: -  ('0' + ((n)     & 0xF))
+[3.496s] 7: +#define HEX(n) \
+[3.496s] 7: +  ('0' + ((n) >> 28 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) >> 24 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) >> 20 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) >> 16 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) >> 12 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) >> 8 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) >> 4 & 0xF)), \
+[3.496s] 7: +  ('0' + ((n) & 0xF))
+[3.496s] 7: @@ -664 +667 @@
+[3.496s] 7: -char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[3.496s] 7: +char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[3.496s] 7: @@ -670 +673 @@
+[3.496s] 7: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+[3.496s] 7: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[3.496s] 7: @@ -675 +678 @@
+[3.496s] 7: -   '.', COMPILER_VERSION_PATCH,
+[3.496s] 7: +  '.', COMPILER_VERSION_PATCH,
+[3.497s] 7: @@ -677 +680 @@
+[3.497s] 7: -    '.', COMPILER_VERSION_TWEAK,
+[3.497s] 7: +  '.', COMPILER_VERSION_TWEAK,
+[3.497s] 7: @@ -681 +684 @@
+[3.497s] 7: -  ']','\0'};
+[3.497s] 7: +  ']', '\0'};
+[3.497s] 7: @@ -688,3 +691,3 @@
+[3.497s] 7: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+[3.497s] 7: -  'i','n','t','e','r','n','a','l','[',
+[3.497s] 7: -  COMPILER_VERSION_INTERNAL,']','\0'};
+[3.497s] 7: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
+[3.497s] 7: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
+[3.497s] 7: +  COMPILER_VERSION_INTERNAL, ']', '\0'};
+[3.497s] 7: @@ -692 +695,2 @@
+[3.497s] 7: -char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[3.497s] 7: +char const * info_version_internal =
+[3.497s] 7: +  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[3.497s] 7: @@ -699 +703 @@
+[3.497s] 7: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
+[3.497s] 7: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[3.497s] 7: @@ -704 +708 @@
+[3.497s] 7: -   '.', SIMULATE_VERSION_PATCH,
+[3.497s] 7: +  '.', SIMULATE_VERSION_PATCH,
+[3.497s] 7: @@ -706 +710 @@
+[3.498s] 7: -    '.', SIMULATE_VERSION_TWEAK,
+[3.498s] 7: +  '.', SIMULATE_VERSION_TWEAK,
+[3.498s] 7: @@ -710 +714 @@
+[3.498s] 7: -  ']','\0'};
+[3.498s] 7: +  ']', '\0'};
+[3.498s] 7: @@ -717,3 +721,2 @@
+[3.498s] 7: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[3.498s] 7: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[3.498s] 7: -
+[3.498s] 7: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[3.498s] 7: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[3.498s] 7: @@ -738 +741 @@
+[3.498s] 7: -const char* info_language_standard_default = "INFO" ":" "standard_default["
+[3.498s] 7: +const char * info_language_standard_default = "INFO" ":" "standard_default["
+[3.498s] 7: @@ -752,3 +755,3 @@
+[3.498s] 7: -"]";
+[3.498s] 7: -
+[3.498s] 7: -const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+[3.498s] 7: +  "]";
+[3.498s] 7: +
+[3.498s] 7: +const char * info_language_extensions_default = "INFO" ":" "extensions_default["
+[3.498s] 7: @@ -756,2 +759,2 @@
+[3.498s] 7: -#if (defined(__clang__) || defined(__GNUC__) ||                               \
+[3.498s] 7: -     defined(__TI_COMPILER_VERSION__)) &&                                     \
+[3.499s] 7: +#if (defined(__clang__) || defined(__GNUC__) || \
+[3.499s] 7: +  defined(__TI_COMPILER_VERSION__)) && \
+[3.499s] 7: @@ -763 +766 @@
+[3.499s] 7: -"]";
+[3.499s] 7: +  "]";
+[3.499s] 7: @@ -767 +770 @@
+[3.499s] 7: -int main(int argc, char* argv[])
+[3.499s] 7: +int main(int argc, char * argv[])
+[3.499s] 7: 
+[3.499s] 7: 2 files with code style divergence
+[3.499s] 7: No code style divergence in file 'src/publisher_member_function.cpp'
+[3.499s] 7: 
+[3.499s] 7: No code style divergence in file 'src/subscriber_member_function.cpp'
+[3.499s] 7: 
+[3.499s] 7: -- run_test.py: return code 1
+[3.499s] 7: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'
+[3.499s] 7/8 Test #7: uncrustify .......................***Failed    0.42 sec
+[3.499s] test 8
+[3.499s]     Start 8: xmllint
+[3.499s] 
+[3.499s] 8: Test command: /usr/bin/python3.10 "-u" "/home/sahruday/ros2_humble/install/ament_cmake_test/share/ament_cmake_test/cmake/run_test.py" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml" "--package-name" "cpp_pubsub" "--output-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/ament_xmllint/xmllint.txt" "--command" "/home/sahruday/ros2_humble/install/ament_xmllint/bin/ament_xmllint" "--xunit-file" "/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml"
+[3.499s] 8: Test timeout computed to be: 60
+[3.624s] 8: -- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+[3.624s] 8:  - /home/sahruday/ros2_humble/install/ament_xmllint/bin/ament_xmllint --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml
+[4.703s] 8: File 'package.xml' is invalid:
+[4.703s] 8: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+[4.703s] 8: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/package.xml fails to validate
+[4.703s] 8: 
+[4.703s] 8: File 'install/cpp_pubsub/share/cpp_pubsub/package.xml' is invalid:
+[4.703s] 8: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml:18: element depend: Schemas validity error : Element 'depend': This element is not expected.
+[4.703s] 8: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml fails to validate
+[4.703s] 8: 
+[4.703s] 8: 2 files are invalid
+[4.703s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/copyright.xunit.xml' is valid
+[4.703s] 8: 
+[4.703s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/cppcheck.xunit.xml' is valid
+[4.704s] 8: 
+[4.704s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/cpplint.xunit.xml' is valid
+[4.704s] 8: 
+[4.704s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/flake8.xunit.xml' is valid
+[4.704s] 8: 
+[4.704s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/lint_cmake.xunit.xml' is valid
+[4.704s] 8: 
+[4.704s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/pep257.xunit.xml' is valid
+[4.704s] 8: 
+[4.704s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml' is valid
+[4.704s] 8: 
+[4.704s] 8: File 'build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml' is valid
+[4.705s] 8: 
+[4.714s] 8: -- run_test.py: return code 1
+[4.714s] 8: -- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/xmllint.xunit.xml'
+[4.723s] 8/8 Test #8: xmllint ..........................***Failed    1.24 sec
+[4.723s] 
+[4.724s] 25% tests passed[0;0m, [0;31m6 tests failed[0;0m out of 8
+[4.724s] 
+[4.724s] Label Time Summary:
+[4.724s] copyright     =   0.52 sec*proc (1 test)
+[4.724s] cppcheck      =   0.36 sec*proc (1 test)
+[4.724s] cpplint       =   0.50 sec*proc (1 test)
+[4.724s] flake8        =   0.80 sec*proc (1 test)
+[4.724s] lint_cmake    =   0.36 sec*proc (1 test)
+[4.724s] linter        =   4.63 sec*proc (8 tests)
+[4.724s] pep257        =   0.43 sec*proc (1 test)
+[4.724s] uncrustify    =   0.42 sec*proc (1 test)
+[4.724s] xmllint       =   1.24 sec*proc (1 test)
+[4.724s] 
+[4.725s] Total Test time (real) =   4.63 sec
+[4.725s] 
+[4.725s] The following tests FAILED:
+[4.725s] 	[0;31m  1 - copyright (Failed)[0;0m
+[4.725s] 	[0;31m  3 - cpplint (Failed)[0;0m
+[4.725s] 	[0;31m  4 - flake8 (Failed)[0;0m
+[4.725s] 	[0;31m  5 - lint_cmake (Failed)[0;0m
+[4.725s] 	[0;31m  7 - uncrustify (Failed)[0;0m
+[4.725s] 	[0;31m  8 - xmllint (Failed)[0;0m
+[4.748s] Errors while running CTest
+[4.748s] Output from these tests are in: /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/Testing/Temporary/LastTest.log
+[4.748s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[4.750s] Invoked command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

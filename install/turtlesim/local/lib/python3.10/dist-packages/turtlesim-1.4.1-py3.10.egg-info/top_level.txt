@@ -1,1 +1,0 @@
-/home/sahruday/Documents/Github/Ros2/build/turtlesim/ament_cmake_python/turtlesim/turtlesim.egg-info/top_level.txt

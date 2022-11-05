@@ -1,0 +1,116 @@
+-- run_test.py: invoking following command in '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub':
+ - /home/sahruday/ros2_humble/install/ament_uncrustify/bin/ament_uncrustify --xunit-file /home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+
+Code style divergence in file 'build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c':
+
+--- build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
++++ build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.uncrustify
+@@ -364,3 +364,3 @@
+-#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) ||   \
+-                           defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
+-                           defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
++#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
++  defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+@@ -368 +368 @@
+-#define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100) * 100))
++#define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -665 +665 @@
+-#define DEC(n)                                                                                    \
++#define DEC(n) \
+@@ -667,2 +667,2 @@
+-    ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)),        \
+-    ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
++  ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
+@@ -671,4 +671,4 @@
+-#define HEX(n)                                                                      \
+-  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)),  \
+-    ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
+-    ('0' + ((n) >> 4 & 0xF)), ('0' + ((n)&0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), ('0' + ((n) & 0xF))
+@@ -722 +722,2 @@
+-  '\0'};
++  '\0'
++};
+@@ -728,4 +729,4 @@
+-                                      'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
+-                                      'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
+-                                      't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
+-                                      ']', '\0'};
++  'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
++  'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
++  't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
++  ']', '\0'};
+@@ -778 +779,2 @@
+-  '\0'};
++  '\0'
++};
+
+Code style divergence in file 'build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp':
+
+--- build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
++++ build/cpp_pubsub/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify
+@@ -362,3 +362,3 @@
+-#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) ||   \
+-                           defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
+-                           defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
++#elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || \
++  defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+@@ -366 +366 @@
+-#define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100) * 100))
++#define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -650 +650 @@
+-#define DEC(n)                                                                                    \
++#define DEC(n) \
+@@ -652,2 +652,2 @@
+-    ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)),        \
+-    ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
++  ('0' + (((n) / 10000) % 10)), ('0' + (((n) / 1000) % 10)), ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), ('0' + ((n) % 10))
+@@ -656,4 +656,4 @@
+-#define HEX(n)                                                                      \
+-  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)),  \
+-    ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
+-    ('0' + ((n) >> 4 & 0xF)), ('0' + ((n)&0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), ('0' + ((n) >> 24 & 0xF)), ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), ('0' + ((n) >> 12 & 0xF)), ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), ('0' + ((n) & 0xF))
+@@ -713,4 +713,4 @@
+-                                      'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
+-                                      'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
+-                                      't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
+-                                      ']', '\0'};
++  'p', 'i', 'l', 'e', 'r', '_', 'v', 'e',
++  'r', 's', 'i', 'o', 'n', '_', 'i', 'n',
++  't', 'e', 'r', 'n', 'a', 'l', '[', COMPILER_VERSION_INTERNAL,
++  ']', '\0'};
+
+Code style divergence in file 'src/publisher_member_function.cpp':
+
+--- src/publisher_member_function.cpp
++++ src/publisher_member_function.cpp.uncrustify
+@@ -31 +31,2 @@
+-  MinimalPublisher() : Node("minimal_publisher"), count_(0)
++  MinimalPublisher()
++  : Node("minimal_publisher"), count_(0)
+
+Code style divergence in file 'src/subscriber_member_function.cpp':
+
+--- src/subscriber_member_function.cpp
++++ src/subscriber_member_function.cpp.uncrustify
+@@ -26 +26,2 @@
+-  MinimalSubscriber() : Node("minimal_subscriber")
++  MinimalSubscriber()
++  : Node("minimal_subscriber")
+
+4 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/sahruday/Documents/Github/Ros2/src/cpp_pubsub/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'
