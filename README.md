@@ -34,6 +34,26 @@ colcon build --symlink-install
 ```
 colcon test
 ```
+To see results of tests:
+```
+colcon test-result
+```
+
+```
+colcon test-result --verbose
+```
+
+# Format
+
+```
+ament_clang_format
+```
+
+To format changes directly
+```
+ament_clang_format --reformat
+```
+
 
 # Source env
 
@@ -129,6 +149,13 @@ If you already have all your dependencies, the console will return:
 ```
 colcon build
 ```
+
+To build specific packages :
+
+```
+colcon build --packages-select cpp_pubsub
+```
+
 Other useful arguments for colcon build:
 
     --packages-up-to builds the package you want, plus all its dependencies, but not the whole workspace (saves time)
@@ -151,4 +178,48 @@ source /opt/ros/humble/setup.bash
 In the roor of your ws:
 ```
 . install/local_setup.bash
+```
+
+# Create Package
+
+Make sure you are in the src folder before running the package creation command.
+```
+cd ~/ros2_ws/src
+```
+
+```
+ros2 pkg create --build-type ament_cmake <package_name>
+```
+
+the optional argument --node-name which creates a simple Hello World type executable in the package.
+```
+ros2 pkg create --build-type ament_cmake --node-name my_node my_package 
+```
+
+Build a package 
+```
+colcon build --packages-select my_package
+```
+```
+. install/local_setup.bash
+```
+
+Using the Package
+```
+ros2 run my_package my_node
+```
+
+# tips
+After the standard C++ headers is the rclcpp/rclcpp.hpp include which allows you to use the most common pieces of the ROS 2 system. Last is std_msgs/msg/string.hpp, which includes the built-in message type you will use to publish data.
+
+# Cpplint and Cppcheck
+
+Form the root of the folder
+
+```
+cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order src/cpp_pubsub/src/*.cpp > ./Results/cpplint.txt
+```
+
+```
+cppcheck --enable=all --std=c++17 src/cpp_pubsub/src/*.cpp --suppress=missingIncludeSystem --suppress=missingInclude --suppress=unmatchedSuppression > ./results/cppcheck.txt
 ```
