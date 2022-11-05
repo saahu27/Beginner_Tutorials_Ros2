@@ -306,3 +306,279 @@ Install setup:
 ```
 . install/setup.bash
 ````
+**Source the workspace**
+
+# [Logging Levels](http://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.html)
+
+```
+There is no exact standard for what each level indicates, but it’s safe to assume that:
+    Fatal messages indicate the system is going to terminate to try to protect itself from detriment.
+    Error messages indicate significant issues that won’t necessarily damage the system, but are preventing it from functioning properly.
+    Warn messages indicate unexpected activity or non-ideal results that might represent a deeper issue, but don’t harm functionality outright.
+    Info messages indicate event and status updates that serve as a visual verification that the system is running as expected.
+    Debug messages detail the entire step-by-step process of the system execution.
+```
+
+The default level is Info. You will only see messages of the default severity level and more-severe levels.
+
+Normally, only Debug messages are hidden because they’re the only level less severe than Info. For example, if you set the default level to Warn, you would only see messages of severity Warn, Error, and Fatal.
+
+Setting default log levels:
+```
+ros2 run <Package_name> <node_name> --ros-args --log-level WARN
+```
+
+# [Creating Package](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)
+
+To Create a Node Package:
+```
+ros2 pkg create --build-type ament_cmake --node-name my_node my_package
+```
+For package cpp_srvcli interface :
+```
+ros2 pkg create --build-type ament_cmake cpp_srvcli --dependencies rclcpp example_interfaces
+```
+# [Writing a simple publisher and subscriber](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html)
+
+To add a dependency to package.xml example:
+```
+<depend>rclcpp</depend>
+<depend>std_msgs</depend>
+```
+
+Changes to CMakeLists.txt:
+
+Below the existing dependency find_package(ament_cmake REQUIRED)
+
+```
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+```
+
+Adding executable:
+```
+add_executable(talker src/publisher_member_function.cpp)
+ament_target_dependencies(talker rclcpp std_msgs)
+add_executable(listener src/subscriber_member_function.cpp)
+ament_target_dependencies(listener rclcpp std_msgs)
+```
+
+Adding install targets: 
+```
+install(TARGETS
+  talker
+  listener
+  DESTINATION lib/${PROJECT_NAME})
+```
+
+Reference CMakeLists.txt:
+
+```
+cmake_minimum_required(VERSION 3.5)
+project(cpp_pubsub)
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+add_executable(talker src/publisher_member_function.cpp)
+ament_target_dependencies(talker rclcpp std_msgs)
+install(TARGETS
+  talker
+  DESTINATION lib/${PROJECT_NAME})
+ament_package()
+```
+
+**Resolve dependecies, build, install and source**
+
+# [Writing a simple service and client (C++)](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.html)
+
+When nodes communicate using services, the node that sends a request for data is called the client node, and the one that responds to the request is the service node. The structure of the request and response is determined by a .srv file.
+
+Default Cmake lists: **Remember to modify and mention build dependenies in package.xml**
+```
+cmake_minimum_required(VERSION 3.5)
+project(cpp_srvcli)
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
+add_executable(server src/add_two_ints_server.cpp)
+ament_target_dependencies(server
+  rclcpp example_interfaces)
+add_executable(client src/add_two_ints_client.cpp)
+ament_target_dependencies(client
+  rclcpp example_interfaces)
+install(TARGETS
+  server
+  client
+  DESTINATION lib/${PROJECT_NAME})
+ament_package()
+```
+
+# [Creating Custom msg and srv](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html)
+
+To convert the interfaces you defined into language-specific code (like C++ and Python) so that they can be used in those languages, add the following lines to CMakeLists.txt
+
+```
+find_package(geometry_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Num.msg"
+  "msg/Sphere.msg"
+  "srv/AddThreeInts.srv"
+  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+)
+```
+
+Package Xml:
+```
+<depend>geometry_msgs</depend>
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+# [Ros2 Interfaces](http://docs.ros.org/en/humble/Concepts/About-ROS-Interfaces.html)
+
+## Setting multiple interfaces
+```
+set(msg_files
+  "msg/Message1.msg"
+  "msg/Message2.msg"
+  # etc
+  )
+set(srv_files
+  "srv/Service1.srv"
+  "srv/Service2.srv"
+   # etc
+  )
+  ```
+  **[Implementing Custom Interfaces](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.html)**
+
+  The following CMake code is only required when you want to use interfaces in the same package as the one in which they are used.
+  ```
+rosidl_get_typesupport_target(cpp_typesupport_target
+  ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+  ```
+
+Ros2 param Description
+```
+ros2 param describe /minimal_param_node my_parameter
+```
+
+Launch File syntax:
+```
+from launch import LaunchDescription
+from launch_ros.actions import Node
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package="cpp_parameters",
+            executable="minimal_param_node",
+            name="custom_minimal_param_node",
+            output="screen",
+            emulate_tty=True,
+            parameters=[
+                {"my_parameter": "earth"}
+            ]
+        )
+    ])
+```
+
+Include CMakeLists.txt:
+```
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+```
+
+# [Ros_Doctor](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Getting-Started-With-Ros2doctor.html)
+```
+ros2 doctor --report
+```
+# [Creating and using Plugins](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Pluginlib.html)
+
+Install Plugin Lib
+```
+sudo apt-get install ros-humble-pluginlib
+```
+
+With pluginlib, a constructor without parameters is required for classes so, if any parameters are required, we use the initialize method to initialize the object.
+
+following lines after the ament_target_dependencies command.
+```
+install(
+  DIRECTORY include/
+  DESTINATION include
+)
+```
+
+ add this command before the ament_package command
+
+ ```
+ament_export_include_directories(
+  include
+)
+ ```
+Plugin declration Xml:
+ ```
+ <library path="polygon_plugins">
+  <class type="polygon_plugins::Square" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a square plugin.</description>
+  </class>
+  <class type="polygon_plugins::Triangle" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a triangle plugin.</description>
+  </class>
+</library>
+```
+A couple things to note:
+
+    The library tag gives the relative path to a library that contains the plugins that we want to export. In ROS 2, that is just the name of the library. In ROS 1 it contained the prefix lib or sometimes lib/lib (i.e. lib/libpolygon_plugins) but here it is simpler.
+
+    The class tag declares a plugin that we want to export from our library. Let’s go through its parameters:
+
+        type: The fully qualified type of the plugin. For us, that’s polygon_plugins::Square.
+
+        base_class: The fully qualified base class type for the plugin. For us, that’s polygon_base::RegularPolygon.
+
+        description: A description of the plugin and what it does.
+
+        name: There used to be a name attribute, but it is no longer required.
+
+following block to your ros2_ws/src/polygon_plugins/CMakeLists.txt after the line reading find_package(pluginlib REQUIRED)
+```
+add_library(polygon_plugins src/polygon_plugins.cpp)
+target_include_directories(polygon_plugins PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+ament_target_dependencies(
+  polygon_plugins
+  polygon_base
+  pluginlib
+)
+pluginlib_export_plugin_description_file(polygon_base plugins.xml)
+install(
+  TARGETS polygon_plugins
+  EXPORT export_${PROJECT_NAME}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+)
+```
+
+and before the amen_package()
+```
+ament_export_libraries(
+  polygon_plugins
+)
+ament_export_targets(
+  export_${PROJECT_NAME}
+)
+```
