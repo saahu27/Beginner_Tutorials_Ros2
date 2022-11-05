@@ -1,6 +1,5 @@
 # Beginner_Tutorials_Ros2
 
-<<<<<<< HEAD
 **Clone the Repository to workspace**
 
 ```
@@ -314,12 +313,12 @@ ros2 bag play subset
 Compared to catkin there is no devel directory. **colcon does out of source builds**. ament_cmake do not support the concept of the devel space and require the package to be installed.colcon supports the option --symlink-install. This allows the installed files to be changed by changing the files in the source space
 
 Install colcon:
->>>>>>> main
+
 ```
 sudo apt install python3-colcon-common-extensions
 ```
 
-<<<<<<< HEAD
+
 Directory structure
 ```
 .
@@ -336,14 +335,13 @@ Directory structure
 # Build using colcon
 
 Navigate to Root of the directory. In the root of the workspace, run colcon build. Since build types such as ament_cmake do not support the concept of the devel space and require the package to be installed, colcon supports the option --symlink-install.
-=======
+
 Colcon Build
->>>>>>> main
 ```
 colcon build --symlink-install
 ```
 
-<<<<<<< HEAD
+
 # Run Tests
 ```
 colcon test
@@ -423,37 +421,8 @@ Tips
 2. If you want to avoid configuring and building tests in CMake packages you can pass: --cmake-args -DBUILD_TESTING=0.
 
 3. If you want to run a single particular test from a package:
-=======
-Directory Structure
-```
-.
-├── build
-├── install
-├── log
-└── src
 
-4 directories, 0 files
-```
-To run Tests:
-```
-colcon test
-```
-To see test results:
-```
-colcon test-result --verbose
-```
-to run a Particular test:
->>>>>>> main
-```
-colcon test --packages-select YOUR_PKG_NAME --ctest-args -R YOUR_TEST_IN_PKG
-```
 
-<<<<<<< HEAD
-# Create workspace
- 
-## source
-
-=======
 Install setup:
 ```
 . install/setup.bash
@@ -472,12 +441,12 @@ echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.b
 2. [Creating workspace](http://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)
 
 Source
->>>>>>> main
+
 ```
 source /opt/ros/humble/setup.bash
 ```
 
-<<<<<<< HEAD
+
 ## Create a new directory
 
 Best practice is to create a new directory for every new workspace. The name doesn’t matter, but it is helpful to have it indicate the purpose of the workspace. Let’s choose the directory name ros2_ws, for development workspace:
@@ -554,7 +523,7 @@ ros2 pkg create --build-type ament_cmake --node-name my_node my_package
 ```
 
 Build a package 
-=======
+
 Resolve Dependencies:
 ```
 # Root of your workspace
@@ -595,22 +564,22 @@ Build:
 colcon build --packages-select my_package
 ```
 ```
-<<<<<<< HEAD
+
 . install/local_setup.bash
 ```
 
 Using the Package
-=======
+
 #source set up file.
 . install/local_setup.bash
 ```
 Run the Package:
->>>>>>> main
+
 ```
 ros2 run my_package my_node
 ```
 
-<<<<<<< HEAD
+
 # tips
 After the standard C++ headers is the rclcpp/rclcpp.hpp include which allows you to use the most common pieces of the ROS 2 system. Last is std_msgs/msg/string.hpp, which includes the built-in message type you will use to publish data.
 
