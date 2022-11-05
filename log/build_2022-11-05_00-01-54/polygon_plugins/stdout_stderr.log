@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.2 (/home/sahruday/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/home/sahruday/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found polygon_base: 0.0.0 (/home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_base/share/polygon_base/cmake)
+-- Found pluginlib: 5.1.0 (/home/sahruday/ros2_humble/install/pluginlib/share/pluginlib/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/build/polygon_plugins
+[35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[100%] Built target polygon_plugins
+-- Install configuration: ""
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/include
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/include/polygon_plugins
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/lib/libpolygon_plugins.so
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+-- Installing: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+-- Installing: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+-- Installing: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+-- Installing: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+-- Installing: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/package.dsv
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+-- Up-to-date: /home/sahruday/Documents/Github/Beginner_Tutorials_Ros2/install/polygon_plugins/share/polygon_plugins/package.xml
