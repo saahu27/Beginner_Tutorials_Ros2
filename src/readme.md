@@ -601,3 +601,19 @@ In a new terminal, source it and run to see the message in the new topic.
 ros2 topic echo /No_Life_iteration
 ```
 
+# Running serverpublisher package
+
+Tha package has three nodes, one simple publisher publishes to topic Life_iteration 3 ints. 
+The other executable subscribes to this topic, and creates a client and waits for the service. once service sends a response, the accepts publishes the three ints to another topic called No_life_iteration. 
+To run the launch file:
+
+```
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build
+. install/setup.bash
+ros2 launch serverpublisher cpp_pubsub_launch.py
+```
+In a new terminal, source it and run to see the message in the new topic.
+```
+ros2 topic echo /No_Life_iteration
+```
