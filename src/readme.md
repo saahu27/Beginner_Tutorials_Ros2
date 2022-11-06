@@ -582,3 +582,22 @@ ament_export_targets(
   export_${PROJECT_NAME}
 )
 ```
+
+# Running ros_tutorial
+
+The ros_tutorial package containes a publisher, which publishes to a topic Life_iteration, and another node which containes a subscriber to the topic Life_iteration
+and publishes the same message to another topic called No_Life_iteration. The message is a custom generate message of 3 ints.
+
+All the nodes are executed by a single launch file cpp_pubsub_launch.py
+
+```
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build
+. install/setup.bash
+ros2 launch ros_tutorial cpp_pubsub_launch.py
+```
+In a new terminal, source it and run to see the message in the new topic.
+```
+ros2 topic echo /No_Life_iteration
+```
+
