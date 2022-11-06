@@ -43,6 +43,7 @@ namespace polygon_plugins
   };
 }
 
+// last three lines, which invokes some magical macros that register the classes as actual plugins
 #include <pluginlib/class_list_macros.hpp>
 
 PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, polygon_base::RegularPolygon)

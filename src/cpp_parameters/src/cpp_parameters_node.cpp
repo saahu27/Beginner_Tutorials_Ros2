@@ -28,11 +28,11 @@ public:
   {
     // Descriptors allow you to specify a text description of the parameter and its constraints, like making it read-only, specifying a range, etc. 
     auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
-    param_desc.description = "This parameter is mine!";
+    param_desc.description = "I Want to know the feeling of life!";
     // The first line of this constructor creates a parameter with
-    // the name my_parameter and a default value of world
+    // the name Declare_life_parameter and a default value of Depression
     // The parameter type is inferred from the default value, so in this case it would be set to a string type.
-    this->declare_parameter("my_parameter", "world", param_desc);
+    this->declare_parameter("Declare_life_parameter", " Depression ", param_desc);
 
     //  the timer_ is initialized with a period of 1000ms, which causes the timer_callback function to be executed once a second.
     timer_ = this->create_wall_timer(
@@ -41,13 +41,19 @@ public:
 
   void timer_callback()
   {
+    
+    RCLCPP_DEBUG_STREAM_ONCE(this->get_logger(), " Starting Parameter node \n");
     std::string my_param =
-      this->get_parameter("my_parameter").get_parameter_value().get<std::string>();
+      this->get_parameter("Declare_life_parameter").get_parameter_value().get<std::string>();
 
-    RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
+    RCLCPP_ERROR_STREAM_ONCE(this->get_logger(), "Parameter Not Created Yet; Yet asked for parameter value: set to default \n ");
 
-    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
+    RCLCPP_INFO(this->get_logger(), "what do you want to do: %s!", my_param.c_str());
+
+    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("Declare_life_parameter", " set it to default \n ")};
     this->set_parameters(all_new_parameters);
+    RCLCPP_WARN_STREAM_ONCE(this->get_logger(), "Initialized parameter after sending the parameter; \n");
+    
   }
 
 private:

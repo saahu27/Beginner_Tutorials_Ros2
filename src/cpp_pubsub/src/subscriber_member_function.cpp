@@ -31,7 +31,7 @@ class MinimalSubscriber : public rclcpp::Node {
  public:
   MinimalSubscriber() : Node("minimal_subscriber") {
     subscription_ = this->create_subscription<tutorial_interfaces::msg::Num>(
-      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      "Life iteration", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
   }
 
  private:

@@ -36,13 +36,13 @@ class MinimalPublisher : public rclcpp::Node {
  public:
   /* The public constructor names the node minimal_publisher and initializes count_ to 0. 
    * inside the constructor, the publisher is initialized with the custom int message type, 
-   * the topic name topic, and the required queue size to limit messages in the event of a backup.
+   * the topic name Life iteration, and the required queue size to limit messages in the event of a backup.
    * Next, timer_ is initialized, which causes the timer_callback function to be executed twice a second.
   */
 
   MinimalPublisher()
   : Node("minimal_publisher"), count_(0) {
-    publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);
+    publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("Life iteration", 10);
     timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
   }
@@ -54,7 +54,7 @@ private:
   void timer_callback() {
     auto message = tutorial_interfaces::msg::Num();
     message.num = this->count_++;
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing: '" << message.num << "'");
+    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration: '" << message.num << "'");
     publisher_->publish(message);
   }
   rclcpp::TimerBase::SharedPtr timer_;
