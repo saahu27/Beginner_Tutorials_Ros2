@@ -43,6 +43,15 @@ class MinimalPublisher : public rclcpp::Node {
   MinimalPublisher()
   : Node("minimal_publisher"), count_(0) {
     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("Life_iteration", 10);
+    auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
+    param_desc.description = "Parameter description!";
+    // The first line of this constructor creates a parameter with
+    // the name Declare_life_parameter and a default value of Depression
+    
+    // The parameter type is INFERRED from the default value, so in this case it would be set to a string type.
+    this->declare_parameter("Parameter_Publisher", "AnyStringValue", param_desc);
+
+    //  the timer_ is initialized with a period of 1000ms, which causes the timer_callback function to be executed once a second.
     timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
   }
@@ -56,9 +65,17 @@ private:
     message.a = this->count_++;
     message.b = this->count_++;
     message.c = this->count_++;
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration: '" << message.a << "'");
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration: '" << message.b << "'");
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration: '" << message.c << "'");
+    std::string my_param =
+      this->get_parameter("Parameter_Publisher").get_parameter_value().get<std::string>();
+
+    RCLCPP_INFO(this->get_logger(), "Parameter value display %s!", my_param.c_str());
+
+    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("Parameter_Publisher", " Parameter value set from main() \n ")};
+    this->set_parameters(all_new_parameters);
+
+    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration a: '" << message.a << "'");
+    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration b: '" << message.b << "'");
+    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration c: '" << message.c << "'");
     publisher_->publish(message);
   }
   rclcpp::TimerBase::SharedPtr timer_;

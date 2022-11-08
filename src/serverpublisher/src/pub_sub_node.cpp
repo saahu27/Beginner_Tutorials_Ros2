@@ -56,16 +56,17 @@ class PublisherSubscriber : public rclcpp::Node
       // Publish the message to the topic named "No_Life_iteration"
       publisher_->publish(message);
       if (msg.a < 3) {
-        RCLCPP_ERROR_STREAM_ONCE(rclcpp::get_logger("rclcpp"),"Cindition to call client not met yet");
+        RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"),"Cindition to call client not met yet");
       }
       if (msg.a > 3) {
         RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Calling client for requesting addition of three numbers");
         Set_Client(msg);
-        RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Came back from client");
+        RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Came back from client to the call back");
       }
     }
 
     void Set_Client(const tutorial_interfaces::msg::Num & msg) const {
+
       RCLCPP_WARN_STREAM_ONCE(this->get_logger(), "Calling client \n");
       std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_client");
       rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::SharedPtr client =
@@ -89,7 +90,7 @@ class PublisherSubscriber : public rclcpp::Node
       // Wait for the result.
       if (rclcpp::spin_until_future_complete(node, result) ==
         rclcpp::FutureReturnCode::SUCCESS) {
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->sum);
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "client recieved Sum: %ld", result.get()->sum);
       } else {
       RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");    // Error Log
       }

@@ -24,7 +24,7 @@ void add(
   "Incoming request\na: %ld" " b: %ld" " c: %ld",
   request->a, request->b, request->c);
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
-  "sending back response: [%ld]", (long int)response->sum);
+  "sent back response: [%ld]", (long int)response->sum);
 }
 
 int main(int argc, char ** argv) {

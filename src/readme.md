@@ -582,6 +582,42 @@ ament_export_targets(
   export_${PROJECT_NAME}
 )
 ```
+# Run-time composition using ROS services with a publisher and subscriber
+
+To see available components:
+```
+ros2 component list
+```
+For Demo:
+```
+ros2 run rclcpp_components component_container
+```
+```
+ros2 component load /ComponentManager composition composition::Talker
+ros2 component load /ComponentManager composition composition::Listener
+```
+
+# Running cpp_parameters
+
+parameter values can be set from launchfile or cpp file or from terminal. can be launched directly ros node or use a launch file. paraeters are set differently thus parameter value initalized will have different parameters in first iteration and then changed to another default from next instance of publishing.
+
+From launch file:
+```
+ros2 launch cpp_parameters cpp_parameters_launch.py
+```
+From Node;
+```
+ros2 run cpp_parameters minimal_param_node
+```
+
+To change parameter value from terminal if launched using launch file.
+```
+ros2 param set /Life_launch_node Declare_life_parameter Depressionfromterminal
+```
+To change parameter value from terminal if launched using executable node name.
+```
+ros2 param set /minimal_param_node Declare_life_parameter Depressionfromterminal
+```
 
 # Running ros_tutorial
 

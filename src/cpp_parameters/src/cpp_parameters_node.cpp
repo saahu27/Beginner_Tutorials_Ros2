@@ -31,8 +31,9 @@ public:
     param_desc.description = "I Want to know the feeling of life!";
     // The first line of this constructor creates a parameter with
     // the name Declare_life_parameter and a default value of Depression
-    // The parameter type is inferred from the default value, so in this case it would be set to a string type.
-    this->declare_parameter("Declare_life_parameter", " Depression ", param_desc);
+    
+    // The parameter type is INFERRED from the default value, so in this case it would be set to a string type.
+    this->declare_parameter("Declare_life_parameter", "Depression", param_desc);
 
     //  the timer_ is initialized with a period of 1000ms, which causes the timer_callback function to be executed once a second.
     timer_ = this->create_wall_timer(
@@ -42,11 +43,11 @@ public:
   void timer_callback()
   {
     
-    RCLCPP_DEBUG_STREAM_ONCE(this->get_logger(), " Starting Parameter node \n");
+    RCLCPP_DEBUG_STREAM(this->get_logger(), " getting parameter value \n");
     std::string my_param =
       this->get_parameter("Declare_life_parameter").get_parameter_value().get<std::string>();
 
-    RCLCPP_ERROR_STREAM_ONCE(this->get_logger(), "Parameter Not Created Yet; Yet asked for parameter value: set to default \n ");
+    RCLCPP_ERROR_STREAM_ONCE(this->get_logger(), "Parameter Not Created Yet; Yet asked for parameter value; value set from launch or cpp \n ");
 
     RCLCPP_INFO(this->get_logger(), "what do you want to do: %s!", my_param.c_str());
 
