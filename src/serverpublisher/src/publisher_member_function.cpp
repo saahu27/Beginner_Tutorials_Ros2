@@ -61,22 +61,28 @@ private:
    * The RCLCPP_INFO macro ensures every published message is printed to the console.
    * */
   void timer_callback() {
-    auto message = tutorial_interfaces::msg::Num();
-    message.a = this->count_++;
-    message.b = this->count_++;
-    message.c = this->count_++;
+    
     std::string my_param =
       this->get_parameter("Parameter_Publisher").get_parameter_value().get<std::string>();
 
-    RCLCPP_INFO(this->get_logger(), "Parameter value display %s!", my_param.c_str());
+    std::string str1 ("AnyStringValue");
+    std::string str2 = my_param.c_str();
+    if (str1.compare(str2) != 0) {
+      auto message = tutorial_interfaces::msg::Num();
+      message.a = (this->count_++) * 2;
+      message.b = (this->count_++) * 4;
+      message.c = (this->count_++) * 6;
 
-    std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("Parameter_Publisher", " Parameter value set from main() \n ")};
-    this->set_parameters(all_new_parameters);
+      RCLCPP_INFO(this->get_logger(), "Parameter value display %s!", my_param.c_str());
 
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration a: '" << message.a << "'");
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration b: '" << message.b << "'");
-    RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration c: '" << message.c << "'");
-    publisher_->publish(message);
+      // std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("Parameter_Publisher", " Parameter value set from main() \n ")};
+      // this->set_parameters(all_new_parameters);
+
+      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration a: '" << message.a << "'");
+      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration b: '" << message.b << "'");
+      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration c: '" << message.c << "'");
+      publisher_->publish(message);
+    }
   }
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;

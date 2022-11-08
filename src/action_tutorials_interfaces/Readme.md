@@ -1,1 +1,0 @@
-[Action Server Client](http://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.html)
