@@ -31,12 +31,14 @@ class MinimalSubscriber : public rclcpp::Node {
  public:
   MinimalSubscriber() : Node("minimal_subscriber") {
     subscription_ = this->create_subscription<tutorial_interfaces::msg::Num>(
-      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      "Life_iteration", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
   }
 
  private:
   void topic_callback(const tutorial_interfaces::msg::Num & msg) const {
-    RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.num << "'");
+    RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.a << "'");
+    RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.b << "'");
+    RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.c << "'");
   }
   rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;
 };

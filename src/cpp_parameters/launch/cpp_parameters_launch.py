@@ -6,11 +6,14 @@ def generate_launch_description():
         Node(
             package="cpp_parameters",
             executable="minimal_param_node",
-            name="custom_minimal_param_node",
+            name="Life_launch_node",
             output="screen",
             emulate_tty=True,
             parameters=[
-                {"my_parameter": "earth"}
-            ]
+                {"Declare_life_parameter": " Depression_launch"}
+            ],
+            remappings=[
+            ("Depression", "Using_remappings")
+        ]
         )
     ])

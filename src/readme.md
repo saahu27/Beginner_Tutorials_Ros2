@@ -582,3 +582,74 @@ ament_export_targets(
   export_${PROJECT_NAME}
 )
 ```
+# Run-time composition using ROS services with a publisher and subscriber
+
+To see available components:
+```
+ros2 component list
+```
+For Demo:
+```
+ros2 run rclcpp_components component_container
+```
+```
+ros2 component load /ComponentManager composition composition::Talker
+ros2 component load /ComponentManager composition composition::Listener
+```
+
+# Running cpp_parameters
+
+parameter values can be set from launchfile or cpp file or from terminal. can be launched directly ros node or use a launch file. paraeters are set differently thus parameter value initalized will have different parameters in first iteration and then changed to another default from next instance of publishing.
+
+From launch file:
+```
+ros2 launch cpp_parameters cpp_parameters_launch.py
+```
+From Node;
+```
+ros2 run cpp_parameters minimal_param_node
+```
+
+To change parameter value from terminal if launched using launch file.
+```
+ros2 param set /Life_launch_node Declare_life_parameter Depressionfromterminal
+```
+To change parameter value from terminal if launched using executable node name.
+```
+ros2 param set /minimal_param_node Declare_life_parameter Depressionfromterminal
+```
+
+# Running ros_tutorial
+
+The ros_tutorial package containes a publisher, which publishes to a topic Life_iteration, and another node which containes a subscriber to the topic Life_iteration
+and publishes the same message to another topic called No_Life_iteration. The message is a custom generate message of 3 ints.
+
+All the nodes are executed by a single launch file cpp_pubsub_launch.py
+
+```
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build
+. install/setup.bash
+ros2 launch ros_tutorial cpp_pubsub_launch.py
+```
+In a new terminal, source it and run to see the message in the new topic.
+```
+ros2 topic echo /No_Life_iteration
+```
+
+# Running serverpublisher package
+
+Tha package has three nodes, one simple publisher publishes to topic Life_iteration 3 ints. 
+The other executable subscribes to this topic, and creates a client and waits for the service. once service sends a response, the accepts publishes the three ints to another topic called No_life_iteration. 
+To run the launch file:
+
+```
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build
+. install/setup.bash
+ros2 launch serverpublisher cpp_pubsub_launch.py
+```
+In a new terminal, source it and run to see the message in the new topic.
+```
+ros2 topic echo /No_Life_iteration
+```
