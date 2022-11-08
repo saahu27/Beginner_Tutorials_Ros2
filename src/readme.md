@@ -14,3 +14,17 @@ git clone
 ```
 
 Resolve dependencies; build and source:
+
+```
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build
+. install/setup.bash
+```
+**any string value except "AnyStringValue" will execute the nodes.**
+```
+ros2 launch serverpublisher cpp_pubsub_launch.py Parameter_launch_argument:="any string value" log_level:="INFO"
+```
+To see the output published to the other topic; In a new terminal, source it and run to see the message in the new topic.
+```
+ros2 topic echo /No_Life_iteration
+```
