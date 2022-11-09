@@ -64,7 +64,7 @@ Directory structure
 
 Navigate to Root of the directory. In the root of the workspace, run colcon build. Since build types such as ament_cmake do not support the concept of the devel space and require the package to be installed, colcon supports the option --symlink-install.
 ```
-colcon build --symlink-install
+colcon build
 ```
 
 # Run Tests
