@@ -53,15 +53,16 @@ class PublisherSubscriber : public rclcpp::Node
       message.b = msg.b;
       message.c = msg.c;
  
-      // Publish the message to the topic named "No_Life_iteration"
-      publisher_->publish(message);
-      if (msg.a < 3) {
+      
+      if (msg.a < 30) {
         RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"),"Cindition to call client not met yet");
       }
-      if (msg.a > 3) {
+      if (msg.a > 30) {
         RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Calling client for requesting addition of three numbers");
         Set_Client(msg);
         RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Came back from client to the call back");
+        // Publish the message to the topic named "No_Life_iteration"
+        publisher_->publish(message);
       }
     }
 
@@ -92,7 +93,7 @@ class PublisherSubscriber : public rclcpp::Node
         rclcpp::FutureReturnCode::SUCCESS) {
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "client recieved Sum: %ld", result.get()->sum);
       } else {
-      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");    // Error Log
+      RCLCPP_ERROR_STREAM(rclcpp::get_logger("rclcpp"), "Failed to call service add_three_ints");    // Error Log
       }
       
     }

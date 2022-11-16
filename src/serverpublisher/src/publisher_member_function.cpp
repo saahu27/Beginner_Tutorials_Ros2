@@ -21,6 +21,7 @@
 #include "tutorial_interfaces/msg/num.hpp"
 
 using namespace std::chrono_literals;
+using std::placeholders::_1;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. 
@@ -51,10 +52,33 @@ class MinimalPublisher : public rclcpp::Node {
     // The parameter type is INFERRED from the default value, so in this case it would be set to a string type.
     this->declare_parameter("Parameter_Publisher", "AnyStringValue", param_desc);
 
-    //  the timer_ is initialized with a period of 1000ms, which causes the timer_callback function to be executed once a second.
-    timer_ = this->create_wall_timer(
-      500ms, std::bind(&MinimalPublisher::timer_callback, this));
-  }
+    
+
+    try{
+      std::string my_param =
+      this->get_parameter("Parameter_Publisher").get_parameter_value().get<std::string>();
+      // Debug logger level
+      RCLCPP_DEBUG_STREAM(this->get_logger(), "current value of parameter: " << my_param);
+
+      if (my_param == "AnyStringValue") {
+        RCLCPP_FATAL_STREAM(this->get_logger(),
+                    "AnyStringValue: parameter value should be different otherwise will not publish");
+      }
+      param_subscriber_ =
+                    std::make_shared<rclcpp::ParameterEventHandler>(this);
+      auto param_callback_ptr = std::bind(&MinimalPublisher::
+                    param_callback, this, _1);
+      param_handle_ = param_subscriber_->add_parameter_callback(
+                        "frequency", param_callback_ptr);
+      //  the timer_ is initialized with a period of 1000ms, which causes the timer_callback function to be executed once a second.
+      timer_ = this->create_wall_timer(
+                500ms, std::bind(&MinimalPublisher::timer_callback, this));
+    }
+    catch (...) {
+            RCLCPP_FATAL_STREAM(this->get_logger(),
+                "Parameter value not set");
+        }
+}
 
 private:
   /* The timer_callback function is where the message data is set and the messages are actually published. 
@@ -73,7 +97,7 @@ private:
       message.b = (this->count_++) * 4;
       message.c = (this->count_++) * 6;
 
-      RCLCPP_INFO(this->get_logger(), "Parameter value display %s!", my_param.c_str());
+      RCLCPP_INFO_STREAM(this->get_logger(), "Parameter value display!" << my_param.c_str());
 
       // std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("Parameter_Publisher", " Parameter value set from main() \n ")};
       // this->set_parameters(all_new_parameters);
@@ -84,8 +108,18 @@ private:
       publisher_->publish(message);
     }
   }
+
+  void param_callback(const rclcpp::Parameter & param) {
+    RCLCPP_INFO_STREAM(this->get_logger(),
+                 "Got updated parameter" << param.get_name().c_str());
+    auto topic_callback_ptr = std::bind(&MinimalPublisher::timer_callback,
+                            this);
+    timer_ = this->create_wall_timer(500ms, topic_callback_ptr);
+  }
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;
+  std::shared_ptr<rclcpp::ParameterEventHandler> param_subscriber_;
+  std::shared_ptr<rclcpp::ParameterCallbackHandle> param_handle_;
   size_t count_;
 };
 
