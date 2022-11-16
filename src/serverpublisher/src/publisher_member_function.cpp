@@ -19,6 +19,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "tutorial_interfaces/msg/num.hpp"
+#include "tutorial_interfaces/srv/add_three_ints.hpp"
 
 using namespace std::chrono_literals;
 
@@ -60,6 +61,8 @@ private:
   /* The timer_callback function is where the message data is set and the messages are actually published. 
    * The RCLCPP_INFO macro ensures every published message is printed to the console.
    * */
+
+  
   void timer_callback() {
     
     std::string my_param =
@@ -82,8 +85,25 @@ private:
       RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration b: '" << message.b << "'");
       RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration c: '" << message.c << "'");
       publisher_->publish(message);
+
+      // void set_Server();
     }
   }
+  // void add(
+  // const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,
+  // std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response> response) {
+  // response->sum = request->a + request->b + request->c;
+  // RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
+  // "Incoming request\na: %ld" " b: %ld" " c: %ld",
+  // request->a, request->b, request->c);
+  // RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
+  // "sent back response: [%ld]", (long int)response->sum);
+  // }
+  // void set_Server() {
+  //   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_server");
+  //   rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service =
+  //   node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints", &add);
+  // }
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;
   size_t count_;

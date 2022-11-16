@@ -20,24 +20,24 @@ def generate_launch_description():
             description="Logging level"
         ),
 
-        launch_ros.actions.Node(
-            package="serverpublisher",
-            executable="talkerandlistner",
-            name="custom_msg_subscriber_to_No_Life_iteration_topic",
-            output="screen",
-            arguments=['--ros-args', '--log-level', LaunchConfiguration('log_level')]
-        ),
+        # launch_ros.actions.Node(
+        #     package="serverpublisher",
+        #     executable="talkerandlistner",
+        #     name="custom_msg_subscriber_to_No_Life_iteration_topic",
+        #     output="screen",
+        #     arguments=['--ros-args', '--log-level', LaunchConfiguration('log_level')]
+        # ),
 
-        launch_ros.actions.Node(
-            package="serverpublisher",
-            executable="talker",
-            name="custom_msg_publisher_to_Life_iteration_topic",
-            parameters=[
-                {"Parameter_Publisher":  LaunchConfiguration('Parameter_launch_argument')}
-            ],
-            output="screen",
-            arguments=['--ros-args', '--log-level', LaunchConfiguration('log_level')]
-        ),
+        # launch_ros.actions.Node(
+        #     package="serverpublisher",
+        #     executable="talker",
+        #     name="custom_msg_publisher_to_Life_iteration_topic",
+        #     parameters=[
+        #         {"Parameter_Publisher":  LaunchConfiguration('Parameter_launch_argument')}
+        #     ],
+        #     output="screen",
+        #     arguments=['--ros-args', '--log-level', LaunchConfiguration('log_level')]
+        # ),
 
         launch_ros.actions.Node(
             package="serverpublisher",
@@ -46,7 +46,5 @@ def generate_launch_description():
             output="screen",
             arguments=['--ros-args', '--log-level', LaunchConfiguration('log_level')]
         )
-
-
         
     ])

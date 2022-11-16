@@ -7,14 +7,14 @@
 #include <functional> // Arithmetic, comparisons, and logical operations
 #include <memory> // Dynamic memory management
 #include <string> // String functions
- 
+#include <cstdlib>
 // ROS Client Library for C++
 // Allows use of the most common elements of ROS 2
 #include "rclcpp/rclcpp.hpp"
  
 // Custom message type that will be used to publish data
 #include "tutorial_interfaces/msg/num.hpp"
-#include <cstdlib>
+
 #include "tutorial_interfaces/srv/add_three_ints.hpp"
  
 using std::placeholders::_1;

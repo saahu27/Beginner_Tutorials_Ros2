@@ -14,18 +14,11 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(tutorial_interfaces REQUIRED) 
 
-add_executable(talker src/publisher_member_function.cpp)
-ament_target_dependencies(talker rclcpp tutorial_interfaces)
-
-add_executable(talkerandlistner src/pub_sub_node.cpp)
-ament_target_dependencies(talkerandlistner rclcpp tutorial_interfaces)
 
 add_executable(server src/add_two_ints_server.cpp)
 ament_target_dependencies(server rclcpp tutorial_interfaces)
 
 install(TARGETS
-  talker
-  talkerandlistner
   server
   DESTINATION lib/${PROJECT_NAME})
 
