@@ -9,8 +9,8 @@
 
 #include <memory>
 
-#include "tutorial_interfaces/srv/add_three_ints.hpp"
 #include "rclcpp/rclcpp.hpp"
+#include "tutorial_interfaces/srv/add_three_ints.hpp"
 
 /* The add function adds three integers from the request and gives the sum to the response, 
  * while notifying the console of its status using logs.
@@ -20,11 +20,13 @@ void add(
   const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,
   std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response> response) {
   response->sum = request->a + request->b + request->c;
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
-  "Incoming request\na: %ld" " b: %ld" " c: %ld",
-  request->a, request->b, request->c);
-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
-  "sent back response: [%ld]", (long int)response->sum);
+  RCLCPP_INFO(
+    rclcpp::get_logger("rclcpp"),
+    "Incoming request\na: %ld"
+    " b: %ld"
+    " c: %ld",
+    request->a, request->b, request->c);
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sent back response: [%ld]", (long int)response->sum);
 }
 
 int main(int argc, char ** argv) {

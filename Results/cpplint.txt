@@ -1,0 +1,4 @@
+Done processing src/serverpublisher/src/add_two_ints_server.cpp
+Done processing src/serverpublisher/src/pub_sub_node.cpp
+Done processing src/serverpublisher/src/publisher_member_function.cpp
+Total errors found: 33

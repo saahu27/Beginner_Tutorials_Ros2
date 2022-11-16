@@ -1,0 +1,3 @@
+message;severity;node;stamp;location
+"AnyStringValue: parameter value should be different otherwise will not publish";"50";"minimal_publisher";"1668571750.894468182";"/home/chotu/Beginner_Tutorials_Ros2/src/serverpublisher/src/publisher_member_function.cpp:MinimalPublisher:64"
+"current value of parameter: AnyStringValue";"10";"minimal_publisher";"1668571750.894399878";"/home/chotu/Beginner_Tutorials_Ros2/src/serverpublisher/src/publisher_member_function.cpp:MinimalPublisher:61"
