@@ -33,19 +33,6 @@ colcon build
 . install/setup.bash
 ```
 
-## Run Publisher-Subscriber
-Follow the below instructions to run the simple publisher and subscriber package.
-- Run the publisher
-```
-ros2 run ros2_cpp_pubsub talker
-```
-- Open a new terminal
-- Source it
-- Run the subscriber
-```
-ros2 run ros2_cpp_pubsub listener
-```
-
 ## Run Server, Subscriber-Publisher-Client, Parameter Publisher
 
 Server - adds three integers and sends back response
