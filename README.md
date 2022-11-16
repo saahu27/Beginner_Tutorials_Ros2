@@ -74,6 +74,11 @@ ros2 param set /minimal_publisher Parameter_Publisher "Sahruday"
 ```
 ros2 run serverpublisher server --ros-args --log-level INFO
 ```
+in new terminal
+```
+ros2 service call /add_three_ints tutorial_interfaces/srv/AddThreeInts "{a: 1,b: 2, c: 3}"
+```
+
 in new terminal:
 ```
 ros2 run serverpublisher talkerandlistner --ros-args --log-level INFO
