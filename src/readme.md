@@ -28,3 +28,14 @@ To see the output published to the other topic; In a new terminal, source it and
 ```
 ros2 topic echo /No_Life_iteration
 ```
+*** any second terminal error try ***
+```
+    ros2 daemon stop
+    ros2 daemon start
+```
+
+To view frames
+```
+ros2 run tf2_tools view_frames
+```
+

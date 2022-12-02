@@ -1,0 +1,10 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/chotu/Beginner_Tutorials_Ros2/src/tutorial_interfaces:msg/Num.msg",
+    "/home/chotu/Beginner_Tutorials_Ros2/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/chotu/Beginner_Tutorials_Ros2/src/tutorial_interfaces:msg/Data.msg",
+    "/home/chotu/Beginner_Tutorials_Ros2/src/tutorial_interfaces:srv/AddThreeInts.srv",
+    "/home/chotu/Beginner_Tutorials_Ros2/src/tutorial_interfaces:srv/ChangeString.srv"
+  ]
+}

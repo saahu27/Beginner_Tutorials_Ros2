@@ -1,0 +1,5 @@
+/home/chotu/Beginner_Tutorials_Ros2/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/chotu/Beginner_Tutorials_Ros2/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/chotu/Beginner_Tutorials_Ros2/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Data.idl
+/home/chotu/Beginner_Tutorials_Ros2/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl
+/home/chotu/Beginner_Tutorials_Ros2/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/ChangeString.idl

@@ -1,0 +1,96 @@
+[0.009s] Invoking command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher': CMAKE_PREFIX_PATH=/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces:/home/chotu/Beginner_Tutorials_Ros2/install/learning_tf2_cpp:/home/chotu/Beginner_Tutorials_Ros2/install/bag_recorder_nodes:/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher:/opt/ros/humble /usr/bin/cmake /home/chotu/Beginner_Tutorials_Ros2/src/serverpublisher -DCMAKE_INSTALL_PREFIX=/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher
+[0.047s] -- The C compiler identification is GNU 11.3.0
+[0.078s] -- The CXX compiler identification is GNU 11.3.0
+[0.082s] -- Detecting C compiler ABI info
+[0.126s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.131s] -- Detecting C compile features - done
+[0.133s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.188s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.323s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.391s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.430s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.433s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.439s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.505s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.508s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.565s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.582s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] -- Looking for pthread.h
+[0.670s] -- Looking for pthread.h - found
+[0.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.720s] -- Found Threads: TRUE  
+[0.839s] -- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)
+[0.882s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.115s] -- Found tutorial_interfaces: 0.0.0 (/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.162s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.163s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.217s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.218s] -- Added test 'clang_format' to check C / C++ code style
+[1.218s] -- Configuring done
+[1.234s] -- Generating done
+[1.236s] -- Build files have been written to: /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher
+[1.243s] Invoked command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher' returned '0': CMAKE_PREFIX_PATH=/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces:/home/chotu/Beginner_Tutorials_Ros2/install/learning_tf2_cpp:/home/chotu/Beginner_Tutorials_Ros2/install/bag_recorder_nodes:/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher:/opt/ros/humble /usr/bin/cmake /home/chotu/Beginner_Tutorials_Ros2/src/serverpublisher -DCMAKE_INSTALL_PREFIX=/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher
+[1.245s] Invoking command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher': CMAKE_PREFIX_PATH=/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces:/home/chotu/Beginner_Tutorials_Ros2/install/learning_tf2_cpp:/home/chotu/Beginner_Tutorials_Ros2/install/bag_recorder_nodes:/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher:/opt/ros/humble /usr/bin/cmake --build /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher -- -j16 -l16
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/talkerandlistner.dir/src/pub_sub_node.cpp.o[0m
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/client_string.dir/src/client_change_string.cpp.o[0m
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/stringserver.dir/src/change_string_server.cpp.o[0m
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/static_transform_publisher.dir/src/static_transform_publisher.cpp.o[0m
+[1.275s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[4.152s] [ 58%] [32m[1mLinking CXX executable server[0m
+[4.165s] [ 66%] [32m[1mLinking CXX executable stringserver[0m
+[4.295s] [ 66%] Built target server
+[4.309s] [ 66%] Built target stringserver
+[5.221s] [ 75%] [32m[1mLinking CXX executable static_transform_publisher[0m
+[5.390s] [ 75%] Built target static_transform_publisher
+[5.491s] [ 83%] [32m[1mLinking CXX executable client_string[0m
+[5.667s] [ 83%] Built target client_string
+[8.291s] [ 91%] [32m[1mLinking CXX executable talker[0m
+[8.418s] [100%] [32m[1mLinking CXX executable talkerandlistner[0m
+[8.592s] [100%] Built target talker
+[8.712s] [100%] Built target talkerandlistner
+[8.721s] Invoked command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher' returned '0': CMAKE_PREFIX_PATH=/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces:/home/chotu/Beginner_Tutorials_Ros2/install/learning_tf2_cpp:/home/chotu/Beginner_Tutorials_Ros2/install/bag_recorder_nodes:/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher:/opt/ros/humble /usr/bin/cmake --build /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher -- -j16 -l16
+[8.747s] Invoking command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher': CMAKE_PREFIX_PATH=/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces:/home/chotu/Beginner_Tutorials_Ros2/install/learning_tf2_cpp:/home/chotu/Beginner_Tutorials_Ros2/install/bag_recorder_nodes:/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher:/opt/ros/humble /usr/bin/cmake --install /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher
+[8.752s] -- Install configuration: ""
+[8.752s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talker
+[8.755s] -- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talker" to ""
+[8.755s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talkerandlistner
+[8.758s] -- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talkerandlistner" to ""
+[8.758s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/server
+[8.758s] -- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/server" to ""
+[8.759s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/stringserver
+[8.759s] -- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/stringserver" to ""
+[8.759s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/static_transform_publisher
+[8.760s] -- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/static_transform_publisher" to ""
+[8.760s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/client_string
+[8.761s] -- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/client_string" to ""
+[8.761s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch
+[8.761s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/cpp_pubsub_launch.py
+[8.761s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/rosbag_launch.py
+[8.761s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/bag_launch.py
+[8.761s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/package_run_dependencies/serverpublisher
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/parent_prefix_path/serverpublisher
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/ament_prefix_path.sh
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/ament_prefix_path.dsv
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/path.sh
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/path.dsv
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.bash
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.sh
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.zsh
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.dsv
+[8.762s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/package.dsv
+[8.763s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/packages/serverpublisher
+[8.763s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisherConfig.cmake
+[8.763s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisherConfig-version.cmake
+[8.763s] -- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/package.xml
+[8.764s] Invoked command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher' returned '0': CMAKE_PREFIX_PATH=/home/chotu/Beginner_Tutorials_Ros2/install/tutorial_interfaces:/home/chotu/Beginner_Tutorials_Ros2/install/learning_tf2_cpp:/home/chotu/Beginner_Tutorials_Ros2/install/bag_recorder_nodes:/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher:/opt/ros/humble /usr/bin/cmake --install /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher
