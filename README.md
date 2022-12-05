@@ -1,14 +1,6 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-I prefer to use a directory structure that is familiar. where src contains my packages. using an overlay. 
-```
-.
-├── build
-├── install
-├── log
-└── src
-
 4 directories, 0 files
 ```
 ## Clone and Build the package
