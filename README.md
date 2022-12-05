@@ -78,3 +78,48 @@ Run the below command from the project root folder `beginner_tutorials`
 cppcheck --enable=all --std=c++17 src/serverpublisher/src/*.cpp --suppress=missingIncludeSystem --suppress=missingInclude --suppress=unmatchedSuppression > Results/cppcheck.txt
 ```
 
+Publish a static transform using ROS2 TF2
+
+Run the static transform publisher that publishes the data to /data topic and also converts the static transformation between world frame and child frame.
+To run the node, use the below command
+```
+ros2 run learning_tf2_cpp static_transform_publisher talk 0.1 0.2 1 2 3 1
+```
+
+Use the tf2_ros to output the transformation to the console.
+
+```
+ros2 run tf2_ros tf2_echo world talk
+```
+or 
+```
+ros2 topic echo /tf_static
+```
+To save the frames and their relation in the pdf, run the below command
+
+```
+ros2 run tf2_tools view_frames
+```
+
+Change string server 
+```
+ros2 run serverpublisher stringserver
+
+```
+```
+ros2 service call /change_strings tutorial_interfaces/srv/ChangeString "{input: 'Hello world'}"
+```
+
+To record a ros bag, run this launch file and terminate after 10 seconds.
+```
+ros2 launch serverpublisher bag_launch.py Parameter_launch_argument:="any string value" log_level:="INFO" record_all_topics:=True
+```
+
+To play the rosbag :
+
+```
+ros2 launch serverpublisher rosbag_launch.py
+```
+```
+ros2 bag play ros2_bag
+```

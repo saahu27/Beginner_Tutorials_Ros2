@@ -1,4 +1,47 @@
-Done processing src/serverpublisher/src/add_two_ints_server.cpp
-Done processing src/serverpublisher/src/pub_sub_node.cpp
-Done processing src/serverpublisher/src/publisher_member_function.cpp
-Total errors found: 33
+src/add_two_ints_server.cpp:29:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/add_two_ints_server.cpp:29:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/add_two_ints_server.cpp:36:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/add_two_ints_server.cpp:38:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/add_two_ints_server.cpp:40:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:29:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:40:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:44:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:59:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:63:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:65:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:73:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:76:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:81:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:83:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:86:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:94:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:95:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/pub_sub_node.cpp:98:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:45:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:65:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:66:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:70:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:72:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:77:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:80:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:81:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:82:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:83:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:95:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:105:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:112:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:113:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:114:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:120:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/publisher_member_function.cpp:121:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/static_transform_publisher.cpp:56:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/static_transform_publisher.cpp:64:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/static_transform_publisher.cpp:77:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/static_transform_publisher.cpp:101:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing src/add_two_ints_server.cpp
+Done processing src/change_string_server.cpp
+Done processing src/client_change_string.cpp
+Done processing src/pub_sub_node.cpp
+Done processing src/publisher_member_function.cpp
+Done processing src/static_transform_publisher.cpp
+Total errors found: 40

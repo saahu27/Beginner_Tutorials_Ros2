@@ -62,7 +62,6 @@ class MinimalPublisher : public rclcpp::Node {
     auto param_desc = rcl_interfaces::msg::ParameterDescriptor{};
     param_desc.description = "Parameter description!";
 
-
     // The parameter type is INFERRED from the default value, so in this case it would be set to a string type.
     this->declare_parameter("Parameter_Publisher", "AnyStringValue", param_desc);
 
@@ -103,29 +102,23 @@ class MinimalPublisher : public rclcpp::Node {
       message.b = (this->count_++) * 4;
       message.c = (this->count_++) * 6;
 
-      RCLCPP_INFO_STREAM(this->get_logger(),
-      "Parameter value display!" << my_param.c_str());
+      RCLCPP_INFO_STREAM(this->get_logger(), "Parameter value display!" << my_param.c_str());
 
       // std::vector<rclcpp::Parameter>
       // all_new_parameters{rclcpp::Parameter("Parameter_Publisher"
       // " Parameter value set from main() \n ")};
       // this->set_parameters(all_new_parameters);
 
-      RCLCPP_INFO_STREAM(this->get_logger(),
-      "Publishing Iteration a: '" << message.a << "'");
-      RCLCPP_INFO_STREAM(this->get_logger(),
-      "Publishing Iteration b: '" << message.b << "'");
-      RCLCPP_INFO_STREAM(this->get_logger(),
-      "Publishing Iteration c: '" << message.c << "'");
+      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration a: '" << message.a << "'");
+      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration b: '" << message.b << "'");
+      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing Iteration c: '" << message.c << "'");
       publisher_->publish(message);
     }
   }
 
   void param_callback(const rclcpp::Parameter & param) {
-    RCLCPP_INFO_STREAM(this->get_logger(), "Got updated parameter"
-    << param.get_name().c_str());
-    auto topic_callback_ptr =
-    std::bind(&MinimalPublisher::timer_callback, this);
+    RCLCPP_INFO_STREAM(this->get_logger(), "Got updated parameter" << param.get_name().c_str());
+    auto topic_callback_ptr = std::bind(&MinimalPublisher::timer_callback, this);
     timer_ = this->create_wall_timer(500ms, topic_callback_ptr);
   }
   rclcpp::TimerBase::SharedPtr timer_;

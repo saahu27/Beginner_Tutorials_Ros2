@@ -12,6 +12,8 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 # For service and msg
@@ -20,7 +22,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "msg/Sphere.msg"
+  "msg/Data.msg"
   "srv/AddThreeInts.srv"
+  "srv/ChangeString.srv"
   DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
@@ -44,6 +48,21 @@ ament_target_dependencies(server rclcpp geometry_msgs std_msgs)
 # TO make sure that executable files can link to service and message headers
 rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
 target_link_libraries(server "${cpp_typesupport_target}")
+
+
+add_executable(stringserver src/change_string_server.cpp)
+ament_target_dependencies(stringserver rclcpp std_msgs geometry_msgs)
+# rosidl_target_interfaces(talker ${PROJECT_NAME} "rosidl_typesupport_cpp")
+# TO make sure that executable files can link to service and message headers
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(stringserver "${cpp_typesupport_target}")
+
+add_executable(static_transform_publisher src/static_transform_publisher.cpp)
+ament_target_dependencies(static_transform_publisher geometry_msgs rclcpp std_msgs tf2 tf2_ros)
+# rosidl_target_interfaces(talker ${PROJECT_NAME} "rosidl_typesupport_cpp")
+# TO make sure that executable files can link to service and message headers
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(static_transform_publisher "${cpp_typesupport_target}")
 
 install(TARGETS
   talker
