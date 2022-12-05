@@ -1,15 +1,11 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-4 directories, 0 files
-```
 ## Clone and Build the package
 - Clone this repository. this package is your workspace.
-```
-
-```
 Make sure that your terminal is sourced
 - Run the below commands:
+
 ```
 cd beginner_tutorials_Ros2
 source /opt/ros/humble/setup.bash
