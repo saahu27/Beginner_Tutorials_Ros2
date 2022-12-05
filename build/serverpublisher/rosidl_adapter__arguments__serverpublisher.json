@@ -1,0 +1,8 @@
+{
+  "package_name": "serverpublisher",
+  "non_idl_tuples": [
+    "/home/chotu/Beginner_Tutorials_Ros2:msg/Num.msg",
+    "/home/chotu/Beginner_Tutorials_Ros2:msg/Sphere.msg",
+    "/home/chotu/Beginner_Tutorials_Ros2:srv/AddThreeInts.srv"
+  ]
+}

@@ -1,0 +1,6 @@
+setup.py
+serverpublisher/__init__.py
+serverpublisher.egg-info/PKG-INFO
+serverpublisher.egg-info/SOURCES.txt
+serverpublisher.egg-info/dependency_links.txt
+serverpublisher.egg-info/top_level.txt
