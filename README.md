@@ -70,12 +70,12 @@ ros2 run rqt_console rqt_console
 ### cpplint
 Run the below command from inside the package folder `beginner_tutorials`
 ```
-cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order src/serverpublisher/src/*.cpp &> Results/cpplint.txt
+cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order src/*.cpp &> Results/cpplint.txt
 ```
 ### cppcheck
 Run the below command from the project root folder `beginner_tutorials`
 ```
-cppcheck --enable=all --std=c++17 src/serverpublisher/src/*.cpp --suppress=missingIncludeSystem --suppress=missingInclude --suppress=unmatchedSuppression > Results/cppcheck.txt
+cppcheck --enable=all --std=c++17 src/*.cpp --suppress=missingIncludeSystem --suppress=missingInclude --suppress=unmatchedSuppression > Results/cppcheck.txt
 ```
 
 Publish a static transform using ROS2 TF2
