@@ -58,7 +58,7 @@ def generate_launch_description():
         launch.actions.ExecuteProcess(
             condition=IfCondition(record_all_topics),
             cmd=['ros2', 'bag', 'record', '-o ros2_bag', '-a'],
-            output='screen'
+            shell=True
         )
         
     ])
