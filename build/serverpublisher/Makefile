@@ -393,17 +393,17 @@ serverpublisher__rosidl_typesupport_c__pyext/fast:
 .PHONY : serverpublisher__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
-# Target rules for targets named server_test
+# Target rules for targets named test_serverpublisher
 
 # Build rule for target.
-server_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server_test
-.PHONY : server_test
+test_serverpublisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_serverpublisher
+.PHONY : test_serverpublisher
 
 # fast build rule for target.
-server_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_test.dir/build.make CMakeFiles/server_test.dir/build
-.PHONY : server_test/fast
+test_serverpublisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serverpublisher.dir/build.make CMakeFiles/test_serverpublisher.dir/build
+.PHONY : test_serverpublisher/fast
 
 #=============================================================================
 # Target rules for targets named talker
@@ -1666,7 +1666,7 @@ test/test_server.o: test/test_server.cpp.o
 
 # target to build an object file
 test/test_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_test.dir/build.make CMakeFiles/server_test.dir/test/test_server.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serverpublisher.dir/build.make CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o
 .PHONY : test/test_server.cpp.o
 
 test/test_server.i: test/test_server.cpp.i
@@ -1674,7 +1674,7 @@ test/test_server.i: test/test_server.cpp.i
 
 # target to preprocess a source file
 test/test_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_test.dir/build.make CMakeFiles/server_test.dir/test/test_server.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serverpublisher.dir/build.make CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.i
 .PHONY : test/test_server.cpp.i
 
 test/test_server.s: test/test_server.cpp.s
@@ -1682,7 +1682,7 @@ test/test_server.s: test/test_server.cpp.s
 
 # target to generate assembly for a file
 test/test_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_test.dir/build.make CMakeFiles/server_test.dir/test/test_server.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serverpublisher.dir/build.make CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.s
 .PHONY : test/test_server.cpp.s
 
 # Help Target
@@ -1708,7 +1708,6 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... server"
-	@echo "... server_test"
 	@echo "... serverpublisher__rosidl_generator_c"
 	@echo "... serverpublisher__rosidl_generator_py"
 	@echo "... serverpublisher__rosidl_typesupport_c"
@@ -1724,6 +1723,7 @@ help:
 	@echo "... stringserver"
 	@echo "... talker"
 	@echo "... talkerandlistner"
+	@echo "... test_serverpublisher"
 	@echo "... rosidl_generator_c/serverpublisher/msg/detail/data__functions.o"
 	@echo "... rosidl_generator_c/serverpublisher/msg/detail/data__functions.i"
 	@echo "... rosidl_generator_c/serverpublisher/msg/detail/data__functions.s"

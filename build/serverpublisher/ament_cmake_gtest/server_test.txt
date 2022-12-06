@@ -1,29 +1,16 @@
 -- run_test.py: invoking following command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher':
  - /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/server_test --gtest_output=xml:/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/server_test.gtest.xml
 
-[==========] Running 3 tests from 1 test suite.
+[==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 3 tests from test_services_client
-unknown file: Failure
-C++ exception with description "context is already initialized" thrown in SetUpTestSuite().
-[ RUN      ] test_services_client.Manipulation1
-[INFO] [1670305711.982539316] [string_server1]: DONE WITH TEST1
-
-[       OK ] test_services_client.Manipulation1 (8 ms)
-[ RUN      ] test_services_client.Manipulation2
-[INFO] [1670305711.987120388] [string_server2]: DONE WITH TEST2
-
-[       OK ] test_services_client.Manipulation2 (4 ms)
-[ RUN      ] test_services_client.Subscriber1
-[INFO] [1670305711.991267376] [subscriber]: DONE WITH TEST3
-
-[       OK ] test_services_client.Subscriber1 (4 ms)
-[----------] 3 tests from test_services_client (17 ms total)
+[----------] 1 test from TestNode
+[ RUN      ] TestNode.test_for_publishers
+[       OK ] TestNode.test_for_publishers (9 ms)
+[----------] 1 test from TestNode (9 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (18 ms total)
-[  PASSED  ] 3 tests.
-DONE SHUTTING DOWN ROS
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
 
 
 -- run_test.py: return code 0

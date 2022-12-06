@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="0" errors="0" time="0.018" timestamp="2022-12-06T00:48:31" name="AllTests">
-  <testsuite name="test_services_client" tests="3" failures="0" disabled="0" errors="0" time="0.017" timestamp="2022-12-06T00:48:31">
-    <testcase name="Manipulation1" status="run" result="completed" time="0.008" timestamp="2022-12-06T00:48:31" classname="serverpublisher.test_services_client" />
-    <testcase name="Manipulation2" status="run" result="completed" time="0.004" timestamp="2022-12-06T00:48:31" classname="serverpublisher.test_services_client" />
-    <testcase name="Subscriber1" status="run" result="completed" time="0.004" timestamp="2022-12-06T00:48:31" classname="serverpublisher.test_services_client" />
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.009" timestamp="2022-12-06T01:00:13" name="AllTests">
+  <testsuite name="TestNode" tests="1" failures="0" disabled="0" errors="0" time="0.009" timestamp="2022-12-06T01:00:13">
+    <testcase name="test_for_publishers" status="run" result="completed" time="0.009" timestamp="2022-12-06T01:00:13" classname="serverpublisher.TestNode" />
   </testsuite>
 </testsuites>

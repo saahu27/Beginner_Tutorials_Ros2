@@ -131,6 +131,7 @@
 /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString.srv
 /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString_Request.msg
 /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString_Response.msg
+/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/test_serverpublisher
 /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talker
 /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talkerandlistner
 /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/server
