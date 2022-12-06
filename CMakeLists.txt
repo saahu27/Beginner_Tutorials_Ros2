@@ -33,6 +33,32 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
+if(BUILD_TESTING)
+  find_package(ament_cmake_gtest REQUIRED)
+  find_package(ament_lint_auto REQUIRED)
+
+  # the following lines skip linters
+  set(ament_cmake_cppcheck_FOUND TRUE)
+  set(ament_cmake_copyright_FOUND TRUE)
+  set(ament_cmake_cpplint_FOUND TRUE)
+  set(ament_cmake_flake8_FOUND TRUE)
+  set(ament_cmake_uncrustify_FOUND TRUE)
+  set(ament_cmake_xmllint_FOUND TRUE)
+  set(ament_cmake_lint_cmake_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+
+  ament_lint_auto_find_test_dependencies()
+
+  # Add gtests
+  ament_add_gtest(server_test test/test_server.cpp)
+  ament_target_dependencies(server_test rclcpp rclcpp_action std_msgs)
+  # rosidl_target_interfaces(server_test ${PROJECT_NAME} "rosidl_typesupport_cpp")
+  rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+  target_link_libraries(server_test "${cpp_typesupport_target}")
+endif()
+
+
+
 add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp geometry_msgs std_msgs)
 # rosidl_target_interfaces(talker ${PROJECT_NAME} "rosidl_typesupport_cpp")
@@ -80,16 +106,6 @@ install(
     DIRECTORY launch
     DESTINATION share/${PROJECT_NAME})
     
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-#   # the following line skips the linter which checks for copyrights
-#   # comment the line when a copyright and license is added to all source files
-#   set(ament_cmake_copyright_FOUND TRUE)
-#   # the following line skips cpplint (only works in a git repo)
-#   # comment the line when this package is in a git repo and when
-#   # a copyright and license is added to all source files
-#   set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+
 
 ament_package()

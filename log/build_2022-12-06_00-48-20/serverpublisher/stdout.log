@@ -1,0 +1,292 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_generator_c[0m
+[  1%] Built target serverpublisher__cpp
+[  6%] Built target gtest_main
+[ 12%] Built target serverpublisher__rosidl_generator_c
+[ 15%] Built target gtest
+[ 15%] Built target ament_cmake_python_copy_serverpublisher
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_fastrtps_c[0m
+[ 32%] Built target serverpublisher__rosidl_typesupport_c
+[ 32%] Built target serverpublisher__rosidl_typesupport_introspection_c
+[ 41%] Built target serverpublisher__rosidl_typesupport_introspection_cpp
+[ 50%] Built target serverpublisher__rosidl_typesupport_cpp
+[ 59%] Built target serverpublisher__rosidl_typesupport_fastrtps_c
+[ 68%] Built target serverpublisher__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[35m[1mConsolidate compiler generated dependencies of target stringserver[0m
+[35m[1mConsolidate compiler generated dependencies of target talkerandlistner[0m
+[35m[1mConsolidate compiler generated dependencies of target server_test[0m
+[35m[1mConsolidate compiler generated dependencies of target static_transform_publisher[0m
+[ 68%] Built target serverpublisher
+[ 77%] Built target talker
+[ 77%] [32mBuilding CXX object CMakeFiles/server_test.dir/test/test_server.cpp.o[0m
+[ 77%] Built target static_transform_publisher
+[ 77%] Built target stringserver
+[ 79%] Built target talkerandlistner
+[ 82%] Built target server
+[ 83%] Built target serverpublisher__py
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_generator_py[0m
+[ 91%] Built target serverpublisher__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_c__pyext[0m
+[ 98%] Built target serverpublisher__rosidl_typesupport_c__pyext
+[ 98%] Built target serverpublisher__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target serverpublisher__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing serverpublisher.egg-info/PKG-INFO
+writing dependency_links to serverpublisher.egg-info/dependency_links.txt
+writing top-level names to serverpublisher.egg-info/top_level.txt
+reading manifest file 'serverpublisher.egg-info/SOURCES.txt'
+writing manifest file 'serverpublisher.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_serverpublisher_egg
+[100%] [32m[1mLinking CXX executable server_test[0m
+[100%] Built target server_test
+-- Install configuration: ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/rosidl_interfaces/serverpublisher
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/data.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__functions.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__functions.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__functions.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__type_support.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__struct.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__functions.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__type_support.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__type_support.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__functions.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__functions.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__struct.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__struct.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/sphere.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/num.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__struct.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__functions.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__functions.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__functions.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__type_support.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__functions.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__struct.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__type_support.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/change_string.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/add_three_ints.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/library_path.sh
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/library_path.dsv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_generator_c.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__traits.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__struct.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__traits.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__builder.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__struct.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__builder.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__builder.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__traits.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__struct.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/sphere.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/data.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/num.hpp
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__struct.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__traits.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__struct.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__builder.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__traits.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__builder.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/change_string.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/add_three_ints.hpp
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/dds_fastrtps
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/dds_fastrtps
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__type_support.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__type_support.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__type_support.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__type_support.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__type_support.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_c.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__type_support.cpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__type_support.cpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__type_support.cpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv
+-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__type_support.cpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__type_support.cpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/pythonpath.sh
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/pythonpath.dsv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/__init__.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere_s.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data_s.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num_s.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/__init__.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/__init__.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints_s.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string_s.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/libserverpublisher__rosidl_generator_py.so
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_c.c
+Listing '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/__init__.py'...
+Listing '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/__init__.py'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data.py'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num.py'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere.py'...
+Listing '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/__init__.py'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints.py'...
+Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string.py'...
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_generator_py.so
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_generator_py.so" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Num.idl
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Sphere.idl
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Data.idl
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts.idl
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString.idl
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Num.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Sphere.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Data.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts.srv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts_Request.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts_Response.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString.srv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString_Request.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString_Response.msg
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talker
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talker" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talkerandlistner
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talkerandlistner" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/server
+-- Set runtime path of "/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/server" to ""
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/cpp_pubsub_launch.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/rosbag_launch.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/bag_launch.py
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/package_run_dependencies/serverpublisher
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/parent_prefix_path/serverpublisher
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/ament_prefix_path.sh
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/ament_prefix_path.dsv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/path.sh
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/path.dsv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.bash
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.sh
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.zsh
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.dsv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/package.dsv
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/packages/serverpublisher
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_cExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_cppExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_pyExport.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisherConfig.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisherConfig-version.cmake
+-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/package.xml

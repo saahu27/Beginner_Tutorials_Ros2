@@ -1,0 +1,11 @@
+source;share/serverpublisher/hook/cmake_prefix_path.ps1
+source;share/serverpublisher/hook/cmake_prefix_path.dsv
+source;share/serverpublisher/hook/cmake_prefix_path.sh
+source;share/serverpublisher/hook/ld_library_path_lib.ps1
+source;share/serverpublisher/hook/ld_library_path_lib.dsv
+source;share/serverpublisher/hook/ld_library_path_lib.sh
+source;share/serverpublisher/local_setup.bash
+source;share/serverpublisher/local_setup.dsv
+source;share/serverpublisher/local_setup.ps1
+source;share/serverpublisher/local_setup.sh
+source;share/serverpublisher/local_setup.zsh

@@ -1,0 +1,158 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  5%] Built target ament_cmake_python_copy_serverpublisher
+running egg_info
+creating serverpublisher.egg-info
+writing serverpublisher.egg-info/PKG-INFO
+writing dependency_links to serverpublisher.egg-info/dependency_links.txt
+writing top-level names to serverpublisher.egg-info/top_level.txt
+writing manifest file 'serverpublisher.egg-info/SOURCES.txt'
+reading manifest file 'serverpublisher.egg-info/SOURCES.txt'
+writing manifest file 'serverpublisher.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_serverpublisher_egg
+[  5%] Built target serverpublisher__cpp
+[  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 13%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_c.dir/rosidl_generator_c/serverpublisher/msg/detail/num__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_c.dir/rosidl_generator_c/serverpublisher/msg/detail/sphere__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_c.dir/rosidl_generator_c/serverpublisher/msg/detail/data__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_c.dir/rosidl_generator_c/serverpublisher/srv/detail/change_string__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_c.dir/rosidl_generator_c/serverpublisher/srv/detail/add_three_ints__functions.c.o[0m
+[ 16%] [32m[1mLinking C shared library libserverpublisher__rosidl_generator_c.so[0m
+[ 16%] Built target serverpublisher__rosidl_generator_c
+[ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serverpublisher/srv/change_string__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serverpublisher/msg/data__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serverpublisher/msg/sphere__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serverpublisher/srv/add_three_ints__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serverpublisher/msg/num__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serverpublisher/srv/detail/add_three_ints__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serverpublisher/msg/detail/num__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serverpublisher/msg/detail/sphere__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serverpublisher/srv/detail/change_string__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serverpublisher/msg/detail/data__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/serverpublisher/msg/num__type_support.cpp.o[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serverpublisher/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/serverpublisher/msg/sphere__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/serverpublisher/msg/data__type_support.cpp.o[0m
+[ 39%] Built target gtest_main
+[ 41%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/serverpublisher/srv/add_three_ints__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serverpublisher/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serverpublisher/msg/detail/dds_fastrtps/data__type_support.cpp.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serverpublisher/msg/detail/sphere__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serverpublisher/msg/detail/num__type_support.c.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serverpublisher/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/serverpublisher/srv/change_string__type_support.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serverpublisher/msg/detail/data__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serverpublisher/srv/detail/dds_fastrtps/change_string__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serverpublisher/srv/detail/add_three_ints__type_support.c.o[0m
+[ 53%] [32m[1mLinking CXX shared library libserverpublisher__rosidl_typesupport_c.so[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serverpublisher/msg/detail/num__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serverpublisher/srv/detail/change_string__type_support.c.o[0m
+[ 56%] [32m[1mLinking CXX shared library libserverpublisher__rosidl_typesupport_cpp.so[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serverpublisher/msg/detail/sphere__type_support_c.cpp.o[0m
+[ 59%] [32m[1mLinking C shared library libserverpublisher__rosidl_typesupport_introspection_c.so[0m
+[ 59%] Built target serverpublisher__rosidl_typesupport_c
+[ 59%] Built target serverpublisher__rosidl_typesupport_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serverpublisher/msg/detail/data__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 62%] Built target serverpublisher__rosidl_typesupport_introspection_c
+[ 63%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serverpublisher/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/talkerandlistner.dir/src/pub_sub_node.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serverpublisher/srv/detail/change_string__type_support_c.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libserverpublisher__rosidl_typesupport_introspection_cpp.so[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/stringserver.dir/src/change_string_server.cpp.o[0m
+[ 69%] Built target serverpublisher__rosidl_typesupport_introspection_cpp
+[ 70%] [32mBuilding CXX object CMakeFiles/static_transform_publisher.dir/src/static_transform_publisher.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libserverpublisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] Built target serverpublisher__rosidl_typesupport_fastrtps_cpp
+[ 73%] [32m[1mLinking CXX shared library libserverpublisher__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target serverpublisher__rosidl_typesupport_fastrtps_c
+[ 73%] Built target serverpublisher
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target serverpublisher__py
+[ 75%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_py.dir/rosidl_generator_py/serverpublisher/msg/_sphere_s.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_py.dir/rosidl_generator_py/serverpublisher/srv/_add_three_ints_s.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_py.dir/rosidl_generator_py/serverpublisher/srv/_change_string_s.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_py.dir/rosidl_generator_py/serverpublisher/msg/_data_s.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_generator_py.dir/rosidl_generator_py/serverpublisher/msg/_num_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/serverpublisher/libserverpublisher__rosidl_generator_py.so[0m
+[ 82%] Built target serverpublisher__rosidl_generator_py
+[ 84%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/serverpublisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/serverpublisher/serverpublisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 87%] Built target serverpublisher__rosidl_typesupport_fastrtps_c__pyext
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/serverpublisher/serverpublisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/serverpublisher/serverpublisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] Built target serverpublisher__rosidl_typesupport_introspection_c__pyext
+[ 89%] Built target serverpublisher__rosidl_typesupport_c__pyext
+[ 91%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 91%] Built target gtest
+[ 92%] [32mBuilding CXX object CMakeFiles/server_test.dir/test/test_server.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable stringserver[0m
+[ 94%] [32m[1mLinking CXX executable server[0m
+[ 94%] Built target stringserver
+[ 94%] Built target server
+[ 96%] [32m[1mLinking CXX executable static_transform_publisher[0m
+[ 96%] Built target static_transform_publisher
+[ 97%] [32m[1mLinking CXX executable talker[0m
+[ 98%] [32m[1mLinking CXX executable talkerandlistner[0m
+[ 98%] Built target talker
+[ 98%] Built target talkerandlistner

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from serverpublisher/msg/Data.msg
+// generated code does not contain a copyright notice
+
+
+module serverpublisher {
+  module msg {
+    struct Data {
+      string my_data;
+    };
+  };
+};

@@ -65,28 +65,28 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp/exceptions.hpp"
-#include "tutorial_interfaces/srv/change_string.hpp"
+#include "serverpublisher/srv/change_string.hpp"
 #include "std_msgs/msg/string.hpp"
-#include "tutorial_interfaces/msg/data.hpp"
+#include "serverpublisher/msg/data.hpp"
 
 // Typedefs declared by using to improve code readability
 
-using my_data = tutorial_interfaces::msg::Data;
+using my_data = serverpublisher::msg::Data;
 using REQUEST = std::shared_ptr
-                <tutorial_interfaces::srv::ChangeString::Request>;
+                <serverpublisher::srv::ChangeString::Request>;
 using RESPONSE = std::shared_ptr
-                <tutorial_interfaces::srv::ChangeString::Response>;
+                <serverpublisher::srv::ChangeString::Response>;
 
 using NODE = rclcpp::Node;
 
-using SERVICE = tutorial_interfaces::srv::ChangeString;
+using SERVICE = serverpublisher::srv::ChangeString;
 
 using namespace std::chrono_literals;
-using my_datatype = tutorial_interfaces::msg::Data;
+using my_datatype = serverpublisher::msg::Data;
 using std::placeholders::_1;
 using PUBLISHER   = rclcpp::Publisher<my_datatype>::SharedPtr;
 using TIMER       = rclcpp::TimerBase::SharedPtr;
-using CLIENT    = rclcpp::Client<tutorial_interfaces::srv::ChangeString>::SharedPtr;
+using CLIENT    = rclcpp::Client<serverpublisher::srv::ChangeString>::SharedPtr;
 
 // RMW_IMPLEMENTATION definition to write gtest using test fixtures
 #ifdef RMW_IMPLEMENTATION
@@ -156,7 +156,7 @@ TEST_F(CLASSNAME(test_services_client, RMW_IMPLEMENTATION), Manipulation1) {
 
     // Create a client with the service name (same as in the server)
     CLIENT client = node->create_client
-                <ros2_cpp_pubsub::srv::ChangeString>(service_name);
+                <serverpublisher::srv::ChangeString>(service_name);
 
     // Check if the operation is interrupted while waiting for server
     while (!client->wait_for_service(1s)) {
@@ -166,7 +166,7 @@ TEST_F(CLASSNAME(test_services_client, RMW_IMPLEMENTATION), Manipulation1) {
     }
     // REQUEST
     auto request = std::make_shared
-            <ros2_cpp_pubsub::srv::ChangeString::Request>();
+            <serverpublisher::srv::ChangeString::Request>();
     // Request Data
     request->input = "TEST1";
     auto result = client->async_send_request(request);
@@ -194,7 +194,7 @@ TEST_F(CLASSNAME(test_services_client, RMW_IMPLEMENTATION), Manipulation2) {
 
     // Create a client with the service name (same as in the server)
     CLIENT client = node->create_client
-                <ros2_cpp_pubsub::srv::ChangeString>(service_name);
+                <serverpublisher::srv::ChangeString>(service_name);
 
     // Check if the operation is interrupted while waiting for server
     while (!client->wait_for_service(1s)) {
@@ -205,7 +205,7 @@ TEST_F(CLASSNAME(test_services_client, RMW_IMPLEMENTATION), Manipulation2) {
 
     // Check if the operation is interrupted while waiting for server
     auto request = std::make_shared
-            <ros2_cpp_pubsub::srv::ChangeString::Request>();
+            <serverpublisher::srv::ChangeString::Request>();
     // REQUEST
     request->input = "TEST2";
     // Request Data

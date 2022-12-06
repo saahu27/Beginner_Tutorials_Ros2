@@ -1,0 +1,4 @@
+source;share/serverpublisher/environment/ament_prefix_path.sh
+source;share/serverpublisher/environment/library_path.sh
+source;share/serverpublisher/environment/path.sh
+source;share/serverpublisher/environment/pythonpath.sh
