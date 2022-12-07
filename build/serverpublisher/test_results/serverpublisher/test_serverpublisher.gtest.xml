@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.009" timestamp="2022-12-06T19:51:17" name="AllTests">
-  <testsuite name="TestNode" tests="1" failures="0" disabled="0" errors="0" time="0.009" timestamp="2022-12-06T19:51:17">
-    <testcase name="test_for_publishers" status="run" result="completed" time="0.009" timestamp="2022-12-06T19:51:17" classname="serverpublisher.TestNode" />
-  </testsuite>
-</testsuites>
