@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/static_transform_publisher.dir/src/static_transform_publisher.cpp.o"
-  "CMakeFiles/static_transform_publisher.dir/src/static_transform_publisher.cpp.o.d"
+  "CMakeFiles/static_transform_publisher.dir/src/static_transform_publisher.o"
+  "CMakeFiles/static_transform_publisher.dir/src/static_transform_publisher.o.d"
   "static_transform_publisher"
   "static_transform_publisher.pdb"
 )

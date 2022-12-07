@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/talkerandlistner.dir/src/pub_sub_node.cpp.o"
-  "CMakeFiles/talkerandlistner.dir/src/pub_sub_node.cpp.o.d"
+  "CMakeFiles/talkerandlistner.dir/src/pub_sub_node.o"
+  "CMakeFiles/talkerandlistner.dir/src/pub_sub_node.o.d"
   "talkerandlistner"
   "talkerandlistner.pdb"
 )

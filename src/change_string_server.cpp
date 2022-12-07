@@ -20,9 +20,9 @@
  * @brief A server that manipulates the string input from client
  * @version 0.1
  * @date 2022-11-14
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 #include <memory>
 #include <string>
@@ -34,8 +34,8 @@
 
 // Typedefs declared by using to improve code readability
 
-using my_data = serverpublisher::msg::Data;
-using REQUEST = std::shared_ptr<serverpublisher::srv::ChangeString::Request>;
+using my_data  = serverpublisher::msg::Data;
+using REQUEST  = std::shared_ptr<serverpublisher::srv::ChangeString::Request>;
 using RESPONSE = std::shared_ptr<serverpublisher::srv::ChangeString::Response>;
 
 using NODE = rclcpp::Node;
@@ -44,14 +44,17 @@ using SERVICE = serverpublisher::srv::ChangeString;
 
 /**
  * @brief This function manipulates the input from client request
- * 
+ *
  * @param request Given by the client
  * @param response Given by the server to the client
  */
-void manipulate(const REQUEST request, RESPONSE response) {
+void manipulate(const REQUEST request, RESPONSE response)
+{
   auto input_str = static_cast<std::string>(request->input.c_str());
-  auto add_str = " changed by server";
+  auto add_str   = " changed by server";
+
   response->output = input_str + add_str;
+
   // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\n %s",
   //             request->input.c_str());
   // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response:
@@ -60,12 +63,13 @@ void manipulate(const REQUEST request, RESPONSE response) {
 
 /**
  * @brief This function initializes the server with a node and service name
- * 
- * @param argc 
- * @param argv 
+ *
+ * @param argc
+ * @param argv
  * @return int 0
  */
-int main(int argc, char ** argv) {
+int main(int argc, char **argv)
+{
   // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "%d", argc);
   rclcpp::init(argc, argv);
 
@@ -75,7 +79,7 @@ int main(int argc, char ** argv) {
     node->create_service<SERVICE>("change_strings", &manipulate);
 
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
-   "Ready to manipulate string");
+              "Ready to manipulate string");
 
   rclcpp::spin(node);
   rclcpp::shutdown();

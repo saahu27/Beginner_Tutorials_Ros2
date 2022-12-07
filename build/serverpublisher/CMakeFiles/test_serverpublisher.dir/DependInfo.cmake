@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp" "CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o" "gcc" "CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o.d"
+  "/home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp" "CMakeFiles/test_serverpublisher.dir/test/test_server.o" "gcc" "CMakeFiles/test_serverpublisher.dir/test/test_server.o.d"
   )
 
 # Targets to which this target links.

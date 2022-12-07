@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o"
-  "CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o.d"
+  "CMakeFiles/test_serverpublisher.dir/test/test_server.o"
+  "CMakeFiles/test_serverpublisher.dir/test/test_server.o.d"
   "test_serverpublisher"
   "test_serverpublisher.pdb"
 )

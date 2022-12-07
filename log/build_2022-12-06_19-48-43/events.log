@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000445] (serverpublisher) JobQueued: {'identifier': 'serverpublisher', 'dependencies': OrderedDict()}
+[0.001121] (serverpublisher) JobStarted: {'identifier': 'serverpublisher'}
+[0.009151] (serverpublisher) JobProgress: {'identifier': 'serverpublisher', 'progress': 'cmake'}
+[0.009933] (serverpublisher) Command: {'cmd': ['/usr/bin/cmake', '/home/chotu/Beginner_Tutorials_Ros2', '-DCMAKE_INSTALL_PREFIX=/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher'], 'cwd': '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher', 'env': OrderedDict([('USER', 'chotu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chotu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chotu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chotu25:@/tmp/.ICE-unix/2518,unix/chotu25:/tmp/.ICE-unix/2518'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/885495ba_37e7_48c3_b1c7_df8d5664eab1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024805] (serverpublisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100028] (-) TimerEvent: {}
+[0.136882] (serverpublisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.169493] (serverpublisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.171742] (serverpublisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.177820] (serverpublisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.187496] (serverpublisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.200094] (-) TimerEvent: {}
+[0.200640] (serverpublisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.245907] (serverpublisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.247575] (serverpublisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300193] (-) TimerEvent: {}
+[0.332667] (serverpublisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400286] (-) TimerEvent: {}
+[0.444170] (serverpublisher) StdoutLine: {'line': b'-- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.482902] (serverpublisher) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.500358] (-) TimerEvent: {}
+[0.600930] (-) TimerEvent: {}
+[0.701176] (-) TimerEvent: {}
+[0.710512] (serverpublisher) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.745291] (serverpublisher) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.801276] (-) TimerEvent: {}
+[0.901522] (-) TimerEvent: {}
+[0.983322] (serverpublisher) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.002011] (-) TimerEvent: {}
+[1.102470] (-) TimerEvent: {}
+[1.202721] (-) TimerEvent: {}
+[1.260339] (serverpublisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302824] (-) TimerEvent: {}
+[1.367506] (serverpublisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.380793] (serverpublisher) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.399417] (serverpublisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.399539] (serverpublisher) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.399595] (serverpublisher) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.402892] (-) TimerEvent: {}
+[1.422584] (serverpublisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.431744] (serverpublisher) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.470228] (serverpublisher) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.471373] (serverpublisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.502974] (-) TimerEvent: {}
+[1.522969] (serverpublisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.525969] (serverpublisher) StdoutLine: {'line': b'-- Build files have been written to: /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher\n'}
+[1.536155] (serverpublisher) CommandEnded: {'returncode': 0}
+[1.536655] (serverpublisher) JobProgress: {'identifier': 'serverpublisher', 'progress': 'build'}
+[1.537197] (serverpublisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher', '--', '-j16', '-l16'], 'cwd': '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher', 'env': OrderedDict([('USER', 'chotu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chotu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chotu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chotu25:@/tmp/.ICE-unix/2518,unix/chotu25:/tmp/.ICE-unix/2518'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/885495ba_37e7_48c3_b1c7_df8d5664eab1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.562354] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_generator_c\x1b[0m\n'}
+[1.562564] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[1.562623] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.566943] (serverpublisher) StdoutLine: {'line': b'[  1%] Built target serverpublisher__cpp\n'}
+[1.572387] (serverpublisher) StdoutLine: {'line': b'[ 10%] Built target serverpublisher__rosidl_generator_c\n'}
+[1.572883] (serverpublisher) StdoutLine: {'line': b'[ 12%] Built target gtest_main\n'}
+[1.573386] (serverpublisher) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_serverpublisher\n'}
+[1.573582] (serverpublisher) StdoutLine: {'line': b'[ 15%] Built target gtest\n'}
+[1.573673] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.573765] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.574318] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.578592] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.578857] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_c\x1b[0m\n'}
+[1.579077] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_serverpublisher\x1b[0m\n'}
+[1.580354] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.584801] (serverpublisher) StdoutLine: {'line': b'[ 31%] Built target serverpublisher__rosidl_typesupport_c\n'}
+[1.585014] (serverpublisher) StdoutLine: {'line': b'[ 34%] Built target serverpublisher__rosidl_typesupport_introspection_cpp\n'}
+[1.585119] (serverpublisher) StdoutLine: {'line': b'[ 43%] Built target serverpublisher__rosidl_typesupport_cpp\n'}
+[1.585200] (serverpublisher) StdoutLine: {'line': b'[ 50%] Built target serverpublisher__rosidl_typesupport_introspection_c\n'}
+[1.586034] (serverpublisher) StdoutLine: {'line': b'[ 59%] Built target serverpublisher__rosidl_typesupport_fastrtps_cpp\n'}
+[1.591611] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[1.591829] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_transform_publisher\x1b[0m\n'}
+[1.591900] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stringserver\x1b[0m\n'}
+[1.591961] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talkerandlistner\x1b[0m\n'}
+[1.592019] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.592392] (serverpublisher) StdoutLine: {'line': b'[ 68%] Built target serverpublisher__rosidl_typesupport_fastrtps_c\n'}
+[1.597432] (serverpublisher) StdoutLine: {'line': b'[ 70%] Built target test_serverpublisher\n'}
+[1.602753] (serverpublisher) StdoutLine: {'line': b'[ 75%] Built target stringserver\n'}
+[1.602993] (-) TimerEvent: {}
+[1.603123] (serverpublisher) StdoutLine: {'line': b'[ 75%] Built target serverpublisher\n'}
+[1.603205] (serverpublisher) StdoutLine: {'line': b'[ 77%] Built target talker\n'}
+[1.603257] (serverpublisher) StdoutLine: {'line': b'[ 78%] Built target server\n'}
+[1.603300] (serverpublisher) StdoutLine: {'line': b'[ 81%] Built target static_transform_publisher\n'}
+[1.603366] (serverpublisher) StdoutLine: {'line': b'[ 83%] Built target talkerandlistner\n'}
+[1.612821] (serverpublisher) StdoutLine: {'line': b'[ 84%] Built target serverpublisher__py\n'}
+[1.618372] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_generator_py\x1b[0m\n'}
+[1.628791] (serverpublisher) StdoutLine: {'line': b'[ 92%] Built target serverpublisher__rosidl_generator_py\n'}
+[1.634431] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.634593] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.634664] (serverpublisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serverpublisher__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.642056] (serverpublisher) StdoutLine: {'line': b'[ 98%] Built target serverpublisher__rosidl_typesupport_introspection_c__pyext\n'}
+[1.642265] (serverpublisher) StdoutLine: {'line': b'[ 98%] Built target serverpublisher__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.642352] (serverpublisher) StdoutLine: {'line': b'[100%] Built target serverpublisher__rosidl_typesupport_c__pyext\n'}
+[1.703097] (-) TimerEvent: {}
+[1.732383] (serverpublisher) StdoutLine: {'line': b'running egg_info\n'}
+[1.732797] (serverpublisher) StdoutLine: {'line': b'writing serverpublisher.egg-info/PKG-INFO\n'}
+[1.732958] (serverpublisher) StdoutLine: {'line': b'writing dependency_links to serverpublisher.egg-info/dependency_links.txt\n'}
+[1.733061] (serverpublisher) StdoutLine: {'line': b'writing top-level names to serverpublisher.egg-info/top_level.txt\n'}
+[1.734858] (serverpublisher) StdoutLine: {'line': b"reading manifest file 'serverpublisher.egg-info/SOURCES.txt'\n"}
+[1.735335] (serverpublisher) StdoutLine: {'line': b"writing manifest file 'serverpublisher.egg-info/SOURCES.txt'\n"}
+[1.751282] (serverpublisher) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_serverpublisher_egg\n'}
+[1.756964] (serverpublisher) CommandEnded: {'returncode': 0}
+[1.803181] (-) TimerEvent: {}
+[1.819887] (serverpublisher) JobProgress: {'identifier': 'serverpublisher', 'progress': 'install'}
+[1.826103] (serverpublisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher'], 'cwd': '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher', 'env': OrderedDict([('USER', 'chotu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chotu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chotu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chotu25:@/tmp/.ICE-unix/2518,unix/chotu25:/tmp/.ICE-unix/2518'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/885495ba_37e7_48c3_b1c7_df8d5664eab1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.830220] (serverpublisher) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[1.830379] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/rosidl_interfaces/serverpublisher\n'}
+[1.830445] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher\n'}
+[1.830507] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg\n'}
+[1.830562] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/data.h\n'}
+[1.830619] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail\n'}
+[1.830690] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__functions.c\n'}
+[1.830865] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__functions.c\n'}
+[1.830923] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__functions.h\n'}
+[1.830976] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__type_support.h\n'}
+[1.831034] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__struct.h\n'}
+[1.831086] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__functions.h\n'}
+[1.831143] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__type_support.h\n'}
+[1.831200] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__type_support.h\n'}
+[1.831256] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__functions.h\n'}
+[1.831309] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__functions.c\n'}
+[1.831353] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__struct.h\n'}
+[1.831397] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__struct.h\n'}
+[1.831439] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/sphere.h\n'}
+[1.831483] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/num.h\n'}
+[1.831535] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.831580] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv\n'}
+[1.831624] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail\n'}
+[1.831667] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__struct.h\n'}
+[1.831711] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__functions.h\n'}
+[1.831754] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__functions.c\n'}
+[1.831798] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__functions.c\n'}
+[1.831842] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__type_support.h\n'}
+[1.831884] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__functions.h\n'}
+[1.831927] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__struct.h\n'}
+[1.831972] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__type_support.h\n'}
+[1.832021] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/change_string.h\n'}
+[1.832065] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/add_three_ints.h\n'}
+[1.832108] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/library_path.sh\n'}
+[1.832180] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/library_path.dsv\n'}
+[1.832248] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_generator_c.so\n'}
+[1.832333] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher\n'}
+[1.832435] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg\n'}
+[1.832549] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail\n'}
+[1.832613] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.832674] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[1.832734] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[1.832795] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.832855] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv\n'}
+[1.832915] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail\n'}
+[1.833002] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h\n'}
+[1.833066] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.833172] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_fastrtps_c.so\n'}
+[1.833236] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher\n'}
+[1.833360] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg\n'}
+[1.833481] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail\n'}
+[1.833530] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__traits.hpp\n'}
+[1.833621] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__struct.hpp\n'}
+[1.833667] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__traits.hpp\n'}
+[1.833711] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__builder.hpp\n'}
+[1.833755] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__struct.hpp\n'}
+[1.833797] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__builder.hpp\n'}
+[1.833839] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__builder.hpp\n'}
+[1.833880] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__traits.hpp\n'}
+[1.833923] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__struct.hpp\n'}
+[1.833964] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/sphere.hpp\n'}
+[1.834028] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/data.hpp\n'}
+[1.834073] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/num.hpp\n'}
+[1.834117] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv\n'}
+[1.834164] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail\n'}
+[1.834234] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__struct.hpp\n'}
+[1.834325] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__traits.hpp\n'}
+[1.834371] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__struct.hpp\n'}
+[1.834416] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__builder.hpp\n'}
+[1.834460] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__traits.hpp\n'}
+[1.834503] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__builder.hpp\n'}
+[1.834547] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/change_string.hpp\n'}
+[1.834595] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/add_three_ints.hpp\n'}
+[1.834663] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher\n'}
+[1.834709] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg\n'}
+[1.834752] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail\n'}
+[1.834796] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.834840] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/dds_fastrtps\n'}
+[1.834891] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.834963] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.835023] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.835070] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv\n'}
+[1.835115] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail\n'}
+[1.835160] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.835205] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/dds_fastrtps\n'}
+[1.835310] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.835355] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.835405] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher\n'}
+[1.835460] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg\n'}
+[1.835506] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail\n'}
+[1.835549] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[1.835593] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_introspection_c.h\n'}
+[1.835636] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__type_support.c\n'}
+[1.835684] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__type_support.c\n'}
+[1.835730] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__type_support.c\n'}
+[1.835791] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[1.835835] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.835878] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv\n'}
+[1.835920] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail\n'}
+[1.835963] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_introspection_c.h\n'}
+[1.836006] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[1.836049] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__type_support.c\n'}
+[1.836106] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__type_support.c\n'}
+[1.836152] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_introspection_c.so\n'}
+[1.836219] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_c.so\n'}
+[1.836264] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher\n'}
+[1.836333] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg\n'}
+[1.836380] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail\n'}
+[1.836425] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__type_support.cpp\n'}
+[1.836493] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.836540] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.836604] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/num__type_support.cpp\n'}
+[1.836698] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/sphere__type_support.cpp\n'}
+[1.836806] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.836909] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv\n'}
+[1.836959] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail\n'}
+[1.837004] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__type_support.cpp\n'}
+[1.837049] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__type_support.cpp\n'}
+[1.837093] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.837137] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/include/serverpublisher/serverpublisher/srv/detail/change_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.837181] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_introspection_cpp.so\n'}
+[1.837224] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_typesupport_cpp.so\n'}
+[1.837268] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/pythonpath.sh\n'}
+[1.837313] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/pythonpath.dsv\n'}
+[1.837357] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info\n'}
+[1.837402] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.837446] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.837490] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.837534] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.837579] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher\n'}
+[1.837622] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg\n'}
+[1.837665] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num.py\n'}
+[1.837708] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/__init__.py\n'}
+[1.837758] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere_s.c\n'}
+[1.837810] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data.py\n'}
+[1.837855] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data_s.c\n'}
+[1.837899] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere.py\n'}
+[1.837941] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num_s.c\n'}
+[1.837984] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.838028] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/__init__.py\n'}
+[1.838076] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv\n'}
+[1.838120] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/__init__.py\n'}
+[1.838171] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints_s.c\n'}
+[1.838224] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints.py\n'}
+[1.838268] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string.py\n'}
+[1.838311] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string_s.c\n'}
+[1.838353] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.838396] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.838439] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.838484] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/libserverpublisher__rosidl_generator_py.so\n'}
+[1.838528] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.838572] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/_serverpublisher_s.ep.rosidl_typesupport_c.c\n'}
+[1.855399] (serverpublisher) StdoutLine: {'line': b"Listing '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher'...\n"}
+[1.855518] (serverpublisher) StdoutLine: {'line': b"Compiling '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/__init__.py'...\n"}
+[1.855583] (serverpublisher) StdoutLine: {'line': b"Listing '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg'...\n"}
+[1.855642] (serverpublisher) StdoutLine: {'line': b"Listing '/home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv'...\n"}
+[1.858280] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.858731] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.859157] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/serverpublisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.859594] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/libserverpublisher__rosidl_generator_py.so\n'}
+[1.859711] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Num.idl\n'}
+[1.859852] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Sphere.idl\n'}
+[1.859953] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Data.idl\n'}
+[1.860021] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts.idl\n'}
+[1.860069] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString.idl\n'}
+[1.860115] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Num.msg\n'}
+[1.860165] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Sphere.msg\n'}
+[1.860209] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/msg/Data.msg\n'}
+[1.860252] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts.srv\n'}
+[1.860295] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts_Request.msg\n'}
+[1.860338] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/AddThreeInts_Response.msg\n'}
+[1.860384] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString.srv\n'}
+[1.860428] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString_Request.msg\n'}
+[1.860475] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/srv/ChangeString_Response.msg\n'}
+[1.860537] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/test_serverpublisher\n'}
+[1.860875] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talker\n'}
+[1.861400] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/talkerandlistner\n'}
+[1.861898] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/lib/serverpublisher/server\n'}
+[1.861989] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch\n'}
+[1.862076] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/cpp_pubsub_launch.py\n'}
+[1.862146] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/rosbag_launch.py\n'}
+[1.862223] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/launch/bag_launch.py\n'}
+[1.862297] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/package_run_dependencies/serverpublisher\n'}
+[1.862357] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/parent_prefix_path/serverpublisher\n'}
+[1.862434] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/ament_prefix_path.sh\n'}
+[1.862480] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/ament_prefix_path.dsv\n'}
+[1.862524] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/path.sh\n'}
+[1.862592] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/environment/path.dsv\n'}
+[1.862640] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.bash\n'}
+[1.862717] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.sh\n'}
+[1.862775] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.zsh\n'}
+[1.862841] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/local_setup.dsv\n'}
+[1.862889] (serverpublisher) StdoutLine: {'line': b'-- Installing: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/package.dsv\n'}
+[1.862966] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/ament_index/resource_index/packages/serverpublisher\n'}
+[1.863043] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_cExport.cmake\n'}
+[1.863090] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_cExport-debug.cmake\n'}
+[1.863174] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.863258] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cExport-debug.cmake\n'}
+[1.863350] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_cppExport.cmake\n'}
+[1.863421] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.863487] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_typesupport_fastrtps_cppExport-debug.cmake\n'}
+[1.863536] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.863581] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cExport-debug.cmake\n'}
+[1.863624] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cExport.cmake\n'}
+[1.863667] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cExport-debug.cmake\n'}
+[1.863710] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.863753] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_introspection_cppExport-debug.cmake\n'}
+[1.863796] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cppExport.cmake\n'}
+[1.863839] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisher__rosidl_typesupport_cppExport-debug.cmake\n'}
+[1.863880] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_pyExport.cmake\n'}
+[1.863922] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/export_serverpublisher__rosidl_generator_pyExport-debug.cmake\n'}
+[1.863964] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/rosidl_cmake-extras.cmake\n'}
+[1.864006] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.864050] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.864093] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.864136] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.864184] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.864227] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.864325] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisherConfig.cmake\n'}
+[1.864374] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/cmake/serverpublisherConfig-version.cmake\n'}
+[1.864466] (serverpublisher) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/Beginner_Tutorials_Ros2/install/serverpublisher/share/serverpublisher/package.xml\n'}
+[1.864932] (serverpublisher) CommandEnded: {'returncode': 0}
+[1.903288] (-) TimerEvent: {}
+[1.950786] (serverpublisher) JobEnded: {'identifier': 'serverpublisher', 'rc': 0}
+[1.951409] (-) EventReactorShutdown: {}

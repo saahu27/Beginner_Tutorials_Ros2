@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20221207-0051-Experimental"
+	Name="chotu25"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.3.0"
+	OSName="Linux"
+	Hostname="chotu25"
+	OSRelease="5.15.0-56-generic"
+	OSVersion="#62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15356"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="400"
+	>
+	<Testing>
+		<StartDateTime>Dec 06 19:51 EST</StartDateTime>
+		<StartTestTime>1670374277</StartTestTime>
+		<TestList>
+			<Test>./test_serverpublisher</Test>
+			<Test>./pep257</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_serverpublisher</Name>
+			<Path>.</Path>
+			<FullName>./test_serverpublisher</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml" "--package-name" "serverpublisher" "--output-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/ament_cmake_gtest/test_serverpublisher.txt" "--command" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_serverpublisher" "--gtest_output=xml:/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.159712</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml" "--package-name" "serverpublisher" "--output-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/ament_cmake_gtest/test_serverpublisher.txt" "--command" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_serverpublisher" "--gtest_output=xml:/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher':
+ - /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_serverpublisher --gtest_output=xml:/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestNode
+[ RUN      ] TestNode.test_for_publishers
+[       OK ] TestNode.test_for_publishers (9 ms)
+[----------] 1 test from TestNode (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml'
+-- run_test.py: verify result file '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml" "--package-name" "serverpublisher" "--output-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.332057</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml" "--package-name" "serverpublisher" "--output-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/chotu/Beginner_Tutorials_Ros2':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/__init__.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/__init__.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/_data.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/_num.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/_sphere.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/srv/__init__.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/srv/_add_three_ints.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/srv/_change_string.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/setup.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/__init__.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/__init__.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/_data.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/_num.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/_sphere.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/srv/__init__.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/srv/_add_three_ints.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/srv/_change_string.py
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/__init__.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/__init__.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/__init__.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string.py
+checking ./install/serverpublisher/share/serverpublisher/launch/bag_launch.py
+checking ./install/serverpublisher/share/serverpublisher/launch/cpp_pubsub_launch.py
+checking ./install/serverpublisher/share/serverpublisher/launch/rosbag_launch.py
+checking ./launch/bag_launch.py
+checking ./launch/cpp_pubsub_launch.py
+checking ./launch/rosbag_launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Dec 06 19:51 EST</EndDateTime>
+		<EndTestTime>1670374277</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

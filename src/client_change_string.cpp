@@ -19,9 +19,9 @@
  * @brief This file uses the server and publishes the response to a new topic
  * @version 0.1
  * @date 2022-11-14
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 #include <chrono>
 #include <functional>
@@ -40,21 +40,24 @@ using namespace std::chrono_literals;
 using my_datatype = serverpublisher::msg::Data;
 
 using PUBLISHER = rclcpp::Publisher<my_datatype>::SharedPtr;
-using TIMER = rclcpp::TimerBase::SharedPtr;
-using CLIENT = rclcpp::Client<serverpublisher::srv::ChangeString>::SharedPtr;
-using SERVICE = serverpublisher::srv::ChangeString;
-using REQUEST = serverpublisher::srv::ChangeString::Request;
-using RESPONSE = rclcpp::Client<SERVICE>::SharedFuture;
+using TIMER     = rclcpp::TimerBase::SharedPtr;
+using CLIENT    = rclcpp::Client<serverpublisher::srv::ChangeString>::SharedPtr;
+using SERVICE   = serverpublisher::srv::ChangeString;
+using REQUEST   = serverpublisher::srv::ChangeString::Request;
+using RESPONSE  = rclcpp::Client<SERVICE>::SharedFuture;
 using std::placeholders::_1;
 
 /**
- * @brief A template that uses the server and publishes the response to a new topic.
- * 
+ * @brief A template that uses the server and publishes the response to a new
+ * topic.
+ *
  */
 class ServicePublisher : public rclcpp::Node {
- public:
+public:
+
   // Constructor initializing node and counter
-  ServicePublisher() : Node("server_publisher"), count_(0) {
+  ServicePublisher() : Node("server_publisher"), count_(0)
+  {
     // publisher
     publisher_ = this->create_publisher<my_datatype>("server_data", 10);
 
@@ -71,11 +74,13 @@ class ServicePublisher : public rclcpp::Node {
     client = create_client<SERVICE>(service_name);
 
     // Check if the operation is interrupted while waiting for server
-    while (!client->wait_for_service(1s)) {
-      if (!rclcpp::ok()) {
+    while (!client->wait_for_service(1s))
+    {
+      if (!rclcpp::ok())
+      {
         // Used one of the RCLCPP LOG Level
         RCLCPP_ERROR(this->get_logger(),
-        "Interruped while waiting for the server.");
+                     "Interruped while waiting for the server.");
 
         return;
       }
@@ -83,31 +88,35 @@ class ServicePublisher : public rclcpp::Node {
     }
   }
 
- private:
+private:
+
   /**
-  * @brief Function that acts as a call back for making a request to the server
-  * 
-  */
-  void timer_callback() {
+   * @brief Function that acts as a call back for making a request to the server
+   *
+   */
+  void timer_callback()
+  {
     // Create a request
     auto request = std::make_shared<REQUEST>();
+
     request->input = "Hi count: " + std::to_string(count_);
     count_++;
 
     // Call back pointer to generate a response
     auto call_back_ptr = std::bind(
-       &ServicePublisher::response_callback, this, _1);
+      &ServicePublisher::response_callback, this, _1);
 
     // Non blocking callback to receive the data
     client->async_send_request(request, call_back_ptr);
   }
 
   /**
- * @brief Call back function to publish the response from the server
- * 
- * @param future 
- */
-  void response_callback(RESPONSE future) {
+   * @brief Call back function to publish the response from the server
+   *
+   * @param future
+   */
+  void response_callback(RESPONSE future)
+  {
     // Generate a response type
     auto response = my_datatype();
 
@@ -122,20 +131,21 @@ class ServicePublisher : public rclcpp::Node {
     publisher_->publish(response);
   }
 
-  TIMER timer_;          // Timer
-  PUBLISHER publisher_;  // Publisher
-  size_t count_;         // Counter
-  CLIENT client;         // Client
+  TIMER timer_;         // Timer
+  PUBLISHER publisher_; // Publisher
+  size_t count_;        // Counter
+  CLIENT client;        // Client
 };
 
 /**
  * @brief Main function to instantiate the nodes from the class
- * 
- * @param argc 
- * @param argv 
- * @return int 
+ *
+ * @param argc
+ * @param argv
+ * @return int
  */
-int main(int argc, char * argv[]) {
+int main(int argc, char *argv[])
+{
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<ServicePublisher>());
   rclcpp::shutdown();

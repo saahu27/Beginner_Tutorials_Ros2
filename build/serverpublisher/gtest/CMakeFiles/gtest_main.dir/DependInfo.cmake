@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/opt/ros/humble/src/gtest_vendor/src/gtest_main.cc" "gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
+  "/opt/ros/humble/src/gtest_vendor/src/gtest_main.cc" "gtest/CMakeFiles/gtest_main.dir/src/gtest_main.o" "gcc" "gtest/CMakeFiles/gtest_main.dir/src/gtest_main.o.d"
   )
 
 # Targets to which this target links.

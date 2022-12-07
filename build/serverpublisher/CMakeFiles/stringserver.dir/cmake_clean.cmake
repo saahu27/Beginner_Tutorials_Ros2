@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stringserver.dir/src/change_string_server.cpp.o"
-  "CMakeFiles/stringserver.dir/src/change_string_server.cpp.o.d"
+  "CMakeFiles/stringserver.dir/src/change_string_server.o"
+  "CMakeFiles/stringserver.dir/src/change_string_server.o.d"
   "stringserver"
   "stringserver.pdb"
 )

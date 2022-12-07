@@ -69,28 +69,28 @@ include CMakeFiles/test_serverpublisher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_serverpublisher.dir/flags.make
 
-CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o: CMakeFiles/test_serverpublisher.dir/flags.make
-CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o: ../../test/test_server.cpp
-CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o: CMakeFiles/test_serverpublisher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o -MF CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o.d -o CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o -c /home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp
+CMakeFiles/test_serverpublisher.dir/test/test_server.o: CMakeFiles/test_serverpublisher.dir/flags.make
+CMakeFiles/test_serverpublisher.dir/test/test_server.o: ../../test/test_server.cpp
+CMakeFiles/test_serverpublisher.dir/test/test_server.o: CMakeFiles/test_serverpublisher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_serverpublisher.dir/test/test_server.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_serverpublisher.dir/test/test_server.o -MF CMakeFiles/test_serverpublisher.dir/test/test_server.o.d -o CMakeFiles/test_serverpublisher.dir/test/test_server.o -c /home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp
 
-CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp > CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.i
+CMakeFiles/test_serverpublisher.dir/test/test_server.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_serverpublisher.dir/test/test_server.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp > CMakeFiles/test_serverpublisher.dir/test/test_server.i
 
-CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp -o CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.s
+CMakeFiles/test_serverpublisher.dir/test/test_server.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_serverpublisher.dir/test/test_server.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chotu/Beginner_Tutorials_Ros2/test/test_server.cpp -o CMakeFiles/test_serverpublisher.dir/test/test_server.s
 
 # Object files for target test_serverpublisher
 test_serverpublisher_OBJECTS = \
-"CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o"
+"CMakeFiles/test_serverpublisher.dir/test/test_server.o"
 
 # External object files for target test_serverpublisher
 test_serverpublisher_EXTERNAL_OBJECTS =
 
-test_serverpublisher: CMakeFiles/test_serverpublisher.dir/test/test_server.cpp.o
+test_serverpublisher: CMakeFiles/test_serverpublisher.dir/test/test_server.o
 test_serverpublisher: CMakeFiles/test_serverpublisher.dir/build.make
 test_serverpublisher: gtest/libgtest_main.a
 test_serverpublisher: gtest/libgtest.a

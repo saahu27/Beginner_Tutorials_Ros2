@@ -69,28 +69,28 @@ include CMakeFiles/stringserver.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stringserver.dir/flags.make
 
-CMakeFiles/stringserver.dir/src/change_string_server.cpp.o: CMakeFiles/stringserver.dir/flags.make
-CMakeFiles/stringserver.dir/src/change_string_server.cpp.o: ../../src/change_string_server.cpp
-CMakeFiles/stringserver.dir/src/change_string_server.cpp.o: CMakeFiles/stringserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stringserver.dir/src/change_string_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stringserver.dir/src/change_string_server.cpp.o -MF CMakeFiles/stringserver.dir/src/change_string_server.cpp.o.d -o CMakeFiles/stringserver.dir/src/change_string_server.cpp.o -c /home/chotu/Beginner_Tutorials_Ros2/src/change_string_server.cpp
+CMakeFiles/stringserver.dir/src/change_string_server.o: CMakeFiles/stringserver.dir/flags.make
+CMakeFiles/stringserver.dir/src/change_string_server.o: ../../src/change_string_server.cpp
+CMakeFiles/stringserver.dir/src/change_string_server.o: CMakeFiles/stringserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stringserver.dir/src/change_string_server.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stringserver.dir/src/change_string_server.o -MF CMakeFiles/stringserver.dir/src/change_string_server.o.d -o CMakeFiles/stringserver.dir/src/change_string_server.o -c /home/chotu/Beginner_Tutorials_Ros2/src/change_string_server.cpp
 
-CMakeFiles/stringserver.dir/src/change_string_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stringserver.dir/src/change_string_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chotu/Beginner_Tutorials_Ros2/src/change_string_server.cpp > CMakeFiles/stringserver.dir/src/change_string_server.cpp.i
+CMakeFiles/stringserver.dir/src/change_string_server.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stringserver.dir/src/change_string_server.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chotu/Beginner_Tutorials_Ros2/src/change_string_server.cpp > CMakeFiles/stringserver.dir/src/change_string_server.i
 
-CMakeFiles/stringserver.dir/src/change_string_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stringserver.dir/src/change_string_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chotu/Beginner_Tutorials_Ros2/src/change_string_server.cpp -o CMakeFiles/stringserver.dir/src/change_string_server.cpp.s
+CMakeFiles/stringserver.dir/src/change_string_server.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stringserver.dir/src/change_string_server.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chotu/Beginner_Tutorials_Ros2/src/change_string_server.cpp -o CMakeFiles/stringserver.dir/src/change_string_server.s
 
 # Object files for target stringserver
 stringserver_OBJECTS = \
-"CMakeFiles/stringserver.dir/src/change_string_server.cpp.o"
+"CMakeFiles/stringserver.dir/src/change_string_server.o"
 
 # External object files for target stringserver
 stringserver_EXTERNAL_OBJECTS =
 
-stringserver: CMakeFiles/stringserver.dir/src/change_string_server.cpp.o
+stringserver: CMakeFiles/stringserver.dir/src/change_string_server.o
 stringserver: CMakeFiles/stringserver.dir/build.make
 stringserver: /opt/ros/humble/lib/librclcpp.so
 stringserver: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so

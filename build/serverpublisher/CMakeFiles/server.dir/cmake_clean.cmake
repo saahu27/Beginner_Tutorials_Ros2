@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/server.dir/src/add_two_ints_server.cpp.o"
-  "CMakeFiles/server.dir/src/add_two_ints_server.cpp.o.d"
+  "CMakeFiles/server.dir/src/add_two_ints_server.o"
+  "CMakeFiles/server.dir/src/add_two_ints_server.o.d"
   "server"
   "server.pdb"
 )

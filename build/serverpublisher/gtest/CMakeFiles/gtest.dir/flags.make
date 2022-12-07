@@ -6,5 +6,5 @@ CXX_DEFINES = -DROS_PACKAGE_NAME=\"serverpublisher\"
 
 CXX_INCLUDES = -I/opt/ros/humble/src/gtest_vendor/include -I/opt/ros/humble/src/gtest_vendor/.
 
-CXX_FLAGS = -fPIC -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -Wno-null-dereference
+CXX_FLAGS = --coverage -g -fPIC -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -Wno-null-dereference
 

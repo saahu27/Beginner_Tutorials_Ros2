@@ -1,0 +1,93 @@
+Start testing: Dec 06 19:51 EST
+----------------------------------------------------------
+1/2 Testing: test_serverpublisher
+1/2 Test: test_serverpublisher
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml" "--package-name" "serverpublisher" "--output-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/ament_cmake_gtest/test_serverpublisher.txt" "--command" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_serverpublisher" "--gtest_output=xml:/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml"
+Directory: /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher
+"test_serverpublisher" start time: Dec 06 19:51 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher':
+ - /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_serverpublisher --gtest_output=xml:/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestNode
+[ RUN      ] TestNode.test_for_publishers
+[       OK ] TestNode.test_for_publishers (9 ms)
+[----------] 1 test from TestNode (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml'
+-- run_test.py: verify result file '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/test_serverpublisher.gtest.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"test_serverpublisher" end time: Dec 06 19:51 EST
+"test_serverpublisher" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: pep257
+2/2 Test: pep257
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml" "--package-name" "serverpublisher" "--output-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml"
+Directory: /home/chotu/Beginner_Tutorials_Ros2
+"pep257" start time: Dec 06 19:51 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/chotu/Beginner_Tutorials_Ros2':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/__init__.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/__init__.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/_data.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/_num.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/msg/_sphere.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/srv/__init__.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/srv/_add_three_ints.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/serverpublisher/srv/_change_string.py
+checking ./build/serverpublisher/ament_cmake_python/serverpublisher/setup.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/__init__.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/__init__.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/_data.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/_num.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/msg/_sphere.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/srv/__init__.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/srv/_add_three_ints.py
+checking ./build/serverpublisher/rosidl_generator_py/serverpublisher/srv/_change_string.py
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/__init__.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/__init__.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_data.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_num.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/msg/_sphere.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/__init__.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_add_three_ints.py
+checking ./install/serverpublisher/local/lib/python3.10/dist-packages/serverpublisher/srv/_change_string.py
+checking ./install/serverpublisher/share/serverpublisher/launch/bag_launch.py
+checking ./install/serverpublisher/share/serverpublisher/launch/cpp_pubsub_launch.py
+checking ./install/serverpublisher/share/serverpublisher/launch/rosbag_launch.py
+checking ./launch/bag_launch.py
+checking ./launch/cpp_pubsub_launch.py
+checking ./launch/rosbag_launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/test_results/serverpublisher/pep257.xunit.xml'
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Dec 06 19:51 EST
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 06 19:51 EST
+
+gtest =   0.16 sec*proc
+
+linter =   0.33 sec*proc
+
+pep257 =   0.33 sec*proc
+

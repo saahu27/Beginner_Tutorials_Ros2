@@ -69,28 +69,28 @@ include CMakeFiles/server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/server.dir/flags.make
 
-CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: ../../src/add_two_ints_server.cpp
-CMakeFiles/server.dir/src/add_two_ints_server.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -MF CMakeFiles/server.dir/src/add_two_ints_server.cpp.o.d -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.o -c /home/chotu/Beginner_Tutorials_Ros2/src/add_two_ints_server.cpp
+CMakeFiles/server.dir/src/add_two_ints_server.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/add_two_ints_server.o: ../../src/add_two_ints_server.cpp
+CMakeFiles/server.dir/src/add_two_ints_server.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/add_two_ints_server.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/add_two_ints_server.o -MF CMakeFiles/server.dir/src/add_two_ints_server.o.d -o CMakeFiles/server.dir/src/add_two_ints_server.o -c /home/chotu/Beginner_Tutorials_Ros2/src/add_two_ints_server.cpp
 
-CMakeFiles/server.dir/src/add_two_ints_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/add_two_ints_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chotu/Beginner_Tutorials_Ros2/src/add_two_ints_server.cpp > CMakeFiles/server.dir/src/add_two_ints_server.cpp.i
+CMakeFiles/server.dir/src/add_two_ints_server.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/add_two_ints_server.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chotu/Beginner_Tutorials_Ros2/src/add_two_ints_server.cpp > CMakeFiles/server.dir/src/add_two_ints_server.i
 
-CMakeFiles/server.dir/src/add_two_ints_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/add_two_ints_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chotu/Beginner_Tutorials_Ros2/src/add_two_ints_server.cpp -o CMakeFiles/server.dir/src/add_two_ints_server.cpp.s
+CMakeFiles/server.dir/src/add_two_ints_server.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/add_two_ints_server.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chotu/Beginner_Tutorials_Ros2/src/add_two_ints_server.cpp -o CMakeFiles/server.dir/src/add_two_ints_server.s
 
 # Object files for target server
 server_OBJECTS = \
-"CMakeFiles/server.dir/src/add_two_ints_server.cpp.o"
+"CMakeFiles/server.dir/src/add_two_ints_server.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
-server: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o
+server: CMakeFiles/server.dir/src/add_two_ints_server.o
 server: CMakeFiles/server.dir/build.make
 server: /opt/ros/humble/lib/librclcpp.so
 server: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so

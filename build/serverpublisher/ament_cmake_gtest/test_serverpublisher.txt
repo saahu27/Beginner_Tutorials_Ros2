@@ -5,11 +5,11 @@
 [----------] Global test environment set-up.
 [----------] 1 test from TestNode
 [ RUN      ] TestNode.test_for_publishers
-[       OK ] TestNode.test_for_publishers (10 ms)
-[----------] 1 test from TestNode (10 ms total)
+[       OK ] TestNode.test_for_publishers (9 ms)
+[----------] 1 test from TestNode (9 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (10 ms total)
+[==========] 1 test from 1 test suite ran. (9 ms total)
 [  PASSED  ] 1 test.
 
 

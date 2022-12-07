@@ -199,53 +199,35 @@ gtest_main/fast:
 	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/gtest-all.o: src/gtest-all.cc.o
+# target to build an object file
+src/gtest-all.o:
+	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/src/gtest-all.o
 .PHONY : src/gtest-all.o
 
-# target to build an object file
-src/gtest-all.cc.o:
-	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-.PHONY : src/gtest-all.cc.o
-
-src/gtest-all.i: src/gtest-all.cc.i
+# target to preprocess a source file
+src/gtest-all.i:
+	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/src/gtest-all.i
 .PHONY : src/gtest-all.i
 
-# target to preprocess a source file
-src/gtest-all.cc.i:
-	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
-.PHONY : src/gtest-all.cc.i
-
-src/gtest-all.s: src/gtest-all.cc.s
+# target to generate assembly for a file
+src/gtest-all.s:
+	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/src/gtest-all.s
 .PHONY : src/gtest-all.s
 
-# target to generate assembly for a file
-src/gtest-all.cc.s:
-	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
-.PHONY : src/gtest-all.cc.s
-
-src/gtest_main.o: src/gtest_main.cc.o
+# target to build an object file
+src/gtest_main.o:
+	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/src/gtest_main.o
 .PHONY : src/gtest_main.o
 
-# target to build an object file
-src/gtest_main.cc.o:
-	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-.PHONY : src/gtest_main.cc.o
-
-src/gtest_main.i: src/gtest_main.cc.i
+# target to preprocess a source file
+src/gtest_main.i:
+	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/src/gtest_main.i
 .PHONY : src/gtest_main.i
 
-# target to preprocess a source file
-src/gtest_main.cc.i:
-	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
-.PHONY : src/gtest_main.cc.i
-
-src/gtest_main.s: src/gtest_main.cc.s
-.PHONY : src/gtest_main.s
-
 # target to generate assembly for a file
-src/gtest_main.cc.s:
-	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
-.PHONY : src/gtest_main.cc.s
+src/gtest_main.s:
+	cd /home/chotu/Beginner_Tutorials_Ros2/build/serverpublisher && $(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/src/gtest_main.s
+.PHONY : src/gtest_main.s
 
 # Help Target
 help:
